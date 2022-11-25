@@ -16,7 +16,7 @@ def descompactador(diretorioatual:str = os.getcwd() , diretoriodestino:str =  os
 
 
     """
-    from zipfile import ZipFile
+    from zipfile import ZipFile, BadZipFile, LargeZipFile
     os.system('cls')
     
     #diretorioatual = os.getcwd()
@@ -24,9 +24,20 @@ def descompactador(diretorioatual:str = os.getcwd() , diretoriodestino:str =  os
     
     all_files = list(filter(lambda x: '.zip' in x, os.listdir(f'{diretorioatual}/')))
     for file in all_files:
-        dirfile = os.path.abspath(file)
-        with ZipFile(dirfile,'r') as zlist:
-            zlist.extractall(path=f'{diretoriodestino}/')
+        dirfile = os.path.abspath(f'{diretorioatual}/{file}')
+        try:
+            with ZipFile(dirfile,'r') as zlist:
+                zlist.extractall(path=f'{diretoriodestino}/')
+                zlist.close()
+        except BadZipFile:
+            print(f'Não dá pra descompactar o arquivo {file}, está corrompido.')
+            continue
+        except LargeZipFile:
+            print(f'Não é possível descompactar o arquivo {file}, é grande demais.')
+            continue
+        except:
+            print(f'Não deu pra baixar o arquivo {file} por algum motivo')
+
         """for i in all_files:
             print(os.path.abspath(i))"""
     return 'Processo de descompactação concluído'

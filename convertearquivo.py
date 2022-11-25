@@ -37,4 +37,3 @@ def convertearquivo(diretorio:str = os.getcwd(),tipo_atual:str = '.', tipo_desti
         #print(new_file)
         os.rename(f'{diretorio}/{file}', f'{diretorio}/{new_file}')
         #file.replace('ESTABELE', '').split('.')[-1].replace('CSV', '') if file.find('ESTABELE') < 0 else 'SIMPLES'
-
