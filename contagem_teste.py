@@ -24,5 +24,5 @@ for file in all_files:
     with open(f"{diretorio}/{file}", mode='r', encoding='utf-8', errors='ignore') as arq:
         linhas = len(arq.readlines())
         arq.close()
+
     print(linhas)
-    del linhas
