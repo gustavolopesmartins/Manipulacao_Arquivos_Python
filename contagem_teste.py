@@ -1,11 +1,7 @@
 # ler todos os arquivos csv do diretório e guardar em um objeto
 # import required modules
-import numpy as np
-import time
 import os
-import re
 import pandas as pd
-from dask import dataframe as dd
 
 diretorio = r'Bases/'
 all_files = list(filter(lambda x: '.csv' in x, os.listdir(diretorio)))
