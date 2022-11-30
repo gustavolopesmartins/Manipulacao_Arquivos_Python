@@ -24,10 +24,5 @@ for file in all_files:
     with open(f"{diretorio}/{file}", mode='r', encoding='utf-8', errors='ignore') as arq:
         linhas = len(arq.readlines())
         arq.close()
-    
-    if (linhas%2) == 0:
-        print(linhas)
-        print(f"Número impar de linhas no arquivo {file}")
-    else:
-        print(f"Número par de linhas no arquivo {file}")
-        print(linhas)
+    print(linhas)
+    del linhas

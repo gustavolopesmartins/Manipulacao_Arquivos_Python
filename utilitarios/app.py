@@ -1,7 +1,7 @@
 import os
 import csv
 import time
-from utilitarios.utilitarios.utilitarios.src import Extracao_CNAE
+from utilitarios.src import Extracao_CNAE
 diretorio = r'C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV/'
 all_files = list(filter(lambda x: '.csv' in x, os.listdir(diretorio)))
 
