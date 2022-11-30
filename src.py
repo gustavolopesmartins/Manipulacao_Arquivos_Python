@@ -114,11 +114,9 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8')
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
-        time.sleep(3)
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_SECUNDARIO']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8', header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
-        time.sleep(3)
         #pd.concat(globals()[f'df_{cnae}'],dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
         #globals()[f'df_{cnae}'].append(dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
     
@@ -126,7 +124,6 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     del dados #= pd.DataFrame()
     # Contando a leitura dos arquivos para não ficar pesado demais
 
-    time.sleep(3)
 
     # Montando o último DataFrame do arquivo usado
     #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas)), npartitions=10)
@@ -136,19 +133,16 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False,sep=';', encoding='utf-8', header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
-        time.sleep(3)
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_SECUNDARIO']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
         #globals()[f'df_{cnae}'].append(dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
         #pd.concat(globals()[f'df_{cnae}'],dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
-        time.sleep(3)
     # finalizando o cronômetro do processo
     fim = time.time()
     
     # Desmontando o último DataFrame
     del dados #= pd.DataFrame()
-    time.sleep(1)
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
     return print(retorno)
 
