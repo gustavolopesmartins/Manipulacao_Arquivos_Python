@@ -6,7 +6,6 @@ import pandas as pd
 from dask import dataframe as dd
 import csv
 import os
-from IPython import get_ipython
 
 #diretorio = r'C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV/'
 #all_files = list(filter(lambda x: '.csv' in x, os.listdir(diretorio)))
@@ -44,6 +43,36 @@ CNPJ = {"EMPRE" : ['CNPJ_BASE', 'RAZAO_SOCIAL', 'NATUREZA_JURIDICA' , 'QUALIFICA
 "MOTI" : ['MOTIVO_SITUACAO_CADASTRAL'  , 'MOTIVO_SITUACAO_CADASTRAL'  ],
 
 "CNAE" : ['CODIGO_CNAE'  , 'CNAE' ]}
+dtypes = {'CNPJ_BASE': 'category',
+ 'CNPJ_ORDEM': 'category',
+ 'CNPJ_DV': 'category',
+ 'MATRIZ_FILIAL': 'category',
+ 'NOME_FANTASIA': 'category',
+ 'SITUACAO_CADASTRAL': 'float32',
+ 'DATA_SITUACAO_CADASTRAL': 'float32',
+ 'MOTIVO_SITUACAO_CADASTRAL': 'category',
+ 'CIDADE_EXTERIOR': 'float32',
+ 'PAIS': 'float32',
+ 'DATA_INICIO_ATIVIDADE': 'float32',
+ 'CNAE_PRINCIPAL': 'float32',
+ 'CNAE_SECUNDARIO': 'float32',
+ 'TIPO_LOGRADOURO': 'float32',
+ 'LOGRADOURO': 'category',
+ 'NUMERO': 'float32',
+ 'COMPLEMENTO': 'float32',
+ 'BAIRRO': 'float32',
+ 'CEP': 'float32',
+ 'UF': 'float32',
+ 'MUNICIPIO': 'float32',
+ 'DDD1': 'float32',
+ 'TELEFONE1': 'float32',
+ 'DDD2': 'float32',
+ 'TELEFONE2': 'float32',
+ 'DDD_FAX': 'float32',
+ 'FAX': 'float32',
+ 'EMAIL': 'float32',
+ 'SITUACAO_ESPECIAL': 'float32',
+ 'DATA_SITUACAO_ESPECIAL': 'float32'}
 
 CNAES = {5611201:'Restaurantes e similares',
         5611203:'Lanchonetes casas de chá de sucos e similares',
@@ -77,7 +106,7 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     
     time.sleep(5)
     # Montando os DataFrames
-    dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], nrows=int(n_linhas)-1), npartitions=10)
+    dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], dtype=dtypes, nrows=int(n_linhas)-1), npartitions=10)
     for cnae in lista_cnae:
         
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
