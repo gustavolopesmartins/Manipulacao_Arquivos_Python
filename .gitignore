@@ -10,3 +10,5 @@ __pycache__
 # Ignore todos os arquivos CSV
 *.CSV
 *.csv
+# Ignore todos os arquivos zip
+*.rar
