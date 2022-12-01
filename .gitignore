@@ -10,5 +10,12 @@ __pycache__
 # Ignore todos os arquivos CSV
 *.CSV
 *.csv
+
 # Ignore todos os arquivos zip
 *.rar
+
+# Ignore o arquivo desktop.ini
+*.ini
+
+# Ignore arquivos google sheets
+*.gsheet
