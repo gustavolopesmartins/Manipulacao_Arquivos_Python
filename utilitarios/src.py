@@ -112,7 +112,7 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     for cnae in lista_cnae:
         
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
-        globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8')
+        globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_SECUNDARIO']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8', header=False)
