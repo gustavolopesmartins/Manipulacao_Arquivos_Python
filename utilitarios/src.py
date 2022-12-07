@@ -21,10 +21,10 @@ CNPJ = {"EMPRE" : ['CNPJ_BASE', 'RAZAO_SOCIAL', 'NATUREZA_JURIDICA' , 'QUALIFICA
           'VALOR_CAPITAL_SOCIAL' , 'PORTE_EMPRESA'  , 'ENTE_FEDERATIVO'],
 
 "ESTABELE" : ['CNPJ_BASE', 'CNPJ_ORDEM' , 'CNPJ_DV' , 'MATRIZ_FILIAL'  , 'NOME_FANTASIA' , 'SITUACAO_CADASTRAL' ,
-              'DATA_SITUACAO_CADASTRAL'  , 'MOTIVO_SITUACAO_CADASTRAL'  , 'CIDADE_EXTERIOR'  , 'PAIS'  , 'DATA_INICIO_ATIVIDADE'  ,
+              'DATA_SITUACAO_CADASTRAL'  , 'MOTIVO_SITUACAO_CADASTRAL'  , 'DATA_INICIO_ATIVIDADE'  ,
               'CNAE_PRINCIPAL'  , 'CNAE_SECUNDARIO' , 'TIPO_LOGRADOURO'  , 'LOGRADOURO'  , 'NUMERO'  , 'COMPLEMENTO' ,
               'BAIRRO'  , 'CEP'  , 'UF'  , 'MUNICIPIO'  , 'DDD1'  , 'TELEFONE1'  , 'DDD2'  , 'TELEFONE2'  ,
-              'DDD_FAX'  , 'FAX'  , 'EMAIL'  , 'SITUACAO_ESPECIAL'  , 'DATA_SITUACAO_ESPECIAL'],  
+              'DDD_FAX'  , 'FAX'  , 'EMAIL'],  
 
 "SIMPLES" : ['CNPJ_BASE'  , 'OPCAO_SIMPLES'  , 'DATA_OPCAO_SIMPLES'  , 'DATA_EXCLUSAO_SIMPLES'  ,
              'OPCAO_MEI'  , 'DATA_OPCAO_MEI'  , 'DATA_EXCLUSAO_MEI'],
@@ -43,36 +43,37 @@ CNPJ = {"EMPRE" : ['CNPJ_BASE', 'RAZAO_SOCIAL', 'NATUREZA_JURIDICA' , 'QUALIFICA
 "MOTI" : ['MOTIVO_SITUACAO_CADASTRAL'  , 'MOTIVO_SITUACAO_CADASTRAL'  ],
 
 "CNAE" : ['CODIGO_CNAE'  , 'CNAE' ]}
-dtypes = {'CNPJ_BASE': 'str',
- 'CNPJ_ORDEM': 'str',
- 'CNPJ_DV': 'str',
- 'MATRIZ_FILIAL': 'str',
- 'NOME_FANTASIA': 'str',
- 'SITUACAO_CADASTRAL': 'float32',
- 'DATA_SITUACAO_CADASTRAL': 'float32',
- 'MOTIVO_SITUACAO_CADASTRAL': 'str',
- 'CIDADE_EXTERIOR': 'float32',
- 'PAIS': 'float32',
- 'DATA_INICIO_ATIVIDADE': 'float32',
- 'CNAE_PRINCIPAL': 'float32',
- 'CNAE_SECUNDARIO': 'float32',
- 'TIPO_LOGRADOURO': 'float32',
- 'LOGRADOURO': 'str',
- 'NUMERO': 'float32',
- 'COMPLEMENTO': 'float32',
- 'BAIRRO': 'float32',
+colunas = [0,1,2,3,4,5,6,7,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]
+dtypes = {'CNPJ_BASE': 'category',
+ 'CNPJ_ORDEM': 'category',
+ 'CNPJ_DV': 'category'}
+dtypes1 = { 'MATRIZ_FILIAL': 'category',
+ 'NOME_FANTASIA': 'category',
+ 'SITUACAO_CADASTRAL': 'category',
+ 'DATA_SITUACAO_CADASTRAL': 'category',
+ 'MOTIVO_SITUACAO_CADASTRAL': 'category',
+ 'CIDADE_EXTERIOR': 'category',
+ 'PAIS': 'category',
+ 'DATA_INICIO_ATIVIDADE': 'category',
+ 'CNAE_PRINCIPAL': 'int32',
+ 'CNAE_SECUNDARIO': 'int32',
+ 'TIPO_LOGRADOURO': 'category',
+ 'LOGRADOURO': 'category',
+ 'NUMERO': 'category',
+ 'COMPLEMENTO': 'category',
+ 'BAIRRO': 'category',
  'CEP': 'float32',
  'UF': 'float32',
- 'MUNICIPIO': 'float32',
- 'DDD1': 'float32',
- 'TELEFONE1': 'float32',
- 'DDD2': 'float32',
- 'TELEFONE2': 'float32',
- 'DDD_FAX': 'float32',
- 'FAX': 'float32',
- 'EMAIL': 'float32',
- 'SITUACAO_ESPECIAL': 'float32',
- 'DATA_SITUACAO_ESPECIAL': 'float32'}
+ 'MUNICIPIO': 'category',
+ 'DDD1': 'category',
+ 'TELEFONE1': 'category',
+ 'DDD2': 'category',
+ 'TELEFONE2': 'category',
+ 'DDD_FAX': 'category',
+ 'FAX': 'category',
+ 'EMAIL': 'category',
+ 'SITUACAO_ESPECIAL': 'category',
+ 'DATA_SITUACAO_ESPECIAL': 'category'}
 
 CNAES = {5611201:'Restaurantes e similares',
         5611203:'Lanchonetes casas de chá de sucos e similares',
@@ -107,8 +108,8 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     time.sleep(5)
     # Montando os DataFrames
     #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], dtype=dtypes, nrows=int(n_linhas)-1), npartitions=10)
-    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], nrows=int(n_linhas)-1, dtype=dtypes)
-    
+    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas, nrows=int(n_linhas)-1, dtype=dtypes)
+ 
     for cnae in lista_cnae:
         
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
@@ -127,8 +128,8 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
 
     # Montando o último DataFrame do arquivo usado
     #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas)), npartitions=10)
-    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas) ,dtype=dtypes)
-    
+    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas,skiprows=int(pulo), nrows=int(n_linhas),dtype=dtypes)
+
     for cnae in lista_cnae:
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False,sep=';', encoding='utf-8', header=False)
