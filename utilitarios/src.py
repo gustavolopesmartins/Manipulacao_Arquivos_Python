@@ -109,7 +109,11 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     # Montando os DataFrames
     #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], dtype=dtypes, nrows=int(n_linhas)-1), npartitions=10)
     dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas, nrows=int(n_linhas)-1, dtype=dtypes)
- 
+    dados['NOME_FANTASIA'].fillna('Indisponível', inplace=True)
+    dados.drop_duplicates(inplace=True)
+    indice_remove = dados[(dados['SITUACAO_CADASTRAL'] != 2) & (dados['SITUACAO_CADASTRAL'] != 3) &(dados['SITUACAO_CADASTRAL'] != 4)& (dados['SITUACAO_CADASTRAL'] != 5)].index
+    dados.drop(indice_remove, inplace=True) 
+    
     for cnae in lista_cnae:
         
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
@@ -129,7 +133,11 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     # Montando o último DataFrame do arquivo usado
     #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas)), npartitions=10)
     dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas,skiprows=int(pulo), nrows=int(n_linhas),dtype=dtypes)
-
+    dados['NOME_FANTASIA'].fillna('Indisponível', inplace=True)
+    dados.drop_duplicates(inplace=True)
+    indice_remove = dados[(dados['SITUACAO_CADASTRAL'] != 2) & (dados['SITUACAO_CADASTRAL'] != 3) &(dados['SITUACAO_CADASTRAL'] != 4)& (dados['SITUACAO_CADASTRAL'] != 5)].index
+    dados.drop(indice_remove, inplace=True)
+    
     for cnae in lista_cnae:
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False,sep=';', encoding='utf-8', header=False)
