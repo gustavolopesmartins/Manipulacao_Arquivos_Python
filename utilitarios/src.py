@@ -43,21 +43,21 @@ CNPJ = {"EMPRE" : ['CNPJ_BASE', 'RAZAO_SOCIAL', 'NATUREZA_JURIDICA' , 'QUALIFICA
 "MOTI" : ['MOTIVO_SITUACAO_CADASTRAL'  , 'MOTIVO_SITUACAO_CADASTRAL'  ],
 
 "CNAE" : ['CODIGO_CNAE'  , 'CNAE' ]}
-dtypes = {'CNPJ_BASE': 'category',
- 'CNPJ_ORDEM': 'category',
- 'CNPJ_DV': 'category',
- 'MATRIZ_FILIAL': 'category',
- 'NOME_FANTASIA': 'category',
+dtypes = {'CNPJ_BASE': 'str',
+ 'CNPJ_ORDEM': 'str',
+ 'CNPJ_DV': 'str',
+ 'MATRIZ_FILIAL': 'str',
+ 'NOME_FANTASIA': 'str',
  'SITUACAO_CADASTRAL': 'float32',
  'DATA_SITUACAO_CADASTRAL': 'float32',
- 'MOTIVO_SITUACAO_CADASTRAL': 'category',
+ 'MOTIVO_SITUACAO_CADASTRAL': 'str',
  'CIDADE_EXTERIOR': 'float32',
  'PAIS': 'float32',
  'DATA_INICIO_ATIVIDADE': 'float32',
  'CNAE_PRINCIPAL': 'float32',
  'CNAE_SECUNDARIO': 'float32',
  'TIPO_LOGRADOURO': 'float32',
- 'LOGRADOURO': 'category',
+ 'LOGRADOURO': 'str',
  'NUMERO': 'float32',
  'COMPLEMENTO': 'float32',
  'BAIRRO': 'float32',
@@ -107,7 +107,7 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     time.sleep(5)
     # Montando os DataFrames
     #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], dtype=dtypes, nrows=int(n_linhas)-1), npartitions=10)
-    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], nrows=int(n_linhas)-1)
+    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], nrows=int(n_linhas)-1, dtype=dtypes)
     
     for cnae in lista_cnae:
         
@@ -127,7 +127,7 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
 
     # Montando o último DataFrame do arquivo usado
     #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas)), npartitions=10)
-    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas))
+    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas) ,dtype=dtypes)
     
     for cnae in lista_cnae:
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
