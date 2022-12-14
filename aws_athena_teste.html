@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module aws_athena_teste</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>aws_athena_teste</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cabrasel%20nacional%5Cdocuments%5Ccnpj_programatica%5Cmanipulacao_arquivos%5Cmanipulacao_arquivos_python%5Caws_athena_teste.py">c:\users\abrasel nacional\documents\cnpj_programatica\manipulacao_arquivos\manipulacao_arquivos_python\aws_athena_teste.py</a></font></td></tr></table>
+    <p><tt>#python&nbsp;-m&nbsp;pydoc&nbsp;-w&nbsp;aws_athena_teste&nbsp;wrote&nbsp;aws_athena_teste.html<br>
+#&nbsp;definindo&nbsp;libs</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="boto3.html">boto3</a><br>
+</td><td width="25%" valign=top><a href="json.html">json</a><br>
+</td><td width="25%" valign=top><a href="time.html">time</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-consulta"><strong>consulta</strong></a>(query: str = 'SELECT * FROM AwsDataCatalog.kukac.d_regiao LIMIT 5')</dt><dd><tt>Execulta&nbsp;a&nbsp;consulta&nbsp;no&nbsp;Athena&nbsp;e&nbsp;retorna&nbsp;o&nbsp;Id&nbsp;da&nbsp;consulta&nbsp;para&nbsp;vizualizar&nbsp;com&nbsp;a&nbsp;função&nbsp;de&nbsp;visualização</tt></dd></dl>
+ <dl><dt><a name="-mostra_dados_consulta"><strong>mostra_dados_consulta</strong></a>(id_execucao: str)</dt><dd><tt>Retorna&nbsp;uma&nbsp;lista&nbsp;de&nbsp;dicionários&nbsp;com&nbsp;o&nbsp;resultado&nbsp;da&nbsp;consulta</tt></dd></dl>
+ <dl><dt><a name="-verifica_status_consulta"><strong>verifica_status_consulta</strong></a>(id_execucao: str)</dt><dd><tt>Verifica&nbsp;a&nbsp;o&nbsp;status&nbsp;da&nbsp;consulta,&nbsp;e&nbsp;retorna&nbsp;True&nbsp;ou&nbsp;False&nbsp;para&nbsp;concluido</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>CLIENT</strong> = &lt;botocore.client.Athena object&gt;<br>
+<strong>DATABASE_NAME</strong> = 'kukac'<br>
+<strong>DATA_CATALOG</strong> = 'AwsDataCatalog'<br>
+<strong>RESULT_OUTPUT_LOCATION</strong> = 's3://abrasel-datalake/query-results/'<br>
+<strong>TABLE_NAME</strong> = 'd_regiao'</td></tr></table>
+</body></html>

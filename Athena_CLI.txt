@@ -1,0 +1,6 @@
+
+aws athena start-query-execution --query-string "SELECT * FROM d_regiao" --query-execution-context Database=kukac_ava,Catalog=AwsDataCatalog
+
+aws athena get-query-results --query-execution-id 24fede9b-30e9-44f3-85f1-27bb2a8a3ad9
+
+aws athena list-query-executions --max-items 15
