@@ -119,11 +119,11 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     for cnae in lista_cnae:
         
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae] 
-        globals()[f'df_{cnae}'] = dados.loc[dados['UF'] == '22']
+        globals()[f'df_{cnae}'] = dados.loc[dados['UF'] == 'PI']
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae] 
-        globals()[f'df_{cnae}'] = dados.loc[dados['UF'] == '22']
+        globals()[f'df_{cnae}'] = dados.loc[dados['UF'] == 'PI']
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8', header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
         #pd.concat(globals()[f'df_{cnae}'],dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
@@ -144,11 +144,11 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     
     for cnae in lista_cnae:
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae] 
-        globals()[f'df_{cnae}'] = dados.loc[dados['UF'] == '22']
+        globals()[f'df_{cnae}'] = dados.loc[dados['UF'] == 'PI']
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False,sep=';', encoding='utf-8', header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae] 
-        globals()[f'df_{cnae}'] = dados.loc[dados['UF'] == '22']
+        globals()[f'df_{cnae}'] = dados.loc[dados['UF'] == 'PI']
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
         #globals()[f'df_{cnae}'].append(dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
