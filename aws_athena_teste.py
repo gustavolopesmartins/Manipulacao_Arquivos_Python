@@ -7,13 +7,13 @@ import time
 # Parametros de conexão
 CLIENT = boto3.client("athena")
 DATA_CATALOG = "AwsDataCatalog"
-DATABASE_NAME = "kukac"
+DATABASE_NAME = "kukac_ava"
 RESULT_OUTPUT_LOCATION = "s3://abrasel-datalake/query-results/"
 TABLE_NAME = "d_regiao"
 
 # Verifica status consulta
 def verifica_status_consulta(id_execucao:str):
-    """Verifica a o status da consulta, e retorna True ou False para concluido"""
+    """Verifica a o status da consulta, e retorna True ou False para concluído"""
 
     status = "RUNNING"
     execucao_maxima = 5
@@ -38,7 +38,7 @@ def verifica_status_consulta(id_execucao:str):
 
 # Função para inserir a consulta no Athena
 def consulta(query:str = f"""SELECT * FROM {DATA_CATALOG}.{DATABASE_NAME}.{TABLE_NAME} LIMIT 5"""):
-    """ Execulta a consulta no Athena e retorna o Id da consulta para vizualizar com a função de visualização """
+    """ Execulta a consulta no Athena e retorna o Id da consulta para vizualizar com a função de vizualização """
     resposta = CLIENT.start_query_execution(
         QueryString=query,
         ResultConfiguration={"OutputLocation": RESULT_OUTPUT_LOCATION}
