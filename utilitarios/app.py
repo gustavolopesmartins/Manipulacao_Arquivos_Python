@@ -1,6 +1,7 @@
 import os
 import csv
 import time
+from joblib import Parallel, delayed
 from new_src import Extracao_CNAE
 diretorio = r'C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV'
 all_files = list(filter(lambda x: '.csv' in x, os.listdir(diretorio)))
@@ -12,6 +13,7 @@ os.system('cls')
 #from convertearquivo import convertearquivo
 #convertearquivo(diretorio=diretorio_destino, tipo_atual='EMPRECSV',tipo_destino='csv')
 
+#Parallel(n_jobs=5)(delayed(Extracao_CNAE)(file,diretorio) for file in all_files)
 Extracao_CNAE(diretorio=diretorio,file=all_files[0])
 Extracao_CNAE(diretorio=diretorio,file=all_files[1])
 Extracao_CNAE(diretorio=diretorio,file=all_files[2])
