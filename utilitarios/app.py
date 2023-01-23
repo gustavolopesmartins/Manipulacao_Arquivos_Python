@@ -2,10 +2,9 @@ import os
 import csv
 import time
 from joblib import Parallel, delayed
-from new_src import Extracao_CNAE
-diretorio = r'C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV'
+from src import Extracao_EMPRE
+diretorio = r'C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\EMPRESASCSV'
 all_files = list(filter(lambda x: '.csv' in x, os.listdir(diretorio)))
-diretorio_destino = r'C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSZIP'
 
 os.system('cls')
 #from descompactador import descompactador
@@ -13,7 +12,7 @@ os.system('cls')
 #from convertearquivo import convertearquivo
 #convertearquivo(diretorio=diretorio_destino, tipo_atual='EMPRECSV',tipo_destino='csv')
 
-#Parallel(n_jobs=5)(delayed(Extracao_CNAE)(file,diretorio) for file in all_files)
+Parallel(n_jobs=5)(delayed(Extracao_EMPRE)(file,diretorio) for file in all_files)
 #Extracao_CNAE(diretorio=diretorio,file=all_files[0])
 #Extracao_CNAE(diretorio=diretorio,file=all_files[1])
 #Extracao_CNAE(diretorio=diretorio,file=all_files[2])
@@ -23,4 +22,4 @@ os.system('cls')
 #Extracao_CNAE(diretorio=diretorio,file=all_files[6])
 #Extracao_CNAE(diretorio=diretorio,file=all_files[7])
 #Extracao_CNAE(diretorio=diretorio,file=all_files[8])
-Extracao_CNAE(diretorio=diretorio,file=all_files[9])
+#Extracao_CNAE(diretorio=diretorio,file=all_files[9])
