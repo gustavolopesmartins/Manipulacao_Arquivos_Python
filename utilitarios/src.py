@@ -49,31 +49,31 @@ dtypes = {'CNPJ_BASE': 'category',
  'CNPJ_DV': 'category'}
 dtypes1 = { 'MATRIZ_FILIAL': 'category',
  'NOME_FANTASIA': 'category',
- 'SITUACAO_CADASTRAL': 'category',
- 'DATA_SITUACAO_CADASTRAL': 'category',
+ 'SITUACAO_CADASTRAL': 'int32',
+ 'DATA_SITUACAO_CADASTRAL': 'int32',
  'MOTIVO_SITUACAO_CADASTRAL': 'category',
  'CIDADE_EXTERIOR': 'category',
  'PAIS': 'category',
  'DATA_INICIO_ATIVIDADE': 'category',
  'CNAE_PRINCIPAL': 'int32',
- 'CNAE_SECUNDARIO': 'int32',
+ 'CNAE_SECUNDARIO': 'category',
  'TIPO_LOGRADOURO': 'category',
  'LOGRADOURO': 'category',
  'NUMERO': 'category',
  'COMPLEMENTO': 'category',
  'BAIRRO': 'category',
- 'CEP': 'float32',
- 'UF': 'float32',
- 'MUNICIPIO': 'category',
- 'DDD1': 'category',
- 'TELEFONE1': 'category',
- 'DDD2': 'category',
- 'TELEFONE2': 'category',
- 'DDD_FAX': 'category',
- 'FAX': 'category',
+ 'CEP': 'str',
+ 'UF': 'category',
+ 'MUNICIPIO': 'str',
+ 'DDD1': 'str',
+ 'TELEFONE1': 'str',
+ 'DDD2': 'str',
+ 'TELEFONE2': 'str',
+ 'DDD_FAX': 'str',
+ 'FAX': 'str',
  'EMAIL': 'category',
  'SITUACAO_ESPECIAL': 'category',
- 'DATA_SITUACAO_ESPECIAL': 'category'}
+ 'DATA_SITUACAO_ESPECIAL': 'str'}
 
 CNAES = {5611201:'Restaurantes e similares',
         5611203:'Lanchonetes casas de chá de sucos e similares',
@@ -88,14 +88,12 @@ for cnae in CNAES.keys():
 
 
 def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
-    
     inicio = time.time()
     print(f'Operando arquivo {file}')
-    
+    linhas = 0
     with open(f"{diretorio}/{file}", mode='r', encoding='ISO-8859-1', errors='ignore') as arq:
-        linhas = len(arq.readlines())
-        arq.close()
-    
+        for linha in arq:
+            linhas += 1
     if (linhas%2) == 0:
         pulo = linhas / 2
         n_linhas = linhas / 2
@@ -107,9 +105,8 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     
     time.sleep(5)
     # Montando os DataFrames
-    #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], dtype=dtypes, nrows=int(n_linhas)-1), npartitions=10)
-    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas, nrows=int(n_linhas)-1, dtype=dtypes)
-    dados['NOME_FANTASIA'].fillna('Indisponível', inplace=True)
+    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas, nrows=int(n_linhas)-1, dtype=dtypes1, na_values=['non-numeric value'],converters={'CNAE_SECUNDARIO':str},encoding_errors='ignore')
+    dados['NOME_FANTASIA'].fillna('null', inplace=True)
     dados.drop_duplicates(inplace=True)
     indice_remove = dados[(dados['SITUACAO_CADASTRAL'] != 2) & (dados['SITUACAO_CADASTRAL'] != 3) &(dados['SITUACAO_CADASTRAL'] != 4)& (dados['SITUACAO_CADASTRAL'] != 5)].index
     dados.drop(indice_remove, inplace=True) 
@@ -118,9 +115,6 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
         
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
-        del globals()[f'df_{cnae}'] #= pd.DataFrame()
-        globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_SECUNDARIO']== cnae]
-        globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8', header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
         #pd.concat(globals()[f'df_{cnae}'],dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
         #globals()[f'df_{cnae}'].append(dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
@@ -131,9 +125,9 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
 
 
     # Montando o último DataFrame do arquivo usado
-    #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas)), npartitions=10)
-    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas,skiprows=int(pulo), nrows=int(n_linhas),dtype=dtypes)
-    dados['NOME_FANTASIA'].fillna('Indisponível', inplace=True)
+    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas,skiprows=int(pulo), nrows=int(n_linhas)-1, dtype=dtypes1, na_values=['non-numeric value'],converters={'CNAE_SECUNDARIO':str},encoding_errors='ignore')
+    #dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas,skiprows=int(pulo), nrows=int(n_linhas),dtype=dtypes1)
+    dados['NOME_FANTASIA'].fillna('null', inplace=True)
     dados.drop_duplicates(inplace=True)
     indice_remove = dados[(dados['SITUACAO_CADASTRAL'] != 2) & (dados['SITUACAO_CADASTRAL'] != 3) &(dados['SITUACAO_CADASTRAL'] != 4)& (dados['SITUACAO_CADASTRAL'] != 5)].index
     dados.drop(indice_remove, inplace=True)
@@ -141,9 +135,6 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     for cnae in lista_cnae:
         globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
         globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False,sep=';', encoding='utf-8', header=False)
-        del globals()[f'df_{cnae}'] #= pd.DataFrame()
-        globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_SECUNDARIO']== cnae]
-        globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
         del globals()[f'df_{cnae}'] #= pd.DataFrame()
         #globals()[f'df_{cnae}'].append(dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
         #pd.concat(globals()[f'df_{cnae}'],dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
