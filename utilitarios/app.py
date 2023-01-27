@@ -2,7 +2,7 @@ import os
 import csv
 import time
 from joblib import Parallel, delayed
-from src import Extracao_CNAE
+from new_src import Extracao_CNAE
 #diretorio = r"C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSZIP"
 diretorio =r"C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV"
 all_files = list(filter(lambda x: '.csv' in x, os.listdir(diretorio)))
