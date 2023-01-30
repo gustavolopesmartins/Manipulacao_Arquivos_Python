@@ -54,7 +54,7 @@ dtypes = {
  'CNPJ_DV': 'category',
  'MATRIZ_FILIAL': 'object',
  'NOME_FANTASIA': 'object',
- 'SITUACAO_CADASTRAL': 'int32',
+ 'SITUACAO_CADASTRAL': 'object',
  'DATA_SITUACAO_CADASTRAL': 'object',
  'MOTIVO_SITUACAO_CADASTRAL': 'object',
  'CIDADE_EXTERIOR': 'object',
@@ -127,34 +127,38 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     encoding_errors='ignore', chunksize=1000000)
     for dados in chunk_dados:
         dados.header = CNPJ['ESTABELE']
-        #print(f'Leitura inicial: {len(dados)}')
+        print(f'Leitura inicial: {len(dados)}')
         dados['NOME_FANTASIA'].fillna('--empty--', inplace=True)
+        #print(dados['SITUACAO_CADASTRAL'].value_counts())
         #dados.drop_duplicates(inplace=True)
         #print(f'Após remover duplicados: {len(dados)}')
-        dados = dados.loc[dados['SITUACAO_CADASTRAL'] == 2 ].reset_index()
-        #print(f'Somente os ativos: {len(dados)}')
-
+        dados = dados[(dados['SITUACAO_CADASTRAL'] == '02') | (dados['SITUACAO_CADASTRAL'] == '05')].loc[:,].reset_index(drop=True)
+        print(f'Somente os ativos: {len(dados)}')
+        
         for cnae in lista_cnae:
             # Separando o dataframe com base nos códigos CNAEs
             globals()[f'df_{cnae}'] =  dados.loc[dados['CNAE_PRINCIPAL'] == cnae]
             # Concatenando os dados de Telefone e Fax
-            globals()[f'df_{cnae}']['TELEFONE1'] = "(" + globals()[f'df_{cnae}']['DDD1'].map(str) + ")" + globals()[f'df_{cnae}']['TELEFONE1'].map(str)
-            globals()[f'df_{cnae}']['TELEFONE2'] = "(" + globals()[f'df_{cnae}']['DDD2'].map(str) + ")" + globals()[f'df_{cnae}']['TELEFONE2'].map(str)
-            globals()[f'df_{cnae}']['FAX'] = "(" + globals()[f'df_{cnae}']['DDD_FAX'].map(str) + ")" + globals()[f'df_{cnae}']['FAX'].map(str)
+            globals()[f'df_{cnae}']['TELEFONE1'] = "+55" + globals()[f'df_{cnae}']['DDD1'].map(str) + globals()[f'df_{cnae}']['TELEFONE1'].map(str)
+            globals()[f'df_{cnae}']['TELEFONE2'] = "+55" + globals()[f'df_{cnae}']['DDD2'].map(str) + globals()[f'df_{cnae}']['TELEFONE2'].map(str)
+            globals()[f'df_{cnae}']['FAX'] = "+55" + globals()[f'df_{cnae}']['DDD_FAX'].map(str) + globals()[f'df_{cnae}']['FAX'].map(str)
             # Dropando os DDDs após a concatenação
             globals()[f'df_{cnae}'].drop(['DDD1','DDD2','DDD_FAX'], axis=1, inplace=True)
             # Mudando o tipo de dado da coluna 'CEP' para string
             globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].astype(str)
             # Adicionando hífen à coluna 'CEP'
-            globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].str[:5] + '-' +globals()[f'df_{cnae}']['CEP'].str[5:]
+            globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].str[:5] + '-' + globals()[f'df_{cnae}']['CEP'].str[5:]
             # Mapeando colunas do DataFrame no log
             logging.info(f"Colunas Geradas: {globals()[f'df_{cnae}'].columns}")
             # Contando o número de itens por DataFrames exportados
             logging.info(f"Itens capiturados: {len(globals()[f'df_{cnae}'])} Categoria dos dados: {CNAES[cnae]}")
             total_dados[str(cnae)].append(len(globals()[f'df_{cnae}']))
-            total_dados['arquivo'].append(file)
+            
             # Exporta como CSV
             globals()[f'df_{cnae}'].to_csv(f'../Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
+        total_dados['arquivo'].append(file)
+        dados_2 = pd.DataFrame(total_dados)
+        dados_2.to_csv('../Bases/Dados.csv',index=False,sep=';', encoding='utf-8')
     # Finaliza o cronômetro
     fim = time.time()
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
