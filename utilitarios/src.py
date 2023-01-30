@@ -48,9 +48,13 @@ CNPJ = {"EMPRE" : ['CNPJ_BASE', 'RAZAO_SOCIAL', 'NATUREZA_JURIDICA' , 'QUALIFICA
 
 "CNAE" : ['CODIGO_CNAE'  , 'CNAE' ]}
 colunas = [0,1,2,3,4,5,6,7,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]
-dtypes1 = { 'MATRIZ_FILIAL': 'object',
+dtypes = { 
+ 'CNPJ_BASE': 'category',
+ 'CNPJ_ORDEM': 'category' ,
+ 'CNPJ_DV': 'category',
+ 'MATRIZ_FILIAL': 'object',
  'NOME_FANTASIA': 'object',
- 'SITUACAO_CADASTRAL': 'object',
+ 'SITUACAO_CADASTRAL': 'int32',
  'DATA_SITUACAO_CADASTRAL': 'object',
  'MOTIVO_SITUACAO_CADASTRAL': 'object',
  'CIDADE_EXTERIOR': 'object',
@@ -74,7 +78,8 @@ dtypes1 = { 'MATRIZ_FILIAL': 'object',
  'FAX': 'object',
  'EMAIL': 'object',
  'SITUACAO_ESPECIAL': 'int32',
- 'DATA_SITUACAO_ESPECIAL': 'object'}
+ 'DATA_SITUACAO_ESPECIAL': 'object'
+ }
 
 """CNAES = {5510801: 'Hotéis',
 5510802: 'Apart hotéis',
@@ -84,32 +89,29 @@ dtypes1 = { 'MATRIZ_FILIAL': 'object',
 5590603: 'Pensões(alojamento)',
 5590699: 'Outros alojamentos não especificados anteriormente'}"""
 
-CNAES = {5611201:'Restaurantes e similares',
+CNAES = {
+        5612100:'Serviços ambulantes de alimentação',
+        5611201:'Restaurantes e similares',
         5611203:'Lanchonetes casas de chá de sucos e similares',
         5611204:'Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento',
-        5611205:'Bares e outros estabelecimentos especializados em servir bebidas com entretenimento',
-        5612100:'Serviços ambulantes de alimentação'}
+        5611205:'Bares e outros estabelecimentos especializados em servir bebidas com entretenimento'
+        }
 
 lista_cnae = []
 for cnae in CNAES.keys():
     lista_cnae.append(cnae)
 
 
+total_dados = {'5612100' : [],'5611201' : [],'5611203' : [], '5611204': [], '5611205': [] , 'arquivo': []}
+
 def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     inicio = time.time()
-    print(f'Operando arquivo {file}')
+    #print(f'Operando arquivo {file}')
     logging.info(f'Operando arquivo {file}')
     linhas = 0
     with open(f"{diretorio}/{file}", mode='r', encoding='ISO-8859-1', errors='ignore') as arq:
         for linha in arq:
             linhas += 1
-    if (linhas%2) == 0:
-        pulo = linhas / 2
-        n_linhas = linhas / 2
-        #print(linhas)
-    else:
-        pulo = (linhas - 1) / 2
-        n_linhas = (linhas + 1) / 2
         #print(linhas)
     
     # Montando os DataFrames
@@ -118,8 +120,8 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     encoding='ISO-8859-1', 
     names=CNPJ['ESTABELE'],
     usecols=colunas, 
-    nrows=int(n_linhas)-1, 
-    dtype=dtypes1, 
+    nrows=int(linhas)-1, 
+    dtype=dtypes, 
     na_values=['non-numeric value'],
     converters={'CNAE_SECUNDARIO':str},
     encoding_errors='ignore', chunksize=1000000)
@@ -127,11 +129,11 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
         dados.header = CNPJ['ESTABELE']
         #print(f'Leitura inicial: {len(dados)}')
         dados['NOME_FANTASIA'].fillna('--empty--', inplace=True)
-        dados.drop_duplicates(inplace=True)
+        #dados.drop_duplicates(inplace=True)
         #print(f'Após remover duplicados: {len(dados)}')
-        dados = dados[(dados['SITUACAO_CADASTRAL'] == '02')].loc[:,].reset_index(drop=True)
+        dados = dados.loc[dados['SITUACAO_CADASTRAL'] == 2 ].reset_index()
         #print(f'Somente os ativos: {len(dados)}')
-    
+
         for cnae in lista_cnae:
             # Separando o dataframe com base nos códigos CNAEs
             globals()[f'df_{cnae}'] =  dados.loc[dados['CNAE_PRINCIPAL'] == cnae]
@@ -145,14 +147,21 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
             globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].astype(str)
             # Adicionando hífen à coluna 'CEP'
             globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].str[:5] + '-' +globals()[f'df_{cnae}']['CEP'].str[5:]
+            # Mapeando colunas do DataFrame no log
+            logging.info(f"Colunas Geradas: {globals()[f'df_{cnae}'].columns}")
+            # Contando o número de itens por DataFrames exportados
+            logging.info(f"Itens capiturados: {len(globals()[f'df_{cnae}'])} Categoria dos dados: {CNAES[cnae]}")
+            total_dados[str(cnae)].append(len(globals()[f'df_{cnae}']))
+            total_dados['arquivo'].append(file)
             # Exporta como CSV
-            globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
-            del globals()[f'df_{cnae}'] #= pd.DataFrame()
+            globals()[f'df_{cnae}'].to_csv(f'../Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
     # Finaliza o cronômetro
     fim = time.time()
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
-    print(retorno)
+    #print(retorno)
     logging.info(retorno)
+    df_total = pd.DataFrame(total_dados)
+    df_total.to_excel("../Base/Contagem dados CNAE.xlsx", index=False, sheet_name="Contagem dados")
 
 def Extracao_EMPRE(file:str = None, diretorio:str = r'./'):
     files = file.split('.')

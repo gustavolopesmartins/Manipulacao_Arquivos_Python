@@ -13,7 +13,7 @@ os.system('cls')
 #from convertearquivo import convertearquivo
 #convertearquivo(diretorio=diretorio_destino, tipo_atual='ESTABELE',tipo_destino='csv')
 
-Parallel(n_jobs=3)(delayed(Extracao_CNAE)(file,diretorio) for file in all_files)
+Parallel(n_jobs=5)(delayed(Extracao_CNAE)(file,diretorio) for file in all_files)
 """
 Extracao_CNAE(diretorio=diretorio,file=all_files[0])
 Extracao_CNAE(diretorio=diretorio,file=all_files[1])
