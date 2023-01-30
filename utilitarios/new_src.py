@@ -40,7 +40,7 @@ dtypes1 = { 'MATRIZ_FILIAL': 'object',
  'NUMERO': 'object',
  'COMPLEMENTO': 'object',
  'BAIRRO': 'object',
- 'CEP': 'object',
+ 'CEP': 'str',
  'UF': 'object',
  'MUNICIPIO': 'object',
  'DDD1': 'object',
@@ -84,13 +84,12 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     if (linhas%2) == 0:
         pulo = linhas / 2
         n_linhas = linhas / 2
-        print(linhas)
+        #print(linhas)
     else:
         pulo = (linhas - 1) / 2
         n_linhas = (linhas + 1) / 2
-        print(linhas)
+        #print(linhas)
     
-    time.sleep(5)
     # Montando os DataFrames
     chunk_dados = pd.read_csv(f'{diretorio}/{file}',
     sep=';',
@@ -101,23 +100,31 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     dtype=dtypes1, 
     na_values=['non-numeric value'],
     converters={'CNAE_SECUNDARIO':str},
-    encoding_errors='ignore', chunksize=1000000)
+    encoding_errors='ignore', chunksize=100000)
     for dados in chunk_dados:
-        
-        if header is None:
-            header = dados.columns
-            continue
-        dados.columns = header
-        print(header)
-        print(len(dados))
-        print(dados.columns)
+        dados.header = ESTABELE
+        print(f'Leitura inicial: {len(dados)}')
         dados['NOME_FANTASIA'].fillna('--empty--', inplace=True)
         dados.drop_duplicates(inplace=True)
-        dados = dados[(dados['SITUACAO_CADASTRAL'] == 2)].index
-        
+        print(f'Após remover duplicados: {len(dados)}')
+        dados = dados[(dados['SITUACAO_CADASTRAL'] == '02')].loc[:,].reset_index(drop=True)
+        print(f'Somente os ativos: {len(dados)}')
 
         for cnae in lista_cnae:
-            globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
+            # Separando o dataframe com base nos códigos CNAEs
+            globals()[f'df_{cnae}'] =  dados.loc[dados['CNAE_PRINCIPAL'] == cnae]
+            # Concatenando os dados de Telefone e Fax
+            globals()[f'df_{cnae}']['TELEFONE1'] = "(" + globals()[f'df_{cnae}']['DDD1'].map(str) + ")" + globals()[f'df_{cnae}']['TELEFONE1'].map(str)
+            globals()[f'df_{cnae}']['TELEFONE2'] = "(" + globals()[f'df_{cnae}']['DDD2'].map(str) + ")" + globals()[f'df_{cnae}']['TELEFONE2'].map(str)
+            globals()[f'df_{cnae}']['FAX'] = "(" + globals()[f'df_{cnae}']['DDD_FAX'].map(str) + ")" + globals()[f'df_{cnae}']['FAX'].map(str)
+            # Dropando os DDDs após a concatenação
+            globals()[f'df_{cnae}'].drop(['DDD1','DDD2','DDD_FAX'], axis=1, inplace=True)
+            # Mudando o tipo de dado da coluna 'CEP' para string
+            globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].astype(str)
+            # Adicionando hífen à coluna 'CEP'
+            globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].str[:5] + '-' +globals()[f'df_{cnae}']['CEP'].str[5:]
+            globals()[f'df_{cnae}'].to_csv(f"teste{cnae}.csv", index=False, sep=';')
+            # Exporta como CSV
             globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
             del globals()[f'df_{cnae}'] #= pd.DataFrame()
     fim = time.time()

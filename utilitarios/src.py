@@ -6,6 +6,10 @@ import pandas as pd
 from dask import dataframe as dd
 import csv
 import os
+import logging
+
+# gerando log
+logging.basicConfig(level=logging.INFO, filename="src.log", format="%(asctime)s - %(levelname)s - %(message)s")
 
 #diretorio = r'C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV/'
 #all_files = list(filter(lambda x: '.csv' in x, os.listdir(diretorio)))
@@ -44,36 +48,41 @@ CNPJ = {"EMPRE" : ['CNPJ_BASE', 'RAZAO_SOCIAL', 'NATUREZA_JURIDICA' , 'QUALIFICA
 
 "CNAE" : ['CODIGO_CNAE'  , 'CNAE' ]}
 colunas = [0,1,2,3,4,5,6,7,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]
-dtypes = {'CNPJ_BASE': 'category',
- 'CNPJ_ORDEM': 'category',
- 'CNPJ_DV': 'category'}
-dtypes1 = { 'MATRIZ_FILIAL': 'category',
- 'NOME_FANTASIA': 'category',
- 'SITUACAO_CADASTRAL': 'int32',
- 'DATA_SITUACAO_CADASTRAL': 'int32',
- 'MOTIVO_SITUACAO_CADASTRAL': 'category',
- 'CIDADE_EXTERIOR': 'category',
- 'PAIS': 'category',
- 'DATA_INICIO_ATIVIDADE': 'category',
+dtypes1 = { 'MATRIZ_FILIAL': 'object',
+ 'NOME_FANTASIA': 'object',
+ 'SITUACAO_CADASTRAL': 'object',
+ 'DATA_SITUACAO_CADASTRAL': 'object',
+ 'MOTIVO_SITUACAO_CADASTRAL': 'object',
+ 'CIDADE_EXTERIOR': 'object',
+ 'PAIS': 'object',
+ 'DATA_INICIO_ATIVIDADE': 'object',
  'CNAE_PRINCIPAL': 'int32',
- 'CNAE_SECUNDARIO': 'category',
- 'TIPO_LOGRADOURO': 'category',
- 'LOGRADOURO': 'category',
- 'NUMERO': 'category',
- 'COMPLEMENTO': 'category',
- 'BAIRRO': 'category',
+ 'CNAE_SECUNDARIO': 'object',
+ 'TIPO_LOGRADOURO': 'object',
+ 'LOGRADOURO': 'object',
+ 'NUMERO': 'object',
+ 'COMPLEMENTO': 'object',
+ 'BAIRRO': 'object',
  'CEP': 'str',
- 'UF': 'category',
- 'MUNICIPIO': 'str',
- 'DDD1': 'str',
- 'TELEFONE1': 'str',
- 'DDD2': 'str',
- 'TELEFONE2': 'str',
- 'DDD_FAX': 'str',
- 'FAX': 'str',
- 'EMAIL': 'category',
- 'SITUACAO_ESPECIAL': 'category',
- 'DATA_SITUACAO_ESPECIAL': 'str'}
+ 'UF': 'object',
+ 'MUNICIPIO': 'object',
+ 'DDD1': 'object',
+ 'TELEFONE1': 'object',
+ 'DDD2': 'object',
+ 'TELEFONE2': 'object',
+ 'DDD_FAX': 'object',
+ 'FAX': 'object',
+ 'EMAIL': 'object',
+ 'SITUACAO_ESPECIAL': 'int32',
+ 'DATA_SITUACAO_ESPECIAL': 'object'}
+
+"""CNAES = {5510801: 'Hotéis',
+5510802: 'Apart hotéis',
+5510803: 'Motéis',
+5590601: 'Albergues, exceto assistenciais',
+5590602: 'Campings',
+5590603: 'Pensões(alojamento)',
+5590699: 'Outros alojamentos não especificados anteriormente'}"""
 
 CNAES = {5611201:'Restaurantes e similares',
         5611203:'Lanchonetes casas de chá de sucos e similares',
@@ -86,10 +95,10 @@ for cnae in CNAES.keys():
     lista_cnae.append(cnae)
 
 
-
 def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     inicio = time.time()
     print(f'Operando arquivo {file}')
+    logging.info(f'Operando arquivo {file}')
     linhas = 0
     with open(f"{diretorio}/{file}", mode='r', encoding='ISO-8859-1', errors='ignore') as arq:
         for linha in arq:
@@ -97,55 +106,53 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     if (linhas%2) == 0:
         pulo = linhas / 2
         n_linhas = linhas / 2
-        print(linhas)
+        #print(linhas)
     else:
         pulo = (linhas - 1) / 2
         n_linhas = (linhas + 1) / 2
-        print(linhas)
+        #print(linhas)
     
-    time.sleep(5)
     # Montando os DataFrames
-    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas, nrows=int(n_linhas)-1, dtype=dtypes1, na_values=['non-numeric value'],converters={'CNAE_SECUNDARIO':str},encoding_errors='ignore')
-    dados['NOME_FANTASIA'].fillna('null', inplace=True)
-    dados.drop_duplicates(inplace=True)
-    indice_remove = dados[(dados['SITUACAO_CADASTRAL'] != 2) & (dados['SITUACAO_CADASTRAL'] != 3) &(dados['SITUACAO_CADASTRAL'] != 4)& (dados['SITUACAO_CADASTRAL'] != 5)].index
-    dados.drop(indice_remove, inplace=True) 
+    chunk_dados = pd.read_csv(f'{diretorio}/{file}',
+    sep=';',
+    encoding='ISO-8859-1', 
+    names=CNPJ['ESTABELE'],
+    usecols=colunas, 
+    nrows=int(n_linhas)-1, 
+    dtype=dtypes1, 
+    na_values=['non-numeric value'],
+    converters={'CNAE_SECUNDARIO':str},
+    encoding_errors='ignore', chunksize=1000000)
+    for dados in chunk_dados:
+        dados.header = CNPJ['ESTABELE']
+        #print(f'Leitura inicial: {len(dados)}')
+        dados['NOME_FANTASIA'].fillna('--empty--', inplace=True)
+        dados.drop_duplicates(inplace=True)
+        #print(f'Após remover duplicados: {len(dados)}')
+        dados = dados[(dados['SITUACAO_CADASTRAL'] == '02')].loc[:,].reset_index(drop=True)
+        #print(f'Somente os ativos: {len(dados)}')
     
-    for cnae in lista_cnae:
-        
-        globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
-        globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
-        del globals()[f'df_{cnae}'] #= pd.DataFrame()
-        #pd.concat(globals()[f'df_{cnae}'],dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
-        #globals()[f'df_{cnae}'].append(dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
-    
-    # Desmontando o DataFrame
-    del dados #= pd.DataFrame()
-    # Contando a leitura dos arquivos para não ficar pesado demais
-
-
-    # Montando o último DataFrame do arquivo usado
-    dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas,skiprows=int(pulo), nrows=int(n_linhas)-1, dtype=dtypes1, na_values=['non-numeric value'],converters={'CNAE_SECUNDARIO':str},encoding_errors='ignore')
-    #dados = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],usecols=colunas,skiprows=int(pulo), nrows=int(n_linhas),dtype=dtypes1)
-    dados['NOME_FANTASIA'].fillna('null', inplace=True)
-    dados.drop_duplicates(inplace=True)
-    indice_remove = dados[(dados['SITUACAO_CADASTRAL'] != 2) & (dados['SITUACAO_CADASTRAL'] != 3) &(dados['SITUACAO_CADASTRAL'] != 4)& (dados['SITUACAO_CADASTRAL'] != 5)].index
-    dados.drop(indice_remove, inplace=True)
-    
-    for cnae in lista_cnae:
-        globals()[f'df_{cnae}'] = dados.loc[dados['CNAE_PRINCIPAL']== cnae]
-        globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False,sep=';', encoding='utf-8', header=False)
-        del globals()[f'df_{cnae}'] #= pd.DataFrame()
-        #globals()[f'df_{cnae}'].append(dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
-        #pd.concat(globals()[f'df_{cnae}'],dados.loc[dados['CNAE_PRINCIPAL']== cnae], ignore_index=True)
-    # finalizando o cronômetro do processo
+        for cnae in lista_cnae:
+            # Separando o dataframe com base nos códigos CNAEs
+            globals()[f'df_{cnae}'] =  dados.loc[dados['CNAE_PRINCIPAL'] == cnae]
+            # Concatenando os dados de Telefone e Fax
+            globals()[f'df_{cnae}']['TELEFONE1'] = "(" + globals()[f'df_{cnae}']['DDD1'].map(str) + ")" + globals()[f'df_{cnae}']['TELEFONE1'].map(str)
+            globals()[f'df_{cnae}']['TELEFONE2'] = "(" + globals()[f'df_{cnae}']['DDD2'].map(str) + ")" + globals()[f'df_{cnae}']['TELEFONE2'].map(str)
+            globals()[f'df_{cnae}']['FAX'] = "(" + globals()[f'df_{cnae}']['DDD_FAX'].map(str) + ")" + globals()[f'df_{cnae}']['FAX'].map(str)
+            # Dropando os DDDs após a concatenação
+            globals()[f'df_{cnae}'].drop(['DDD1','DDD2','DDD_FAX'], axis=1, inplace=True)
+            # Mudando o tipo de dado da coluna 'CEP' para string
+            globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].astype(str)
+            # Adicionando hífen à coluna 'CEP'
+            globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].str[:5] + '-' +globals()[f'df_{cnae}']['CEP'].str[5:]
+            # Exporta como CSV
+            globals()[f'df_{cnae}'].to_csv(f'Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
+            del globals()[f'df_{cnae}'] #= pd.DataFrame()
+    # Finaliza o cronômetro
     fim = time.time()
-    
-    # Desmontando o último DataFrame
-    del dados #= pd.DataFrame()
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
-    return print(retorno)
-
+    print(retorno)
+    logging.info(retorno)
 
 def Extracao_EMPRE(file:str = None, diretorio:str = r'./'):
     files = file.split('.')
