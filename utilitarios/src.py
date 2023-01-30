@@ -54,7 +54,7 @@ dtypes = {
  'CNPJ_DV': 'category',
  'MATRIZ_FILIAL': 'object',
  'NOME_FANTASIA': 'object',
- 'SITUACAO_CADASTRAL': 'object',
+ 'SITUACAO_CADASTRAL': 'int32',
  'DATA_SITUACAO_CADASTRAL': 'object',
  'MOTIVO_SITUACAO_CADASTRAL': 'object',
  'CIDADE_EXTERIOR': 'object',
@@ -160,8 +160,6 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
     #print(retorno)
     logging.info(retorno)
-    df_total = pd.DataFrame(total_dados)
-    df_total.to_csv("../Base/Contagem dados CNAE.csv",mode='a', index=False, sep=';')
 
 def Extracao_EMPRE(file:str = None, diretorio:str = r'./'):
     files = file.split('.')
