@@ -102,8 +102,6 @@ for cnae in CNAES.keys():
     lista_cnae.append(cnae)
 
 
-total_dados = {'5612100' : [],'5611201' : [],'5611203' : [], '5611204': [], '5611205': [] , 'arquivo': []}
-
 def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     inicio = time.time()
     #print(f'Operando arquivo {file}')
@@ -120,11 +118,14 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     encoding='ISO-8859-1', 
     names=CNPJ['ESTABELE'],
     usecols=colunas, 
-    nrows=int(linhas)-1, 
+    nrows=linhas, 
     dtype=dtypes, 
-    na_values=['non-numeric value'],
-    converters={'CNAE_SECUNDARIO':str},
-    encoding_errors='ignore', chunksize=1000000)
+    chunksize=1000000)
+    contagem_5612100 = 0 
+    contagem_5611201 = 0
+    contagem_5611203 = 0
+    contagem_5611204 = 0
+    contagem_5611205 = 0
     for dados in chunk_dados:
         dados.header = CNPJ['ESTABELE']
         print(f'Leitura inicial: {len(dados)}')
@@ -134,7 +135,7 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
         #print(f'Após remover duplicados: {len(dados)}')
         dados = dados[(dados['SITUACAO_CADASTRAL'] == '02') | (dados['SITUACAO_CADASTRAL'] == '05')].loc[:,].reset_index(drop=True)
         print(f'Somente os ativos: {len(dados)}')
-        
+
         for cnae in lista_cnae:
             # Separando o dataframe com base nos códigos CNAEs
             globals()[f'df_{cnae}'] =  dados.loc[dados['CNAE_PRINCIPAL'] == cnae]
@@ -152,14 +153,32 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
             logging.info(f"Colunas Geradas: {globals()[f'df_{cnae}'].columns}")
             # Contando o número de itens por DataFrames exportados
             logging.info(f"Itens capiturados: {len(globals()[f'df_{cnae}'])} Categoria dos dados: {CNAES[cnae]}")
-            total_dados[str(cnae)].append(len(globals()[f'df_{cnae}']))
-            
+        
+            if cnae == 5612100:
+                contagem_5612100 = contagem_5612100 + len(globals()[f'df_{cnae}'])
+                
+            elif cnae == 5611201:
+                contagem_5611201 = contagem_5611201 + len(globals()[f'df_{cnae}'])
+
+            elif cnae == 5611203:
+                contagem_5611203 = contagem_5611203 + len(globals()[f'df_{cnae}'])
+                
+            elif cnae == 5611204:
+                contagem_5611204 = contagem_5611204 + len(globals()[f'df_{cnae}'])
+                
+            elif cnae == 5611205:
+                contagem_5611205 = contagem_5611205 + len(globals()[f'df_{cnae}'])
+                
+            else:
+                pass
             # Exporta como CSV
             globals()[f'df_{cnae}'].to_csv(f'../Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
-        total_dados['arquivo'].append(file)
-        dados_2 = pd.DataFrame(total_dados)
-        dados_2.to_csv('../Bases/Dados.csv',index=False,sep=';', encoding='utf-8')
     # Finaliza o cronômetro
+    print(f"Contagem de Estabelecimentos 5612100: {contagem_5612100}")
+    print(f"Contagem de Estabelecimentos 5611201: {contagem_5611201}")
+    print(f"Contagem de Estabelecimentos 5611203: {contagem_5611203}")
+    print(f"Contagem de Estabelecimentos 5611204: {contagem_5611204}")
+    print(f"Contagem de Estabelecimentos 5611205: {contagem_5611205}")
     fim = time.time()
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
     #print(retorno)
@@ -185,7 +204,7 @@ def Extracao_EMPRE(file:str = None, diretorio:str = r'./'):
     encoding='ISO-8859-1', 
     names=CNPJ['EMPRE'],
     usecols=[0 , 1], 
-    nrows=int(linhas), 
+    nrows=linhas, 
     dtype=dtypes_EMPRE, 
     encoding_errors='ignore', 
     chunksize=1000000)    
@@ -193,14 +212,9 @@ def Extracao_EMPRE(file:str = None, diretorio:str = r'./'):
     for dados in chunk_dados:
         dados.header = CNPJ['EMPRE']
         print(f'Leitura inicial: {len(dados)}')
-        dados.drop_duplicates(inplace=True)
-        #print(dados['SITUACAO_CADASTRAL'].value_counts())
-        #dados.drop_duplicates(inplace=True)
-        #print(f'Após remover duplicados: {len(dados)}')    
-    
-
-    # Levando pra fora os dados
-    dados.to_csv(f'../Bases_EMPRESAS/LISTA_EMPRESAS_{file_name}.csv', mode='a', index=False, sep=';', encoding='utf-8')
+        dados.drop_duplicates(inplace=True)  
+        # Levando pra fora os dados
+        dados.to_csv(f'../Bases_EMPRESAS/LISTA_EMPRESAS_{file_name}.csv', mode='a', index=False, sep=';', encoding='utf-8')
 
     # finalizando o cronômetro do processo
     fim = time.time()
