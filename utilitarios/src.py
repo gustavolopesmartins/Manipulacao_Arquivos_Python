@@ -169,45 +169,41 @@ def Extracao_EMPRE(file:str = None, diretorio:str = r'./'):
     files = file.split('.')
     file_name = files[1]
     dtypes_EMPRE = {'CNPJ_BASE': 'category'}
-    inicio = time.time()
     print(f'Operando arquivo {file}')
-    
+    inicio = time.time()
+    #print(f'Operando arquivo {file}')
+    logging.info(f'Operando arquivo {file}')
+    linhas = 0
     with open(f"{diretorio}/{file}", mode='r', encoding='ISO-8859-1', errors='ignore') as arq:
-        linhas = len(arq.readlines())
-        arq.close()
+        for linha in arq:
+            linhas += 1
+        #print(linhas)
     
-    if (linhas%2) == 0:
-        pulo = linhas / 2
-        n_linhas = linhas / 2
-        print(linhas)
-    else:
-        pulo = (linhas - 1) / 2
-        n_linhas = (linhas + 1) / 2
-        print(linhas)
-    
-    time.sleep(5)
     # Montando os DataFrames
-    #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'], dtype=dtypes, nrows=int(n_linhas)-1), npartitions=10)
-    dados1 = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['EMPRE'],usecols=[0 , 1], nrows=int(n_linhas)-1, dtype=dtypes_EMPRE)
-    dados1.drop_duplicates(inplace=True)
+    chunk_dados = pd.read_csv(f'{diretorio}/{file}',
+    sep=';',
+    encoding='ISO-8859-1', 
+    names=CNPJ['EMPRE'],
+    usecols=[0 , 1], 
+    nrows=int(linhas), 
+    dtype=dtypes_EMPRE, 
+    encoding_errors='ignore', 
+    chunksize=1000000)    
+    
+    for dados in chunk_dados:
+        dados.header = CNPJ['EMPRE']
+        print(f'Leitura inicial: {len(dados)}')
+        dados.drop_duplicates(inplace=True)
+        #print(dados['SITUACAO_CADASTRAL'].value_counts())
+        #dados.drop_duplicates(inplace=True)
+        #print(f'Após remover duplicados: {len(dados)}')    
     
 
+    # Levando pra fora os dados
+    dados.to_csv(f'../Bases_EMPRESAS/LISTA_EMPRESAS_{file_name}.csv', mode='a', index=False, sep=';', encoding='utf-8')
 
-    dados1.to_csv(f'Bases_EMPRESAS/LISTA_EMPRESAS{file_name}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
-        
-
-    del dados1
-    # Montando o último DataFrame do arquivo usado
-    #dados = dd.from_pandas(pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['ESTABELE'],skiprows=int(pulo), nrows=int(n_linhas)), npartitions=10)
-    dados2 = pd.read_csv(f'{diretorio}/{file}',sep=';',encoding='ISO-8859-1', names=CNPJ['EMPRE'],usecols=[0 , 1],skiprows=int(pulo), nrows=int(n_linhas),dtype=dtypes_EMPRE)
-
-    dados2.drop_duplicates(inplace=True)
-
-    dados2.to_csv(f'Bases_EMPRESAS/LISTA_EMPRESAS{file_name}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
     # finalizando o cronômetro do processo
     fim = time.time()
-    
-    # Desmontando o último DataFrame
-    del dados2 #= pd.DataFrame()
+
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
-    return print(retorno)
+    print(retorno)

@@ -6,7 +6,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:37:36,119 - INFO - Itens capiturados: 6899 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:37:36,119 - INFO - Itens capiturados: 6899 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:37:36,285 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -22,7 +22,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:37:36,621 - INFO - Itens capiturados: 14655 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:37:36,621 - INFO - Itens capiturados: 14655 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:37:36,845 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -46,7 +46,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:37:44,472 - INFO - Itens capiturados: 3124 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:37:44,472 - INFO - Itens capiturados: 3124 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:37:44,573 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -62,7 +62,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:37:44,720 - INFO - Itens capiturados: 7614 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:37:44,720 - INFO - Itens capiturados: 7614 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:37:44,846 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -86,7 +86,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:37:52,246 - INFO - Itens capiturados: 120 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:37:52,246 - INFO - Itens capiturados: 120 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:37:52,300 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -102,7 +102,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:37:52,366 - INFO - Itens capiturados: 2870 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:37:52,366 - INFO - Itens capiturados: 2870 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:37:52,427 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -126,7 +126,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:37:59,617 - INFO - Itens capiturados: 1382 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:37:59,617 - INFO - Itens capiturados: 1382 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:37:59,678 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -142,7 +142,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:37:59,762 - INFO - Itens capiturados: 5011 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:37:59,762 - INFO - Itens capiturados: 5011 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:37:59,859 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -166,7 +166,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:06,729 - INFO - Itens capiturados: 3273 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:38:06,729 - INFO - Itens capiturados: 3273 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:38:06,827 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -182,7 +182,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:06,958 - INFO - Itens capiturados: 7439 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:38:06,958 - INFO - Itens capiturados: 7439 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:38:07,109 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -206,7 +206,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:14,519 - INFO - Itens capiturados: 5794 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:38:14,519 - INFO - Itens capiturados: 5794 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:38:14,692 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -222,7 +222,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:14,925 - INFO - Itens capiturados: 11617 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:38:14,925 - INFO - Itens capiturados: 11617 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:38:15,125 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -246,7 +246,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:23,084 - INFO - Itens capiturados: 7022 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:38:23,084 - INFO - Itens capiturados: 7022 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:38:23,277 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -262,7 +262,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:23,578 - INFO - Itens capiturados: 14502 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:38:23,578 - INFO - Itens capiturados: 14502 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:38:23,826 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -286,7 +286,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:30,647 - INFO - Itens capiturados: 102 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:38:30,647 - INFO - Itens capiturados: 102 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:38:30,703 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -302,7 +302,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:30,761 - INFO - Itens capiturados: 2692 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:38:30,761 - INFO - Itens capiturados: 2692 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:38:30,824 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -326,7 +326,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:37,741 - INFO - Itens capiturados: 497 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:38:37,741 - INFO - Itens capiturados: 497 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:38:37,807 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -342,7 +342,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:37,878 - INFO - Itens capiturados: 3827 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:38:37,878 - INFO - Itens capiturados: 3827 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:38:37,956 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -366,7 +366,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:45,211 - INFO - Itens capiturados: 2584 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:38:45,211 - INFO - Itens capiturados: 2584 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:38:45,282 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -382,7 +382,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:45,425 - INFO - Itens capiturados: 6281 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:38:45,425 - INFO - Itens capiturados: 6281 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:38:45,545 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -406,7 +406,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:53,245 - INFO - Itens capiturados: 4333 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:38:53,245 - INFO - Itens capiturados: 4333 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:38:53,346 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -422,7 +422,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:38:53,511 - INFO - Itens capiturados: 9007 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:38:53,511 - INFO - Itens capiturados: 9007 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:38:53,702 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -446,7 +446,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:01,421 - INFO - Itens capiturados: 6958 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:39:01,421 - INFO - Itens capiturados: 6958 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:39:01,623 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -462,7 +462,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:01,962 - INFO - Itens capiturados: 14690 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:39:01,962 - INFO - Itens capiturados: 14690 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:39:02,214 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -486,7 +486,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:05,581 - INFO - Itens capiturados: 3252 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:39:05,581 - INFO - Itens capiturados: 3252 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:39:05,664 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -502,7 +502,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:05,792 - INFO - Itens capiturados: 6301 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:39:05,792 - INFO - Itens capiturados: 6301 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:39:05,880 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -528,7 +528,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:14,519 - INFO - Itens capiturados: 110 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:39:14,519 - INFO - Itens capiturados: 110 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:39:14,561 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -544,7 +544,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:14,632 - INFO - Itens capiturados: 2879 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:39:14,632 - INFO - Itens capiturados: 2879 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:39:14,681 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -568,7 +568,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:21,780 - INFO - Itens capiturados: 286 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:39:21,780 - INFO - Itens capiturados: 286 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:39:21,898 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -584,7 +584,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:22,039 - INFO - Itens capiturados: 3477 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:39:22,039 - INFO - Itens capiturados: 3477 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:39:22,115 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -608,7 +608,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:29,527 - INFO - Itens capiturados: 2294 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:39:29,527 - INFO - Itens capiturados: 2294 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:39:29,611 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -624,7 +624,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:29,748 - INFO - Itens capiturados: 6098 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:39:29,748 - INFO - Itens capiturados: 6098 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:39:29,871 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -648,7 +648,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:37,346 - INFO - Itens capiturados: 4005 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:39:37,346 - INFO - Itens capiturados: 4005 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:39:37,447 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -664,7 +664,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:37,592 - INFO - Itens capiturados: 8571 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:39:37,592 - INFO - Itens capiturados: 8571 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:39:37,736 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -688,7 +688,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:43,413 - INFO - Itens capiturados: 4648 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:39:43,413 - INFO - Itens capiturados: 4648 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:39:43,528 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -704,7 +704,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:43,720 - INFO - Itens capiturados: 9734 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:39:43,720 - INFO - Itens capiturados: 9734 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:39:43,880 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -730,7 +730,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:53,546 - INFO - Itens capiturados: 6166 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:39:53,546 - INFO - Itens capiturados: 6166 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:39:53,728 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -746,7 +746,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:39:54,026 - INFO - Itens capiturados: 13516 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:39:54,026 - INFO - Itens capiturados: 13516 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:39:54,246 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -770,7 +770,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:00,789 - INFO - Itens capiturados: 98 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:40:00,789 - INFO - Itens capiturados: 98 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:40:00,847 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -786,7 +786,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:00,902 - INFO - Itens capiturados: 2770 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:40:00,902 - INFO - Itens capiturados: 2770 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:40:00,967 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -810,7 +810,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:07,918 - INFO - Itens capiturados: 691 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:40:07,918 - INFO - Itens capiturados: 691 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:40:07,977 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -826,7 +826,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:08,048 - INFO - Itens capiturados: 4039 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:40:08,048 - INFO - Itens capiturados: 4039 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:40:08,127 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -850,7 +850,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:15,325 - INFO - Itens capiturados: 2484 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:40:15,325 - INFO - Itens capiturados: 2484 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:40:15,401 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -866,7 +866,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:15,530 - INFO - Itens capiturados: 6349 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:40:15,530 - INFO - Itens capiturados: 6349 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:40:15,649 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -890,7 +890,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:22,115 - INFO - Itens capiturados: 3318 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:40:22,115 - INFO - Itens capiturados: 3318 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:40:22,211 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -906,7 +906,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:22,337 - INFO - Itens capiturados: 6984 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:40:22,337 - INFO - Itens capiturados: 6984 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:40:22,457 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -932,7 +932,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:40:33,901 - INFO - Itens capiturados: 6592 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:40:33,901 - INFO - Itens capiturados: 6592 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:40:34,171 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -949,7 +949,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:02,254 - INFO - Itens capiturados: 6899 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:41:02,254 - INFO - Itens capiturados: 6899 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:41:02,434 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -965,7 +965,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:02,706 - INFO - Itens capiturados: 14655 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:41:02,706 - INFO - Itens capiturados: 14655 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:41:02,955 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -989,7 +989,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:10,110 - INFO - Itens capiturados: 3124 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:41:10,110 - INFO - Itens capiturados: 3124 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:41:10,186 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1005,7 +1005,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:10,331 - INFO - Itens capiturados: 7614 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:41:10,331 - INFO - Itens capiturados: 7614 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:41:10,444 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1029,7 +1029,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:16,825 - INFO - Itens capiturados: 120 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:41:16,825 - INFO - Itens capiturados: 120 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:41:16,876 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1045,7 +1045,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:16,936 - INFO - Itens capiturados: 2870 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:41:16,936 - INFO - Itens capiturados: 2870 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:41:16,986 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1069,7 +1069,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:24,415 - INFO - Itens capiturados: 1382 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:41:24,415 - INFO - Itens capiturados: 1382 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:41:24,486 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1085,7 +1085,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:24,570 - INFO - Itens capiturados: 5011 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:41:24,570 - INFO - Itens capiturados: 5011 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:41:24,683 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1109,7 +1109,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:31,866 - INFO - Itens capiturados: 3273 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:41:31,866 - INFO - Itens capiturados: 3273 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:41:31,953 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1125,7 +1125,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:32,100 - INFO - Itens capiturados: 7439 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:41:32,100 - INFO - Itens capiturados: 7439 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:41:32,230 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1149,7 +1149,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:39,689 - INFO - Itens capiturados: 5794 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:41:39,689 - INFO - Itens capiturados: 5794 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:41:39,853 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1165,7 +1165,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:40,097 - INFO - Itens capiturados: 11617 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:41:40,097 - INFO - Itens capiturados: 11617 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:41:40,302 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1189,7 +1189,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:48,446 - INFO - Itens capiturados: 7022 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:41:48,446 - INFO - Itens capiturados: 7022 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:41:48,635 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1205,7 +1205,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:48,953 - INFO - Itens capiturados: 14502 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:41:48,953 - INFO - Itens capiturados: 14502 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:41:49,213 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1229,7 +1229,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:56,174 - INFO - Itens capiturados: 102 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:41:56,174 - INFO - Itens capiturados: 102 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:41:56,242 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1245,7 +1245,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:41:56,313 - INFO - Itens capiturados: 2692 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:41:56,313 - INFO - Itens capiturados: 2692 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:41:56,352 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1269,7 +1269,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:03,489 - INFO - Itens capiturados: 497 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:42:03,489 - INFO - Itens capiturados: 497 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:42:03,549 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1285,7 +1285,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:03,639 - INFO - Itens capiturados: 3827 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:42:03,639 - INFO - Itens capiturados: 3827 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:42:03,720 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1309,7 +1309,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:12,099 - INFO - Itens capiturados: 2584 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:42:12,099 - INFO - Itens capiturados: 2584 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:42:12,178 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1325,7 +1325,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:12,304 - INFO - Itens capiturados: 6281 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:42:12,304 - INFO - Itens capiturados: 6281 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:42:12,432 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1349,7 +1349,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:21,402 - INFO - Itens capiturados: 4333 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:42:21,402 - INFO - Itens capiturados: 4333 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:42:21,526 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1365,7 +1365,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:21,711 - INFO - Itens capiturados: 9007 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:42:21,711 - INFO - Itens capiturados: 9007 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:42:21,911 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1389,7 +1389,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:30,722 - INFO - Itens capiturados: 6958 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:42:30,722 - INFO - Itens capiturados: 6958 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:42:30,936 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1405,7 +1405,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:31,289 - INFO - Itens capiturados: 14690 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:42:31,289 - INFO - Itens capiturados: 14690 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:42:31,564 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1429,7 +1429,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:35,277 - INFO - Itens capiturados: 3252 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:42:35,277 - INFO - Itens capiturados: 3252 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:42:35,377 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1445,7 +1445,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:35,487 - INFO - Itens capiturados: 6301 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:42:35,487 - INFO - Itens capiturados: 6301 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:42:35,591 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1471,7 +1471,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:44,917 - INFO - Itens capiturados: 110 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:42:44,917 - INFO - Itens capiturados: 110 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:42:44,970 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1487,7 +1487,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:45,027 - INFO - Itens capiturados: 2879 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:42:45,027 - INFO - Itens capiturados: 2879 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:42:45,093 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1511,7 +1511,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:52,301 - INFO - Itens capiturados: 286 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:42:52,301 - INFO - Itens capiturados: 286 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:42:52,356 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1527,7 +1527,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:42:52,427 - INFO - Itens capiturados: 3477 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:42:52,427 - INFO - Itens capiturados: 3477 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:42:52,493 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1551,7 +1551,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:00,058 - INFO - Itens capiturados: 2294 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:43:00,058 - INFO - Itens capiturados: 2294 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:43:00,143 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1567,7 +1567,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:00,273 - INFO - Itens capiturados: 6098 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:43:00,273 - INFO - Itens capiturados: 6098 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:43:00,402 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1591,7 +1591,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:08,119 - INFO - Itens capiturados: 4005 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:43:08,119 - INFO - Itens capiturados: 4005 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:43:08,226 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1607,7 +1607,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:08,410 - INFO - Itens capiturados: 8571 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:43:08,410 - INFO - Itens capiturados: 8571 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:43:08,570 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1631,7 +1631,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:15,081 - INFO - Itens capiturados: 4648 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:43:15,081 - INFO - Itens capiturados: 4648 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:43:15,227 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1647,7 +1647,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:15,436 - INFO - Itens capiturados: 9734 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:43:15,436 - INFO - Itens capiturados: 9734 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:43:15,613 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1673,7 +1673,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:26,438 - INFO - Itens capiturados: 6166 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:43:26,438 - INFO - Itens capiturados: 6166 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:43:26,623 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1689,7 +1689,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:27,000 - INFO - Itens capiturados: 13516 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:43:27,000 - INFO - Itens capiturados: 13516 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:43:27,302 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1713,7 +1713,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:34,758 - INFO - Itens capiturados: 98 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:43:34,758 - INFO - Itens capiturados: 98 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:43:34,811 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1729,7 +1729,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:34,879 - INFO - Itens capiturados: 2770 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:43:34,879 - INFO - Itens capiturados: 2770 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:43:34,929 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1753,7 +1753,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:42,496 - INFO - Itens capiturados: 691 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:43:42,496 - INFO - Itens capiturados: 691 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:43:42,575 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1769,7 +1769,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:42,662 - INFO - Itens capiturados: 4039 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:43:42,662 - INFO - Itens capiturados: 4039 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:43:42,743 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1793,7 +1793,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:50,494 - INFO - Itens capiturados: 2484 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:43:50,494 - INFO - Itens capiturados: 2484 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:43:50,581 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1809,7 +1809,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:50,724 - INFO - Itens capiturados: 6349 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:43:50,724 - INFO - Itens capiturados: 6349 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:43:50,860 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1833,7 +1833,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:56,808 - INFO - Itens capiturados: 3318 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:43:56,808 - INFO - Itens capiturados: 3318 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:43:56,897 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1849,7 +1849,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:43:57,040 - INFO - Itens capiturados: 6984 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:43:57,040 - INFO - Itens capiturados: 6984 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:43:57,181 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1875,7 +1875,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:07,724 - INFO - Itens capiturados: 6592 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:44:07,724 - INFO - Itens capiturados: 6592 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:44:07,908 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1891,7 +1891,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:08,209 - INFO - Itens capiturados: 13656 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:44:08,209 - INFO - Itens capiturados: 13656 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:44:08,456 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1915,7 +1915,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:16,473 - INFO - Itens capiturados: 4454 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:44:16,473 - INFO - Itens capiturados: 4454 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:44:16,612 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1931,7 +1931,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:16,847 - INFO - Itens capiturados: 10327 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:44:16,847 - INFO - Itens capiturados: 10327 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:44:17,035 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1955,7 +1955,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:24,533 - INFO - Itens capiturados: 121 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:44:24,533 - INFO - Itens capiturados: 121 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:44:24,593 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1971,7 +1971,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:24,664 - INFO - Itens capiturados: 2847 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:44:24,664 - INFO - Itens capiturados: 2847 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:44:24,726 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -1995,7 +1995,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:32,646 - INFO - Itens capiturados: 1036 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:44:32,646 - INFO - Itens capiturados: 1036 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:44:32,723 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2011,7 +2011,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:32,818 - INFO - Itens capiturados: 4613 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:44:32,818 - INFO - Itens capiturados: 4613 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:44:32,928 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2035,7 +2035,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:39,150 - INFO - Itens capiturados: 2116 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:44:39,150 - INFO - Itens capiturados: 2116 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:44:39,232 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2051,7 +2051,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:39,329 - INFO - Itens capiturados: 4951 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:44:39,329 - INFO - Itens capiturados: 4951 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:44:39,456 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2077,7 +2077,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:49,866 - INFO - Itens capiturados: 4689 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:44:49,866 - INFO - Itens capiturados: 4689 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:44:50,012 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2093,7 +2093,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:50,202 - INFO - Itens capiturados: 9650 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:44:50,202 - INFO - Itens capiturados: 9650 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:44:50,390 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2117,7 +2117,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:58,501 - INFO - Itens capiturados: 7043 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:44:58,501 - INFO - Itens capiturados: 7043 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:44:58,701 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2133,7 +2133,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:44:59,034 - INFO - Itens capiturados: 15031 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:44:59,034 - INFO - Itens capiturados: 15031 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:44:59,294 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2157,7 +2157,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:07,087 - INFO - Itens capiturados: 2619 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:45:07,087 - INFO - Itens capiturados: 2619 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:45:07,184 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2173,7 +2173,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:07,343 - INFO - Itens capiturados: 6960 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:45:07,343 - INFO - Itens capiturados: 6960 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:45:07,475 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2197,7 +2197,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:14,559 - INFO - Itens capiturados: 107 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:45:14,559 - INFO - Itens capiturados: 107 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:45:14,618 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2213,7 +2213,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:14,686 - INFO - Itens capiturados: 2989 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:45:14,686 - INFO - Itens capiturados: 2989 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:45:14,739 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2237,7 +2237,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:20,649 - INFO - Itens capiturados: 968 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:45:20,649 - INFO - Itens capiturados: 968 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:45:20,716 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2253,7 +2253,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:20,783 - INFO - Itens capiturados: 3740 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:45:20,783 - INFO - Itens capiturados: 3740 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:45:20,846 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2279,7 +2279,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:30,982 - INFO - Itens capiturados: 2877 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:45:30,982 - INFO - Itens capiturados: 2877 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:45:31,069 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2295,7 +2295,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:31,218 - INFO - Itens capiturados: 6790 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:45:31,218 - INFO - Itens capiturados: 6790 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:45:31,353 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2319,7 +2319,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:39,062 - INFO - Itens capiturados: 5335 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:45:39,062 - INFO - Itens capiturados: 5335 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:45:39,214 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2335,7 +2335,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:39,434 - INFO - Itens capiturados: 10666 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:45:39,434 - INFO - Itens capiturados: 10666 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:45:39,626 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2359,7 +2359,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:47,497 - INFO - Itens capiturados: 7951 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:45:47,497 - INFO - Itens capiturados: 7951 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:45:47,715 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2375,7 +2375,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:48,035 - INFO - Itens capiturados: 16215 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:45:48,035 - INFO - Itens capiturados: 16215 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:45:48,286 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2399,7 +2399,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:54,624 - INFO - Itens capiturados: 559 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:45:54,624 - INFO - Itens capiturados: 559 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:45:54,692 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2415,7 +2415,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:45:54,769 - INFO - Itens capiturados: 3564 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:45:54,769 - INFO - Itens capiturados: 3564 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:45:54,847 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2439,7 +2439,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:00,003 - INFO - Itens capiturados: 84 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:46:00,003 - INFO - Itens capiturados: 84 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:46:00,049 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2455,7 +2455,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:00,106 - INFO - Itens capiturados: 2228 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:46:00,106 - INFO - Itens capiturados: 2228 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:46:00,138 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2481,7 +2481,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:09,243 - INFO - Itens capiturados: 1385 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:46:09,243 - INFO - Itens capiturados: 1385 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:46:09,310 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2497,7 +2497,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:09,403 - INFO - Itens capiturados: 5064 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:46:09,403 - INFO - Itens capiturados: 5064 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:46:09,501 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2521,7 +2521,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:16,702 - INFO - Itens capiturados: 3532 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:46:16,702 - INFO - Itens capiturados: 3532 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:46:16,788 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2537,7 +2537,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:16,933 - INFO - Itens capiturados: 7666 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:46:16,933 - INFO - Itens capiturados: 7666 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:46:17,088 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2561,7 +2561,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:24,253 - INFO - Itens capiturados: 5939 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:46:24,253 - INFO - Itens capiturados: 5939 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:46:24,434 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2577,7 +2577,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:24,682 - INFO - Itens capiturados: 12014 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:46:24,682 - INFO - Itens capiturados: 12014 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:46:24,906 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2601,7 +2601,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:32,722 - INFO - Itens capiturados: 6584 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:46:32,722 - INFO - Itens capiturados: 6584 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:46:32,935 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2617,7 +2617,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:33,246 - INFO - Itens capiturados: 14306 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:46:33,246 - INFO - Itens capiturados: 14306 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:46:33,500 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2641,7 +2641,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:39,234 - INFO - Itens capiturados: 92 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:46:39,234 - INFO - Itens capiturados: 92 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:46:39,278 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2657,7 +2657,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:39,340 - INFO - Itens capiturados: 2056 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:46:39,340 - INFO - Itens capiturados: 2056 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:46:39,387 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2683,7 +2683,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:48,719 - INFO - Itens capiturados: 179 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:46:48,719 - INFO - Itens capiturados: 179 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:46:48,777 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2699,7 +2699,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:48,869 - INFO - Itens capiturados: 3363 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:46:48,869 - INFO - Itens capiturados: 3363 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:46:48,948 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2723,7 +2723,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:56,186 - INFO - Itens capiturados: 2143 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:46:56,186 - INFO - Itens capiturados: 2143 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:46:56,274 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2739,7 +2739,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:46:56,419 - INFO - Itens capiturados: 5957 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:46:56,419 - INFO - Itens capiturados: 5957 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:46:56,561 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2763,7 +2763,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:04,054 - INFO - Itens capiturados: 3893 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:47:04,054 - INFO - Itens capiturados: 3893 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:47:04,157 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2779,7 +2779,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:04,302 - INFO - Itens capiturados: 8387 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:47:04,302 - INFO - Itens capiturados: 8387 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:47:04,446 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2803,7 +2803,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:12,083 - INFO - Itens capiturados: 6555 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:47:12,083 - INFO - Itens capiturados: 6555 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:47:12,270 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2819,7 +2819,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:12,571 - INFO - Itens capiturados: 13339 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:47:12,571 - INFO - Itens capiturados: 13339 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:47:12,808 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2843,7 +2843,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:18,825 - INFO - Itens capiturados: 4917 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:47:18,825 - INFO - Itens capiturados: 4917 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:47:18,974 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2859,7 +2859,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:19,194 - INFO - Itens capiturados: 10323 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:47:19,194 - INFO - Itens capiturados: 10323 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:47:19,370 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2885,7 +2885,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:28,335 - INFO - Itens capiturados: 117 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:47:28,335 - INFO - Itens capiturados: 117 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:47:28,385 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2901,7 +2901,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:28,444 - INFO - Itens capiturados: 2677 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:47:28,444 - INFO - Itens capiturados: 2677 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:47:28,493 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2925,7 +2925,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:35,290 - INFO - Itens capiturados: 637 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:47:35,290 - INFO - Itens capiturados: 637 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:47:35,344 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2941,7 +2941,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:35,409 - INFO - Itens capiturados: 4083 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:47:35,409 - INFO - Itens capiturados: 4083 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:47:35,474 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2965,7 +2965,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:42,327 - INFO - Itens capiturados: 2555 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:47:42,327 - INFO - Itens capiturados: 2555 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:47:42,410 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -2981,7 +2981,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:42,522 - INFO - Itens capiturados: 6175 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:47:42,522 - INFO - Itens capiturados: 6175 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:47:42,650 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3005,7 +3005,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:50,092 - INFO - Itens capiturados: 4405 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:47:50,092 - INFO - Itens capiturados: 4405 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:47:50,224 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3021,7 +3021,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:50,384 - INFO - Itens capiturados: 9625 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:47:50,384 - INFO - Itens capiturados: 9625 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:47:50,559 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3045,7 +3045,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:56,395 - INFO - Itens capiturados: 5093 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:47:56,395 - INFO - Itens capiturados: 5093 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:47:56,541 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3061,7 +3061,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:47:56,750 - INFO - Itens capiturados: 10429 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:47:56,750 - INFO - Itens capiturados: 10429 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:47:56,938 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3087,7 +3087,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:06,091 - INFO - Itens capiturados: 4943 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:48:06,091 - INFO - Itens capiturados: 4943 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:48:06,243 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3103,7 +3103,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:06,465 - INFO - Itens capiturados: 11217 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:48:06,465 - INFO - Itens capiturados: 11217 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:48:06,638 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3127,7 +3127,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:13,310 - INFO - Itens capiturados: 105 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:48:13,310 - INFO - Itens capiturados: 105 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:48:13,363 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3143,7 +3143,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:13,412 - INFO - Itens capiturados: 2792 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:48:13,412 - INFO - Itens capiturados: 2792 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:48:13,478 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3167,7 +3167,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:20,125 - INFO - Itens capiturados: 909 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:48:20,125 - INFO - Itens capiturados: 909 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:48:20,186 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3183,7 +3183,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:20,262 - INFO - Itens capiturados: 4354 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:48:20,262 - INFO - Itens capiturados: 4354 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:48:20,362 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3207,7 +3207,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:27,392 - INFO - Itens capiturados: 2729 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:48:27,392 - INFO - Itens capiturados: 2729 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:48:27,480 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3223,7 +3223,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:27,608 - INFO - Itens capiturados: 6805 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:48:27,608 - INFO - Itens capiturados: 6805 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:48:27,736 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3247,7 +3247,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:33,496 - INFO - Itens capiturados: 3990 Categoria dos dados: Serviços ambulantes de alimentação
+2023-01-30 17:48:33,496 - INFO - Itens capiturados: 3990 Categoria dos dados: Serviï¿½os ambulantes de alimentaï¿½ï¿½o
 2023-01-30 17:48:33,581 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3263,7 +3263,7 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:33,709 - INFO - Itens capiturados: 7743 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-01-30 17:48:33,709 - INFO - Itens capiturados: 7743 Categoria dos dados: Lanchonetes casas de chï¿½ de sucos e similares
 2023-01-30 17:48:33,838 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
        'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
        'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
@@ -3279,5 +3279,14 @@
        'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
        'TELEFONE2', 'FAX', 'EMAIL'],
       dtype='object')
-2023-01-30 17:48:33,919 - INFO - Itens capiturados: 755 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
-2023-01-30 17:48:33,935 - INFO - Lidos no arquivo K3241.K03200Y9.D30114.csv o total de 4753435 linhas em 36.756895780563354 segundos
+
+2023-01-31 10:08:10,468 - INFO - Operando arquivo K3241.K03200Y0.D30114.csv
+2023-01-31 10:08:10,468 - INFO - Operando arquivo K3241.K03200Y1.D30114.csv
+2023-01-31 10:08:10,471 - INFO - Operando arquivo K3241.K03200Y2.D30114.csv
+2023-01-31 10:08:58,292 - INFO - Operando arquivo K3241.K03200Y3.D30114.csv
+2023-01-31 10:09:01,011 - INFO - Operando arquivo K3241.K03200Y4.D30114.csv
+2023-01-31 10:10:47,968 - INFO - Operando arquivo K3241.K03200Y5.D30114.csv
+2023-01-31 10:10:51,988 - INFO - Operando arquivo K3241.K03200Y6.D30114.csv
+2023-01-31 10:11:12,537 - INFO - Operando arquivo K3241.K03200Y7.D30114.csv
+2023-01-31 10:12:15,330 - INFO - Operando arquivo K3241.K03200Y8.D30114.csv
+2023-01-31 10:12:17,778 - INFO - Operando arquivo K3241.K03200Y9.D30114.csv
