@@ -3,7 +3,6 @@
 import numpy as np
 import time
 import pandas as pd
-from dask import dataframe as dd
 import csv
 import os
 import logging
