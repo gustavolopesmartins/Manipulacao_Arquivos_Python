@@ -1,4 +1,5 @@
 import os
+import timeit
 def descompactador(diretorioatual:str = os.getcwd() , diretoriodestino:str =  os.getcwd()):
     """
         Buscamos no diretório informado os arquivos zip e faz a descompactação do mesmo no diretório também informado
@@ -40,5 +41,5 @@ def descompactador(diretorioatual:str = os.getcwd() , diretoriodestino:str =  os
 
         """for i in all_files:
             print(os.path.abspath(i))"""
-    return 'Processo de descompactação concluído'
+    print("Processo de descompactação concluído tempo gasto: ",timeit.timeit(stmt='a=10;b=10;sum=a+b'))
         

@@ -7,7 +7,7 @@ from joblib import Parallel, delayed
 from src import Extracao_EMPRE
 from backup_limpeza import backup_limpeza_simples
 from descompactador import descompactador
-
+from convertearquivo import convertearquivo
 # definindo os diretórios de quebradinha.
 EMPRESASZIP = r"C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\EMPRESASZIP"
 EMPRESASCSV =r"C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\EMPRESASCSV"
@@ -26,6 +26,10 @@ if len(all_files_EMPRESASCSV) >= 1:
 
 # descompacta os arquivos em zip antes de extrair as empresas
 descompactador(diretorioatual=EMPRESASZIP, diretoriodestino=EMPRESASCSV)
+convertearquivo(diretorio=EMPRESASCSV,tipo_atual='EMPRECSV', tipo_destino='csv')
+
+# Filtra todos os arquivos csv da pasta após o processo de descompactação e conversão aplicados
+all_files_EMPRESASCSV = list(filter(lambda x: '.csv' in x, os.listdir(EMPRESASCSV)))
 
 os.system('cls')
 # Aplica a função Extração de empresas no palalelismo

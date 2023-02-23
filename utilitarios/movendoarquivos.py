@@ -1,4 +1,5 @@
 import os 
+import timeit
 def movearquivos(diretorioatual:str = os.getcwd() , diretoriodestino:str =  os.getcwd(), extensao:str = '.' ):
     """
         Busca todos os arquivos com uma extenção específica e move de diretório
@@ -24,5 +25,4 @@ def movearquivos(diretorioatual:str = os.getcwd() , diretoriodestino:str =  os.g
     for file in files:
         #print(file)
         os.replace(f'{diretorioatual}{file}',f'{diretoriodestino}{file}')
-    
-    return 'Processo concluído'
+    print("Processo de movimentação concluído tempo gasto: ",timeit.timeit(stmt='a=10;b=10;sum=a+b'))
