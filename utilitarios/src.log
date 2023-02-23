@@ -30904,3 +30904,13 @@
       dtype='object')
 2023-02-23 10:35:20,047 - INFO - Itens capiturados: 755 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
 2023-02-23 10:35:20,125 - INFO - Lidos no arquivo K3241.K03200Y9.D30114.csv o total de 4753435 linhas em 144.04654335975647 segundos
+2023-02-23 17:52:59,599 - INFO - Operando arquivo K3241.K03200Y0.D30211.csv
+2023-02-23 17:52:59,599 - INFO - Operando arquivo K3241.K03200Y1.D30211.csv
+2023-02-23 17:52:59,599 - INFO - Operando arquivo K3241.K03200Y3.D30211.csv
+2023-02-23 17:52:59,599 - INFO - Operando arquivo K3241.K03200Y4.D30211.csv
+2023-02-23 17:52:59,599 - INFO - Operando arquivo K3241.K03200Y2.D30211.csv
+2023-02-23 17:55:10,156 - INFO - Operando arquivo K3241.K03200Y5.D30211.csv
+2023-02-23 17:55:13,452 - INFO - Operando arquivo K3241.K03200Y6.D30211.csv
+2023-02-23 17:55:26,119 - INFO - Operando arquivo K3241.K03200Y7.D30211.csv
+2023-02-23 17:55:29,461 - INFO - Operando arquivo K3241.K03200Y8.D30211.csv
+2023-02-23 17:58:34,460 - INFO - Operando arquivo K3241.K03200Y9.D30211.csv
