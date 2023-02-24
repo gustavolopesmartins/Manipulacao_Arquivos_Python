@@ -25,7 +25,7 @@ if len(all_files_Bases_CNAES) >= 1:
 all_files_ESTABELECIMENTOSCSV = list(filter(lambda x: '.csv' in x, os.listdir(ESTABELECIMENTOSCSV)))
 # Se a pasta não estiver vazia faz o backup dos arquivos e limpa ela.
 if len(all_files_ESTABELECIMENTOSCSV) >= 1:
-    backup_limpeza_simples(pasta=ESTABELECIMENTOSCSV, nome_zipado=f'{ESTABELECIMENTOSCSV}/periodos anteriores/datazip_ESTABELECIMENTOSCSV.zip')
+    backup_limpeza_simples(pasta=ESTABELECIMENTOSCSV, nome_zipado=f'{ESTABELECIMENTOSCSV}/periodos anteriores/{datazip}_ESTABELECIMENTOSCSV.zip')
 
 # descompacta os arquivos em zip antes de extrair as empresas
 descompactador(diretorioatual=ESTABELECIMENTOSZIP, diretoriodestino=ESTABELECIMENTOSCSV)
