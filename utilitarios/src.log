@@ -34939,3 +34939,2343 @@
 2023-02-27 09:55:13,498 - INFO - Operando arquivo C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV\K3241.K03200Y0.D30211.csv
 2023-02-27 09:56:00,590 - INFO - Operando arquivo C:/Users/ABRASEL NACIONAL/Documents/CNPJ_PROGRAMATICA/ESTABELECIMENTOSCSV/K3241.K03200Y0.D30211.csv
 2023-02-27 09:57:24,315 - INFO - Operando arquivo K3241.K03200Y0.D30211.csv
+2023-02-27 10:10:03,861 - INFO - Operando arquivo K3241.K03200Y0.D30211.csv
+2023-02-27 10:10:13,291 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:13,291 - INFO - Itens capiturados: 8374 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:10:13,490 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:13,490 - INFO - Itens capiturados: 16988 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:10:13,782 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:13,782 - INFO - Itens capiturados: 16453 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:10:14,068 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:14,068 - INFO - Itens capiturados: 4320 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:10:14,137 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:14,137 - INFO - Itens capiturados: 3620 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:10:20,400 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:20,400 - INFO - Itens capiturados: 5494 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:10:20,566 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:20,566 - INFO - Itens capiturados: 13123 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:10:20,845 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:20,845 - INFO - Itens capiturados: 14865 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:10:21,065 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:21,065 - INFO - Itens capiturados: 2756 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:10:21,151 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:21,151 - INFO - Itens capiturados: 3156 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:10:26,678 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:26,678 - INFO - Itens capiturados: 359 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:10:26,757 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:26,757 - INFO - Itens capiturados: 5042 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:10:26,884 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:26,884 - INFO - Itens capiturados: 10548 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:10:27,038 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:27,038 - INFO - Itens capiturados: 1093 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:10:27,100 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:27,100 - INFO - Itens capiturados: 37 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:10:33,045 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:33,045 - INFO - Itens capiturados: 1570 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:10:33,141 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:33,141 - INFO - Itens capiturados: 7890 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:10:33,298 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:33,298 - INFO - Itens capiturados: 10309 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:10:33,467 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:33,467 - INFO - Itens capiturados: 4352 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:10:33,562 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:33,562 - INFO - Itens capiturados: 110 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:10:39,617 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:39,617 - INFO - Itens capiturados: 5165 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:10:39,758 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:39,758 - INFO - Itens capiturados: 9330 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:10:39,978 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:39,978 - INFO - Itens capiturados: 11619 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:10:40,182 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:40,182 - INFO - Itens capiturados: 6825 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:10:40,319 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:40,319 - INFO - Itens capiturados: 346 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:10:47,022 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:47,022 - INFO - Itens capiturados: 9318 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:10:47,253 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:47,253 - INFO - Itens capiturados: 13907 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:10:47,552 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:47,552 - INFO - Itens capiturados: 16251 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:10:47,833 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:47,833 - INFO - Itens capiturados: 6800 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:10:47,959 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:47,974 - INFO - Itens capiturados: 1867 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:10:54,988 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:54,988 - INFO - Itens capiturados: 7878 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:10:55,217 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:55,217 - INFO - Itens capiturados: 17242 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:10:55,563 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:55,563 - INFO - Itens capiturados: 16219 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:10:55,815 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:55,815 - INFO - Itens capiturados: 3546 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:10:55,925 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:10:55,925 - INFO - Itens capiturados: 4505 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:11:02,033 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:02,033 - INFO - Itens capiturados: 1957 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:11:02,131 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:02,131 - INFO - Itens capiturados: 7700 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:11:02,319 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:02,319 - INFO - Itens capiturados: 11700 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:11:02,486 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:02,486 - INFO - Itens capiturados: 1672 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:11:02,561 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:02,561 - INFO - Itens capiturados: 844 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:11:08,385 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:08,385 - INFO - Itens capiturados: 378 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:11:08,472 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:08,473 - INFO - Itens capiturados: 5863 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:11:08,637 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:08,637 - INFO - Itens capiturados: 11040 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:11:08,806 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:08,806 - INFO - Itens capiturados: 1597 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:11:08,879 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:08,879 - INFO - Itens capiturados: 39 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:11:14,918 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:14,918 - INFO - Itens capiturados: 2940 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:11:15,010 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:15,010 - INFO - Itens capiturados: 8531 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:11:15,190 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:15,190 - INFO - Itens capiturados: 10316 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:11:15,369 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:15,369 - INFO - Itens capiturados: 6271 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:11:15,494 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:15,494 - INFO - Itens capiturados: 194 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:11:22,719 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:22,719 - INFO - Itens capiturados: 7394 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:11:22,879 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:22,879 - INFO - Itens capiturados: 10290 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:11:23,127 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:23,127 - INFO - Itens capiturados: 14048 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:11:23,362 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:23,362 - INFO - Itens capiturados: 7633 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:11:23,504 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:23,504 - INFO - Itens capiturados: 531 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:11:30,647 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:30,648 - INFO - Itens capiturados: 8500 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:11:30,924 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:30,924 - INFO - Itens capiturados: 16357 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:11:31,317 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:31,317 - INFO - Itens capiturados: 16208 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:11:31,593 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:31,593 - INFO - Itens capiturados: 4744 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:11:31,739 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:31,739 - INFO - Itens capiturados: 3282 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:11:36,873 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:36,873 - INFO - Itens capiturados: 5942 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:11:37,027 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:37,027 - INFO - Itens capiturados: 12360 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:11:37,272 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:37,272 - INFO - Itens capiturados: 12250 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:11:37,447 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:37,447 - INFO - Itens capiturados: 2569 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:11:37,552 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:37,552 - INFO - Itens capiturados: 3690 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:11:37,607 - INFO - Lidos no arquivo K3241.K03200Y0.D30211.csv o total de 12722033 linhas em 93.74628758430481 segundos
+2023-02-27 10:11:37,727 - INFO - Operando arquivo K3241.K03200Y1.D30211.csv
+2023-02-27 10:11:44,328 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:44,328 - INFO - Itens capiturados: 445 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:11:44,405 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:44,405 - INFO - Itens capiturados: 5418 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:11:44,547 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:44,547 - INFO - Itens capiturados: 10591 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:11:44,699 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:44,699 - INFO - Itens capiturados: 1130 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:11:44,772 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:44,772 - INFO - Itens capiturados: 32 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:11:51,611 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:51,611 - INFO - Itens capiturados: 589 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:11:51,696 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:51,696 - INFO - Itens capiturados: 6888 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:11:51,853 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:51,853 - INFO - Itens capiturados: 10922 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:11:52,010 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:52,010 - INFO - Itens capiturados: 2787 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:11:52,089 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:11:52,089 - INFO - Itens capiturados: 65 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:12:00,457 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:00,457 - INFO - Itens capiturados: 3996 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:12:00,650 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:00,650 - INFO - Itens capiturados: 8665 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:12:00,911 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:00,911 - INFO - Itens capiturados: 10781 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:12:01,193 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:01,193 - INFO - Itens capiturados: 6544 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:12:01,335 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:01,350 - INFO - Itens capiturados: 261 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:12:09,490 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:09,490 - INFO - Itens capiturados: 7801 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:12:09,726 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:09,726 - INFO - Itens capiturados: 10865 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:12:10,075 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:10,075 - INFO - Itens capiturados: 14094 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:12:10,398 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:10,398 - INFO - Itens capiturados: 7644 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:12:10,587 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:10,587 - INFO - Itens capiturados: 585 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:12:17,393 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:17,393 - INFO - Itens capiturados: 6219 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:12:17,659 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:17,659 - INFO - Itens capiturados: 13048 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:12:18,033 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:18,033 - INFO - Itens capiturados: 12333 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:12:18,300 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:18,300 - INFO - Itens capiturados: 3100 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:12:18,486 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:18,487 - INFO - Itens capiturados: 2886 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:12:18,532 - INFO - Lidos no arquivo K3241.K03200Y1.D30211.csv o total de 4753435 linhas em 40.80487012863159 segundos
+2023-02-27 10:12:18,683 - INFO - Operando arquivo K3241.K03200Y2.D30211.csv
+2023-02-27 10:12:29,959 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:29,959 - INFO - Itens capiturados: 6850 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:12:30,301 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:30,301 - INFO - Itens capiturados: 14786 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:12:30,790 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:30,790 - INFO - Itens capiturados: 16088 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:12:31,147 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:31,147 - INFO - Itens capiturados: 3054 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:12:31,289 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:31,289 - INFO - Itens capiturados: 4030 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:12:38,549 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:38,549 - INFO - Itens capiturados: 427 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:12:38,680 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:38,680 - INFO - Itens capiturados: 5150 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:12:38,899 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:38,899 - INFO - Itens capiturados: 10591 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:12:39,125 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:39,125 - INFO - Itens capiturados: 1147 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:12:39,212 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:39,212 - INFO - Itens capiturados: 21 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:12:47,232 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:47,233 - INFO - Itens capiturados: 1217 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:12:47,381 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:47,382 - INFO - Itens capiturados: 7622 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:12:47,663 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:47,663 - INFO - Itens capiturados: 10977 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:12:47,927 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:47,927 - INFO - Itens capiturados: 3853 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:12:48,038 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:48,038 - INFO - Itens capiturados: 113 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:12:58,585 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:58,586 - INFO - Itens capiturados: 4791 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:12:58,818 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:58,818 - INFO - Itens capiturados: 8521 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:12:59,127 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:59,127 - INFO - Itens capiturados: 10995 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:12:59,433 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:59,433 - INFO - Itens capiturados: 6656 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:12:59,649 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:12:59,649 - INFO - Itens capiturados: 269 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:13:07,649 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:07,650 - INFO - Itens capiturados: 6053 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:13:07,896 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:07,896 - INFO - Itens capiturados: 8252 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:13:08,184 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:08,184 - INFO - Itens capiturados: 10876 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:13:08,486 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:08,486 - INFO - Itens capiturados: 5936 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:13:08,669 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:08,669 - INFO - Itens capiturados: 492 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:13:08,702 - INFO - Lidos no arquivo K3241.K03200Y2.D30211.csv o total de 4753435 linhas em 50.018574476242065 segundos
+2023-02-27 10:13:08,884 - INFO - Operando arquivo K3241.K03200Y3.D30211.csv
+2023-02-27 10:13:19,983 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:19,983 - INFO - Itens capiturados: 8351 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:13:20,387 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:20,388 - INFO - Itens capiturados: 17287 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:13:20,984 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:20,985 - INFO - Itens capiturados: 16482 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:13:21,396 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:21,396 - INFO - Itens capiturados: 4252 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:13:21,561 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:21,562 - INFO - Itens capiturados: 3904 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:13:31,951 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:31,951 - INFO - Itens capiturados: 5311 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:13:32,191 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:32,191 - INFO - Itens capiturados: 12675 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:13:32,614 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:32,615 - INFO - Itens capiturados: 14486 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:13:33,000 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:33,001 - INFO - Itens capiturados: 2632 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:13:33,163 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:33,163 - INFO - Itens capiturados: 3189 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:13:42,262 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:42,262 - INFO - Itens capiturados: 375 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:13:42,380 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:42,380 - INFO - Itens capiturados: 5177 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:13:42,629 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:42,635 - INFO - Itens capiturados: 10966 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:13:42,894 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:42,894 - INFO - Itens capiturados: 1090 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:13:42,988 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:42,988 - INFO - Itens capiturados: 27 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:13:52,617 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:52,617 - INFO - Itens capiturados: 1617 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:13:52,773 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:52,773 - INFO - Itens capiturados: 7697 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:13:52,989 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:52,989 - INFO - Itens capiturados: 10363 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:13:53,275 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:53,275 - INFO - Itens capiturados: 4496 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:13:53,462 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:13:53,462 - INFO - Itens capiturados: 137 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:14:00,862 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:00,862 - INFO - Itens capiturados: 4332 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:14:01,015 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:01,015 - INFO - Itens capiturados: 6865 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:14:01,253 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:01,254 - INFO - Itens capiturados: 9208 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:14:01,510 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:01,510 - INFO - Itens capiturados: 5584 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:14:01,703 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:01,703 - INFO - Itens capiturados: 220 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:14:01,735 - INFO - Lidos no arquivo K3241.K03200Y3.D30211.csv o total de 4753435 linhas em 52.85033559799194 segundos
+2023-02-27 10:14:01,899 - INFO - Operando arquivo K3241.K03200Y4.D30211.csv
+2023-02-27 10:14:13,545 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:13,546 - INFO - Itens capiturados: 7915 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:14:13,848 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:13,848 - INFO - Itens capiturados: 11613 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:14:14,232 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:14,232 - INFO - Itens capiturados: 14538 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:14:14,612 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:14,612 - INFO - Itens capiturados: 7169 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:14:14,772 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:14,772 - INFO - Itens capiturados: 1110 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:14:24,335 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:24,335 - INFO - Itens capiturados: 8208 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:14:24,632 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:24,632 - INFO - Itens capiturados: 17580 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:14:25,212 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:25,212 - INFO - Itens capiturados: 16524 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:14:25,601 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:25,601 - INFO - Itens capiturados: 3708 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:14:25,737 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:25,737 - INFO - Itens capiturados: 4157 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:14:34,920 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:34,920 - INFO - Itens capiturados: 3594 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:14:35,102 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:35,102 - INFO - Itens capiturados: 10266 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:14:35,426 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:35,426 - INFO - Itens capiturados: 12984 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:14:35,670 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:35,670 - INFO - Itens capiturados: 2056 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:14:35,804 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:35,804 - INFO - Itens capiturados: 2001 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:14:44,531 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:44,531 - INFO - Itens capiturados: 359 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:14:44,656 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:44,656 - INFO - Itens capiturados: 5411 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:14:44,925 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:44,925 - INFO - Itens capiturados: 11205 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:14:45,218 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:45,218 - INFO - Itens capiturados: 1121 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:14:45,330 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:45,331 - INFO - Itens capiturados: 26 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:14:53,074 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:53,074 - INFO - Itens capiturados: 1321 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:14:53,208 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:53,208 - INFO - Itens capiturados: 6407 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:14:53,443 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:53,443 - INFO - Itens capiturados: 7325 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:14:53,633 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:53,633 - INFO - Itens capiturados: 4155 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:14:53,758 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:14:53,758 - INFO - Itens capiturados: 121 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:14:53,806 - INFO - Lidos no arquivo K3241.K03200Y4.D30211.csv o total de 4753435 linhas em 51.906848430633545 segundos
+2023-02-27 10:14:53,941 - INFO - Operando arquivo K3241.K03200Y5.D30211.csv
+2023-02-27 10:15:05,141 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:05,141 - INFO - Itens capiturados: 5165 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:15:05,398 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:05,398 - INFO - Itens capiturados: 9116 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:15:05,759 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:05,759 - INFO - Itens capiturados: 11577 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:15:06,059 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:06,059 - INFO - Itens capiturados: 6844 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:15:06,284 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:06,284 - INFO - Itens capiturados: 340 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:15:15,259 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:15,259 - INFO - Itens capiturados: 9249 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:15:15,589 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:15,589 - INFO - Itens capiturados: 13584 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:15:16,060 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:16,060 - INFO - Itens capiturados: 16060 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:15:16,516 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:16,516 - INFO - Itens capiturados: 6903 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:15:16,742 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:16,742 - INFO - Itens capiturados: 1823 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:15:26,393 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:26,393 - INFO - Itens capiturados: 8081 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:15:26,721 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:26,721 - INFO - Itens capiturados: 17257 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:15:27,128 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:27,128 - INFO - Itens capiturados: 16515 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:15:27,442 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:27,442 - INFO - Itens capiturados: 3536 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:15:27,567 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:27,567 - INFO - Itens capiturados: 4353 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:15:35,364 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:35,364 - INFO - Itens capiturados: 2054 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:15:35,541 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:35,541 - INFO - Itens capiturados: 7766 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:15:35,794 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:35,794 - INFO - Itens capiturados: 11753 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:15:36,017 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:36,017 - INFO - Itens capiturados: 1691 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:15:36,108 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:36,108 - INFO - Itens capiturados: 960 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:15:42,222 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:42,222 - INFO - Itens capiturados: 272 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:15:42,292 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:42,292 - INFO - Itens capiturados: 3921 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:15:42,433 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:42,433 - INFO - Itens capiturados: 8711 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:15:42,625 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:42,625 - INFO - Itens capiturados: 813 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:15:42,688 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:42,688 - INFO - Itens capiturados: 18 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:15:42,725 - INFO - Lidos no arquivo K3241.K03200Y5.D30211.csv o total de 4753435 linhas em 48.783443212509155 segundos
+2023-02-27 10:15:42,823 - INFO - Operando arquivo K3241.K03200Y6.D30211.csv
+2023-02-27 10:15:52,370 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:52,370 - INFO - Itens capiturados: 1904 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:15:52,539 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:52,539 - INFO - Itens capiturados: 8529 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:15:52,825 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:52,825 - INFO - Itens capiturados: 10071 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:15:53,053 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:53,053 - INFO - Itens capiturados: 5242 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:15:53,202 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:15:53,202 - INFO - Itens capiturados: 160 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:16:01,852 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:01,852 - INFO - Itens capiturados: 6337 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:16:02,042 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:02,042 - INFO - Itens capiturados: 9458 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:16:02,334 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:02,334 - INFO - Itens capiturados: 12536 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:16:02,628 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:02,628 - INFO - Itens capiturados: 7377 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:16:02,827 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:02,827 - INFO - Itens capiturados: 431 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:16:11,548 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:11,548 - INFO - Itens capiturados: 8979 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:16:11,879 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:11,879 - INFO - Itens capiturados: 14656 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:16:12,281 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:12,281 - INFO - Itens capiturados: 15886 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:16:12,623 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:12,623 - INFO - Itens capiturados: 5790 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:16:12,811 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:12,811 - INFO - Itens capiturados: 2425 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:16:22,899 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:22,899 - INFO - Itens capiturados: 8255 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:16:23,387 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:23,387 - INFO - Itens capiturados: 17510 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:16:24,018 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:24,019 - INFO - Itens capiturados: 16765 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:16:24,412 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:24,412 - INFO - Itens capiturados: 3635 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:16:24,569 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:24,571 - INFO - Itens capiturados: 4775 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:16:31,291 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:31,292 - INFO - Itens capiturados: 336 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:16:31,391 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:31,392 - INFO - Itens capiturados: 4518 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:16:31,580 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:31,584 - INFO - Itens capiturados: 7943 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:16:31,770 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:31,770 - INFO - Itens capiturados: 940 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:16:31,857 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:31,857 - INFO - Itens capiturados: 22 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:16:31,888 - INFO - Lidos no arquivo K3241.K03200Y6.D30211.csv o total de 4753435 linhas em 49.06521415710449 segundos
+2023-02-27 10:16:32,028 - INFO - Operando arquivo K3241.K03200Y7.D30211.csv
+2023-02-27 10:16:41,776 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:41,776 - INFO - Itens capiturados: 375 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:16:41,919 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:41,919 - INFO - Itens capiturados: 5688 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:16:42,193 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:42,193 - INFO - Itens capiturados: 11157 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:16:42,497 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:42,497 - INFO - Itens capiturados: 1466 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:16:42,572 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:42,572 - INFO - Itens capiturados: 35 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:16:50,887 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:50,887 - INFO - Itens capiturados: 2661 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:16:51,041 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:51,041 - INFO - Itens capiturados: 8537 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:16:51,276 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:51,276 - INFO - Itens capiturados: 9791 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:16:51,528 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:51,528 - INFO - Itens capiturados: 6094 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:16:51,759 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:16:51,759 - INFO - Itens capiturados: 202 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:17:01,086 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:01,086 - INFO - Itens capiturados: 7255 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:17:01,361 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:01,362 - INFO - Itens capiturados: 10137 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:17:01,777 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:01,777 - INFO - Itens capiturados: 13753 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:17:02,162 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:02,162 - INFO - Itens capiturados: 7687 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:17:02,350 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:02,350 - INFO - Itens capiturados: 466 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:17:11,617 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:11,617 - INFO - Itens capiturados: 8638 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:17:11,942 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:11,942 - INFO - Itens capiturados: 16186 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:17:12,420 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:12,420 - INFO - Itens capiturados: 16273 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:17:12,809 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:12,809 - INFO - Itens capiturados: 4985 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:17:13,017 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:13,017 - INFO - Itens capiturados: 3044 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:17:21,027 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:21,027 - INFO - Itens capiturados: 6372 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:17:21,313 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:21,313 - INFO - Itens capiturados: 13041 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:17:21,690 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:21,690 - INFO - Itens capiturados: 12887 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:17:21,921 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:21,921 - INFO - Itens capiturados: 2652 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:17:22,078 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:22,078 - INFO - Itens capiturados: 3731 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:17:22,156 - INFO - Lidos no arquivo K3241.K03200Y7.D30211.csv o total de 4753435 linhas em 50.12759017944336 segundos
+2023-02-27 10:17:22,327 - INFO - Operando arquivo K3241.K03200Y8.D30211.csv
+2023-02-27 10:17:31,487 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:31,487 - INFO - Itens capiturados: 640 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:17:31,625 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:31,625 - INFO - Itens capiturados: 5888 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:17:31,846 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:31,846 - INFO - Itens capiturados: 10786 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:17:32,050 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:32,050 - INFO - Itens capiturados: 1271 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:17:32,113 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:32,113 - INFO - Itens capiturados: 200 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:17:39,570 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:39,570 - INFO - Itens capiturados: 546 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:17:39,708 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:39,709 - INFO - Itens capiturados: 6770 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:17:39,950 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:39,950 - INFO - Itens capiturados: 10944 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:17:40,237 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:40,237 - INFO - Itens capiturados: 2503 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:17:40,373 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:40,373 - INFO - Itens capiturados: 60 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:17:50,929 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:50,929 - INFO - Itens capiturados: 3933 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:17:51,139 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:51,139 - INFO - Itens capiturados: 8533 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:17:51,421 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:51,421 - INFO - Itens capiturados: 10616 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:17:51,727 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:51,727 - INFO - Itens capiturados: 6311 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:17:51,904 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:17:51,905 - INFO - Itens capiturados: 267 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:18:01,820 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:01,820 - INFO - Itens capiturados: 7761 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:18:02,113 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:02,114 - INFO - Itens capiturados: 10678 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:18:02,487 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:02,487 - INFO - Itens capiturados: 13991 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:18:02,824 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:02,824 - INFO - Itens capiturados: 7598 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:18:03,013 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:03,013 - INFO - Itens capiturados: 607 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:18:10,806 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:10,806 - INFO - Itens capiturados: 6381 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:18:11,141 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:11,141 - INFO - Itens capiturados: 12654 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:18:11,459 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:11,460 - INFO - Itens capiturados: 12477 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:18:11,689 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:11,689 - INFO - Itens capiturados: 3242 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:18:11,811 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:11,811 - INFO - Itens capiturados: 2804 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:18:11,862 - INFO - Lidos no arquivo K3241.K03200Y8.D30211.csv o total de 4753435 linhas em 49.53428626060486 segundos
+2023-02-27 10:18:12,051 - INFO - Operando arquivo K3241.K03200Y9.D30211.csv
+2023-02-27 10:18:23,628 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:23,628 - INFO - Itens capiturados: 7089 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:18:23,973 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:23,973 - INFO - Itens capiturados: 15381 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:18:24,460 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:24,460 - INFO - Itens capiturados: 16036 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:18:24,783 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:24,783 - INFO - Itens capiturados: 3234 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:18:24,896 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:24,896 - INFO - Itens capiturados: 4000 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:18:32,275 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:32,275 - INFO - Itens capiturados: 391 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:18:32,399 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:32,399 - INFO - Itens capiturados: 5055 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:18:32,618 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:32,618 - INFO - Itens capiturados: 10646 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:18:32,836 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:32,836 - INFO - Itens capiturados: 1019 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:18:32,931 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:32,931 - INFO - Itens capiturados: 18 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:18:41,857 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:41,858 - INFO - Itens capiturados: 1204 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:18:42,002 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:42,002 - INFO - Itens capiturados: 7707 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:18:42,250 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:42,250 - INFO - Itens capiturados: 10857 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:18:42,524 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:42,524 - INFO - Itens capiturados: 3761 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:18:42,678 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:42,678 - INFO - Itens capiturados: 94 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:18:50,648 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:50,648 - INFO - Itens capiturados: 4922 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:18:50,869 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:50,869 - INFO - Itens capiturados: 8624 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:18:51,107 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:51,107 - INFO - Itens capiturados: 11216 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:18:51,361 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:51,361 - INFO - Itens capiturados: 6633 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:18:51,511 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:51,511 - INFO - Itens capiturados: 289 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:18:58,619 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:58,619 - INFO - Itens capiturados: 5835 Categoria dos dados: Serviços ambulantes de alimentação
+2023-02-27 10:18:58,808 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:58,808 - INFO - Itens capiturados: 8034 Categoria dos dados: Restaurantes e similares
+2023-02-27 10:18:59,021 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:59,021 - INFO - Itens capiturados: 10480 Categoria dos dados: Lanchonetes casas de chá de sucos e similares
+2023-02-27 10:18:59,284 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:59,285 - INFO - Itens capiturados: 5709 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento
+2023-02-27 10:18:59,422 - INFO - Colunas Geradas: Index(['CNPJ_BASE', 'CNPJ_ORDEM', 'CNPJ_DV', 'MATRIZ_FILIAL', 'NOME_FANTASIA',
+       'SITUACAO_CADASTRAL', 'DATA_SITUACAO_CADASTRAL',
+       'MOTIVO_SITUACAO_CADASTRAL', 'DATA_INICIO_ATIVIDADE', 'CNAE_PRINCIPAL',
+       'CNAE_SECUNDARIO', 'TIPO_LOGRADOURO', 'LOGRADOURO', 'NUMERO',
+       'COMPLEMENTO', 'BAIRRO', 'CEP', 'UF', 'MUNICIPIO', 'TELEFONE1',
+       'TELEFONE2', 'FAX', 'EMAIL'],
+      dtype='object')
+2023-02-27 10:18:59,422 - INFO - Itens capiturados: 468 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
+2023-02-27 10:18:59,452 - INFO - Lidos no arquivo K3241.K03200Y9.D30211.csv o total de 4753435 linhas em 47.40088701248169 segundos
