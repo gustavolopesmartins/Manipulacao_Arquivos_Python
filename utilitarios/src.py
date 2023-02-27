@@ -132,7 +132,9 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
         #print(dados['SITUACAO_CADASTRAL'].value_counts())
         #dados.drop_duplicates(inplace=True)
         #print(f'Após remover duplicados: {len(dados)}')
-        dados = dados[(dados['SITUACAO_CADASTRAL'] == '02') | (dados['SITUACAO_CADASTRAL'] == '05')].loc[:,].reset_index(drop=True)
+        #print(f"{len(dados[(dados['SITUACAO_CADASTRAL'] == '05')])}")
+        #print(f"{dados['SITUACAO_CADASTRAL'].unique()}")
+        dados = dados[(dados['SITUACAO_CADASTRAL'] == '02') | (dados['SITUACAO_CADASTRAL'] == '03') | (dados['SITUACAO_CADASTRAL'] == '04')].loc[:,].reset_index(drop=True)
         print(f'Somente os ativos: {len(dados)}')
 
         for cnae in lista_cnae:

@@ -34936,3 +34936,6 @@
       dtype='object')
 2023-02-24 14:50:41,069 - INFO - Itens capiturados: 411 Categoria dos dados: Bares e outros estabelecimentos especializados em servir bebidas com entretenimento
 2023-02-24 14:50:41,110 - INFO - Lidos no arquivo K3241.K03200Y9.D30211.csv o total de 4753435 linhas em 32.06107950210571 segundos
+2023-02-27 09:55:13,498 - INFO - Operando arquivo C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV\K3241.K03200Y0.D30211.csv
+2023-02-27 09:56:00,590 - INFO - Operando arquivo C:/Users/ABRASEL NACIONAL/Documents/CNPJ_PROGRAMATICA/ESTABELECIMENTOSCSV/K3241.K03200Y0.D30211.csv
+2023-02-27 09:57:24,315 - INFO - Operando arquivo K3241.K03200Y0.D30211.csv
