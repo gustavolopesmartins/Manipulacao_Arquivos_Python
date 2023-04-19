@@ -3,15 +3,15 @@
 import numpy as np
 import time
 import pandas as pd
+import polars as pl
 import csv
 import os
 import logging
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+file_log = current_dir + r"/logs/src.log"
 # gerando log
-logging.basicConfig(level=logging.INFO, filename="src.log", format="%(asctime)s - %(levelname)s - %(message)s")
-
-#diretorio = r'C:\Users\ABRASEL NACIONAL\Documents\CNPJ_PROGRAMATICA\ESTABELECIMENTOSCSV/'
-#all_files = list(filter(lambda x: '.csv' in x, os.listdir(diretorio)))
+logging.basicConfig(level=logging.DEBUG, filename=file_log, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Warnings: Possui uma série de funções e comandos para tratamento de mensagens de avisos e alertas do Python
 import warnings
@@ -101,15 +101,22 @@ for cnae in CNAES.keys():
     lista_cnae.append(cnae)
 
 
-def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
+def Extracao_CNAE(file:str = None, diretorio:str = f'{current_dir}/'):
+    """Resumo Extracao_CNAE
+
+    Args:
+        file (str): arquivo de estabelecimentos da receita federal para manipulação e processamento.
+        diretorio (str): diretório onde estes arquivos estaram, haja vista que é uma lista de arquivos passados.
+    """
+    Bases_CNAES = current_dir.replace(r'utilitarios', r'Bases')
     inicio = time.time()
-    #print(f'Operando arquivo {file}')
+    #logging.info(f'Operando arquivo {file}')
     logging.info(f'Operando arquivo {file}')
     linhas = 0
     with open(f"{diretorio}/{file}", mode='r', encoding='ISO-8859-1', errors='ignore') as arq:
         for linha in arq:
             linhas += 1
-        #print(linhas)
+        #logging.info(linhas)
     
     # Montando os DataFrames
     chunk_dados = pd.read_csv(f'{diretorio}/{file}',
@@ -127,15 +134,10 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
     contagem_5611205 = 0
     for dados in chunk_dados:
         dados.header = CNPJ['ESTABELE']
-        print(f'Leitura inicial: {len(dados)}')
+        logging.info(f'Leitura inicial: {len(dados)}')
         dados['NOME_FANTASIA'].fillna('--empty--', inplace=True)
-        #print(dados['SITUACAO_CADASTRAL'].value_counts())
-        #dados.drop_duplicates(inplace=True)
-        #print(f'Após remover duplicados: {len(dados)}')
-        #print(f"{len(dados[(dados['SITUACAO_CADASTRAL'] == '05')])}")
-        #print(f"{dados['SITUACAO_CADASTRAL'].unique()}")
         dados = dados[(dados['SITUACAO_CADASTRAL'] == '02') | (dados['SITUACAO_CADASTRAL'] == '03') | (dados['SITUACAO_CADASTRAL'] == '04')].loc[:,].reset_index(drop=True)
-        print(f'Somente os ativos: {len(dados)}')
+        logging.info(f'Somente os ativos: {len(dados)}')
 
         for cnae in lista_cnae:
             # Separando o dataframe com base nos códigos CNAEs
@@ -154,7 +156,7 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
             logging.info(f"Colunas Geradas: {globals()[f'df_{cnae}'].columns}")
             # Contando o número de itens por DataFrames exportados
             logging.info(f"Itens capiturados: {len(globals()[f'df_{cnae}'])} Categoria dos dados: {CNAES[cnae]}")
-        
+
             if cnae == 5612100:
                 contagem_5612100 = contagem_5612100 + len(globals()[f'df_{cnae}'])
                 
@@ -173,31 +175,37 @@ def Extracao_CNAE(file:str = None, diretorio:str = r'./'):
             else:
                 pass
             # Exporta como CSV
-            globals()[f'df_{cnae}'].to_csv(f'../Bases/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
+            globals()[f'df_{cnae}'].to_csv(f'{Bases_CNAES}/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
     # Finaliza o cronômetro
-    print(f"Contagem de Estabelecimentos 5612100: {contagem_5612100}")
-    print(f"Contagem de Estabelecimentos 5611201: {contagem_5611201}")
-    print(f"Contagem de Estabelecimentos 5611203: {contagem_5611203}")
-    print(f"Contagem de Estabelecimentos 5611204: {contagem_5611204}")
-    print(f"Contagem de Estabelecimentos 5611205: {contagem_5611205}")
+    logging.info(f"Contagem de Estabelecimentos 5612100: {contagem_5612100}")
+    logging.info(f"Contagem de Estabelecimentos 5611201: {contagem_5611201}")
+    logging.info(f"Contagem de Estabelecimentos 5611203: {contagem_5611203}")
+    logging.info(f"Contagem de Estabelecimentos 5611204: {contagem_5611204}")
+    logging.info(f"Contagem de Estabelecimentos 5611205: {contagem_5611205}")
     fim = time.time()
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
-    #print(retorno)
     logging.info(retorno)
 
-def Extracao_EMPRE(file:str = None, diretorio:str = r'./'):
+def Extracao_EMPRE(file:str = None, diretorio:str = f'{current_dir}/'):
+    """Resumo Extracao_EMPRE
+
+   Args:
+        file (str): arquivo de empresas da receita federal para manipulação e processamento.
+        diretorio (str): diretório onde estes arquivos estaram, haja vista que é uma lista de arquivos passados.
+    """
+    Bases_EMPRESAS = current_dir.replace(r'utilitarios', r'Bases_EMPRESAS')
     files = file.split('.')
     file_name = files[1]
     dtypes_EMPRE = {'CNPJ_BASE': 'category'}
-    print(f'Operando arquivo {file}')
+    logging.info(f'Operando arquivo {file}')
     inicio = time.time()
-    #print(f'Operando arquivo {file}')
+    #logging.info(f'Operando arquivo {file}')
     logging.info(f'Operando arquivo {file}')
     linhas = 0
     with open(f"{diretorio}/{file}", mode='r', encoding='ISO-8859-1', errors='ignore') as arq:
         for linha in arq:
             linhas += 1
-        #print(linhas)
+        #logging.info(linhas)
     
     # Montando os DataFrames
     chunk_dados = pd.read_csv(f'{diretorio}/{file}',
@@ -212,13 +220,13 @@ def Extracao_EMPRE(file:str = None, diretorio:str = r'./'):
     
     for dados in chunk_dados:
         dados.header = CNPJ['EMPRE']
-        print(f'Leitura inicial: {len(dados)}')
+        logging.info(f'Leitura inicial: {len(dados)}')
         dados.drop_duplicates(inplace=True)  
         # Levando pra fora os dados
-        dados.to_csv(f'../Bases_EMPRESAS/LISTA_EMPRESAS_{file_name}.csv', mode='a', index=False, sep=';', encoding='utf-8')
+        dados.to_csv(f'{Bases_EMPRESAS}/LISTA_EMPRESAS_{file_name}.csv', mode='a', index=False, sep=';', encoding='utf-8')
 
     # finalizando o cronômetro do processo
     fim = time.time()
 
     retorno = f'Lidos no arquivo {file} o total de {linhas} linhas em {(fim-inicio)} segundos'
-    print(retorno)
+    logging.info(retorno)

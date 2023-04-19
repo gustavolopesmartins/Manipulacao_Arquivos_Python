@@ -1,5 +1,12 @@
 import os
 import timeit
+import logging
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+file_log = current_dir + r"/logs/src.log"
+# gerando log
+logging.basicConfig(level=logging.DEBUG, filename=file_log, format="%(asctime)s - %(levelname)s - %(message)s")
+
 def convertearquivo(diretorio:str = os.getcwd(),tipo_atual:str = '.', tipo_destino:str = '.' ):
     """
         Busca em um diretório a extenção de arquivo específica e converte para a sugerida
@@ -38,4 +45,5 @@ def convertearquivo(diretorio:str = os.getcwd(),tipo_atual:str = '.', tipo_desti
         #print(new_file)
         os.rename(f'{diretorio}/{file}', f'{diretorio}/{new_file}')
         #file.replace('ESTABELE', '').split('.')[-1].replace('CSV', '') if file.find('ESTABELE') < 0 else 'SIMPLES'
-    print("Processo de conversão concluído, tempo gasto: ",timeit.timeit(stmt='a=10;b=10;sum=a+b'))
+    tempo_gasto = timeit.timeit(stmt='a=10;b=10;sum=a+b')
+    logging.info(f"Processo de conversão concluído, tempo gasto: {tempo_gasto}")
