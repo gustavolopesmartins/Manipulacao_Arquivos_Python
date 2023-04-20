@@ -1,6 +1,10 @@
 # Ignore todos os arquivos zip
-*.zip
-
+Bases01-2023.zip
+Bases03-2023.zip
+Bases12-2022.zip
+Bases_EMPRESAS_01-2023.zip
+19-4-2023_Bases_EMPRESAS.zip
+Bases_EMPRESAS_10-2022.zip
 # Ignore a pasta Pycache
 __pycache__
 
@@ -10,9 +14,6 @@ __pycache__
 # Ignore todos os arquivos CSV
 *.CSV
 *.csv
-
-# Ignore todos os arquivos zip
-*.rar
 
 # Ignore o arquivo desktop.ini
 *.ini
