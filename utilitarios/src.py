@@ -175,7 +175,7 @@ def Extracao_CNAE(file:str = None, diretorio:str = f'{current_dir}/'):
             else:
                 pass
             # Exporta como CSV
-            globals()[f'df_{cnae}'].to_csv(f'{Bases_CNAES}/{CNAES[cnae]}.csv', mode='a', index=False, sep=';', encoding='utf-8',header=False)
+            globals()[f'df_{cnae}'].to_csv(f'{Bases_CNAES}/{CNAES[cnae]}.csv', mode='ab', index=False, sep=';', encoding='utf-8',header=False)
     # Finaliza o cronômetro
     logging.info(f"Contagem de Estabelecimentos 5612100: {contagem_5612100}")
     logging.info(f"Contagem de Estabelecimentos 5611201: {contagem_5611201}")
