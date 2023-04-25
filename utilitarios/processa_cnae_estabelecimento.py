@@ -23,7 +23,7 @@ if len(all_files_BASES_CNAES) >= 1:
         
 # Filtra todos os arquivos csv da pasta após o processo de descompactação e conversão aplicados
 all_files_ESTABELECIMENTOSCSV = list(filter(lambda x: '.csv' in x, os.listdir(ESTABELECIMENTOSCSV)))
-print(all_files_ESTABELECIMENTOSCSV)
+
 # Aplica a função Extração de empresas no palalelismo
 Parallel(n_jobs=3,
 	backend='threading', # multiprocessing

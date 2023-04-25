@@ -141,41 +141,41 @@ def Extracao_CNAE(file:str = None, diretorio:str = f'{current_dir}/'):
 
         for cnae in lista_cnae:
             # Separando o dataframe com base nos códigos CNAEs
-            globals()[f'df_{cnae}'] =  dados.loc[dados['CNAE_PRINCIPAL'] == cnae]
+            df_cnae =  dados.loc[dados['CNAE_PRINCIPAL'] == cnae]
             # Concatenando os dados de Telefone e Fax
-            globals()[f'df_{cnae}']['TELEFONE1'] = "+55" + globals()[f'df_{cnae}']['DDD1'].map(str) + globals()[f'df_{cnae}']['TELEFONE1'].map(str)
-            globals()[f'df_{cnae}']['TELEFONE2'] = "+55" + globals()[f'df_{cnae}']['DDD2'].map(str) + globals()[f'df_{cnae}']['TELEFONE2'].map(str)
-            globals()[f'df_{cnae}']['FAX'] = "+55" + globals()[f'df_{cnae}']['DDD_FAX'].map(str) + globals()[f'df_{cnae}']['FAX'].map(str)
+            df_cnae['TELEFONE1'] = "+55" + df_cnae['DDD1'].map(str) + df_cnae['TELEFONE1'].map(str)
+            df_cnae['TELEFONE2'] = "+55" + df_cnae['DDD2'].map(str) + df_cnae['TELEFONE2'].map(str)
+            df_cnae['FAX'] = "+55" + df_cnae['DDD_FAX'].map(str) + df_cnae['FAX'].map(str)
             # Dropando os DDDs após a concatenação
-            globals()[f'df_{cnae}'].drop(['DDD1','DDD2','DDD_FAX'], axis=1, inplace=True)
+            df_cnae.drop(['DDD1','DDD2','DDD_FAX'], axis=1, inplace=True)
             # Mudando o tipo de dado da coluna 'CEP' para string
-            globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].astype(str)
+            df_cnae['CEP'] = df_cnae['CEP'].astype(str)
             # Adicionando hífen à coluna 'CEP'
-            globals()[f'df_{cnae}']['CEP'] = globals()[f'df_{cnae}']['CEP'].str[:5] + '-' + globals()[f'df_{cnae}']['CEP'].str[5:]
+            df_cnae['CEP'] = df_cnae['CEP'].str[:5] + '-' + df_cnae['CEP'].str[5:]
             # Mapeando colunas do DataFrame no log
-            logging.info(f"Colunas Geradas: {globals()[f'df_{cnae}'].columns}")
+            logging.info(f"Colunas Geradas: {df_cnae.columns}")
             # Contando o número de itens por DataFrames exportados
-            logging.info(f"Itens capiturados: {len(globals()[f'df_{cnae}'])} Categoria dos dados: {CNAES[cnae]}")
+            logging.info(f"Itens capiturados: {len(df_cnae)} Categoria dos dados: {CNAES[cnae]}")
 
             if cnae == 5612100:
-                contagem_5612100 = contagem_5612100 + len(globals()[f'df_{cnae}'])
+                contagem_5612100 = contagem_5612100 + len(df_cnae)
                 
             elif cnae == 5611201:
-                contagem_5611201 = contagem_5611201 + len(globals()[f'df_{cnae}'])
+                contagem_5611201 = contagem_5611201 + len(df_cnae)
 
             elif cnae == 5611203:
-                contagem_5611203 = contagem_5611203 + len(globals()[f'df_{cnae}'])
+                contagem_5611203 = contagem_5611203 + len(df_cnae)
                 
             elif cnae == 5611204:
-                contagem_5611204 = contagem_5611204 + len(globals()[f'df_{cnae}'])
+                contagem_5611204 = contagem_5611204 + len(df_cnae)
                 
             elif cnae == 5611205:
-                contagem_5611205 = contagem_5611205 + len(globals()[f'df_{cnae}'])
+                contagem_5611205 = contagem_5611205 + len(df_cnae)
                 
             else:
                 pass
             # Exporta como CSV
-            globals()[f'df_{cnae}'].to_csv(f'{Bases_CNAES}/{CNAES[cnae]}.csv', mode='ab', index=False, sep=';', encoding='utf-8',header=False)
+            df_cnae.to_csv(f'{Bases_CNAES}/{CNAES[cnae]}.csv', sep=';', mode='a', index=False, encoding='utf-8',header=False)
     # Finaliza o cronômetro
     logging.info(f"Contagem de Estabelecimentos 5612100: {contagem_5612100}")
     logging.info(f"Contagem de Estabelecimentos 5611201: {contagem_5611201}")
