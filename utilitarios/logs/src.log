@@ -6605,3 +6605,2168 @@ bTrue
 e
 
 2023-04-27 17:33:34,819 - DEBUG - Answer received: !ys-RECORD 0---------\n _c0  | 07396865  \n _c1  | 0001      \n _c2  | 68        \n _c3  | 1         \n _c4  | null      \n _c5  | 08        \n _c6  | 20170210  \n _c7  | 01        \n _c8  | null      \n _c9  | null      \n _c10 | 20050518  \n _c11 | 1412602   \n _c12 | 1411801   \n _c13 | RUA       \n _c14 | TUCANEIRA \n _c15 | 30        \n _c16 | null      \n _c17 | DOS LAGOS \n _c18 | 89136000  \n _c19 | SC        \n _c20 | 8297      \n _c21 | 47        \n _c22 | 33851125  \n _c23 | 47        \n _c24 | 33851125  \n _c25 | 47        \n _c26 | 33851125  \n _c27 | null      \n _c28 | null      \n _c29 | null      \nonly showing top 1 row\n
+2023-04-27 17:44:44,507 - DEBUG - Command to send: m
+d
+o24
+e
+
+2023-04-27 17:44:44,508 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,508 - DEBUG - Command to send: m
+d
+o0
+e
+
+2023-04-27 17:44:44,509 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,509 - DEBUG - Command to send: m
+d
+o6
+e
+
+2023-04-27 17:44:44,509 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,509 - DEBUG - Command to send: m
+d
+o7
+e
+
+2023-04-27 17:44:44,509 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,510 - DEBUG - Command to send: m
+d
+o8
+e
+
+2023-04-27 17:44:44,510 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,510 - DEBUG - Command to send: m
+d
+o9
+e
+
+2023-04-27 17:44:44,511 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,511 - DEBUG - Command to send: m
+d
+o10
+e
+
+2023-04-27 17:44:44,511 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,512 - DEBUG - Command to send: m
+d
+o11
+e
+
+2023-04-27 17:44:44,512 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,512 - DEBUG - Command to send: m
+d
+o12
+e
+
+2023-04-27 17:44:44,512 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,513 - DEBUG - Command to send: m
+d
+o13
+e
+
+2023-04-27 17:44:44,513 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,513 - DEBUG - Command to send: m
+d
+o15
+e
+
+2023-04-27 17:44:44,514 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,514 - DEBUG - Command to send: m
+d
+o18
+e
+
+2023-04-27 17:44:44,514 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,514 - DEBUG - Command to send: m
+d
+o19
+e
+
+2023-04-27 17:44:44,515 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,515 - DEBUG - Command to send: m
+d
+o20
+e
+
+2023-04-27 17:44:44,515 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,515 - DEBUG - Command to send: m
+d
+o21
+e
+
+2023-04-27 17:44:44,515 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,515 - DEBUG - Command to send: m
+d
+o22
+e
+
+2023-04-27 17:44:44,516 - DEBUG - Answer received: !yv
+2023-04-27 17:44:44,516 - DEBUG - Command to send: m
+d
+o23
+e
+
+2023-04-27 17:44:44,517 - DEBUG - Answer received: !yv
+2023-04-27 17:45:02,557 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 17:45:04,724 - DEBUG - Answer received: !yro26
+2023-04-27 17:45:04,725 - DEBUG - Command to send: c
+o26
+option
+sdelimiter
+s;
+e
+
+2023-04-27 17:45:04,742 - DEBUG - Answer received: !yro27
+2023-04-27 17:45:04,742 - DEBUG - Command to send: c
+o27
+option
+sheader
+sfalse
+e
+
+2023-04-27 17:45:04,742 - DEBUG - Answer received: !yro28
+2023-04-27 17:45:04,743 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 17:45:04,744 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 17:45:04,744 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 17:45:04,745 - DEBUG - Answer received: !ym
+2023-04-27 17:45:04,745 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 17:45:04,746 - DEBUG - Answer received: !ylo29
+2023-04-27 17:45:04,746 - DEBUG - Command to send: c
+o29
+add
+sc:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-27 17:45:04,747 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:04,747 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro29
+e
+
+2023-04-27 17:45:04,748 - DEBUG - Answer received: !yro30
+2023-04-27 17:45:04,748 - DEBUG - Command to send: c
+o28
+csv
+ro30
+e
+
+2023-04-27 17:45:05,758 - DEBUG - Command to send: m
+d
+o29
+e
+
+2023-04-27 17:45:05,758 - DEBUG - Answer received: !yv
+2023-04-27 17:45:09,172 - DEBUG - Answer received: !yro31
+2023-04-27 17:45:09,172 - DEBUG - Command to send: c
+o31
+limit
+i20
+e
+
+2023-04-27 17:45:09,177 - DEBUG - Answer received: !yro32
+2023-04-27 17:45:09,178 - DEBUG - Command to send: c
+o32
+showString
+i1
+i20
+bTrue
+e
+
+2023-04-27 17:45:09,474 - DEBUG - Answer received: !ys-RECORD 0---------\n _c0  | 07396865  \n _c1  | 0001      \n _c2  | 68        \n _c3  | 1         \n _c4  | null      \n _c5  | 08        \n _c6  | 20170210  \n _c7  | 01        \n _c8  | null      \n _c9  | null      \n _c10 | 20050518  \n _c11 | 1412602   \n _c12 | 1411801   \n _c13 | RUA       \n _c14 | TUCANEIRA \n _c15 | 30        \n _c16 | null      \n _c17 | DOS LAGOS \n _c18 | 89136000  \n _c19 | SC        \n _c20 | 8297      \n _c21 | 47        \n _c22 | 33851125  \n _c23 | 47        \n _c24 | 33851125  \n _c25 | 47        \n _c26 | 33851125  \n _c27 | null      \n _c28 | null      \n _c29 | null      \nonly showing top 1 row\n
+2023-04-27 17:45:09,543 - DEBUG - Command to send: c
+o32
+schema
+e
+
+2023-04-27 17:45:09,543 - DEBUG - Answer received: !yro33
+2023-04-27 17:45:09,543 - DEBUG - Command to send: c
+o33
+json
+e
+
+2023-04-27 17:45:09,562 - DEBUG - Answer received: !ys{"type":"struct","fields":[{"name":"_c0","type":"string","nullable":true,"metadata":{}},{"name":"_c1","type":"string","nullable":true,"metadata":{}},{"name":"_c2","type":"string","nullable":true,"metadata":{}},{"name":"_c3","type":"string","nullable":true,"metadata":{}},{"name":"_c4","type":"string","nullable":true,"metadata":{}},{"name":"_c5","type":"string","nullable":true,"metadata":{}},{"name":"_c6","type":"string","nullable":true,"metadata":{}},{"name":"_c7","type":"string","nullable":true,"metadata":{}},{"name":"_c8","type":"string","nullable":true,"metadata":{}},{"name":"_c9","type":"string","nullable":true,"metadata":{}},{"name":"_c10","type":"string","nullable":true,"metadata":{}},{"name":"_c11","type":"string","nullable":true,"metadata":{}},{"name":"_c12","type":"string","nullable":true,"metadata":{}},{"name":"_c13","type":"string","nullable":true,"metadata":{}},{"name":"_c14","type":"string","nullable":true,"metadata":{}},{"name":"_c15","type":"string","nullable":true,"metadata":{}},{"name":"_c16","type":"string","nullable":true,"metadata":{}},{"name":"_c17","type":"string","nullable":true,"metadata":{}},{"name":"_c18","type":"string","nullable":true,"metadata":{}},{"name":"_c19","type":"string","nullable":true,"metadata":{}},{"name":"_c20","type":"string","nullable":true,"metadata":{}},{"name":"_c21","type":"string","nullable":true,"metadata":{}},{"name":"_c22","type":"string","nullable":true,"metadata":{}},{"name":"_c23","type":"string","nullable":true,"metadata":{}},{"name":"_c24","type":"string","nullable":true,"metadata":{}},{"name":"_c25","type":"string","nullable":true,"metadata":{}},{"name":"_c26","type":"string","nullable":true,"metadata":{}},{"name":"_c27","type":"string","nullable":true,"metadata":{}},{"name":"_c28","type":"string","nullable":true,"metadata":{}},{"name":"_c29","type":"string","nullable":true,"metadata":{}}]}
+2023-04-27 17:45:09,562 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:45:09,562 - DEBUG - Answer received: !yro34
+2023-04-27 17:45:09,562 - DEBUG - Command to send: c
+o34
+conf
+e
+
+2023-04-27 17:45:09,563 - DEBUG - Answer received: !yro35
+2023-04-27 17:45:09,563 - DEBUG - Command to send: c
+o35
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:45:09,564 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:45:09,565 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:45:09,565 - DEBUG - Answer received: !yro36
+2023-04-27 17:45:09,565 - DEBUG - Command to send: c
+o36
+conf
+e
+
+2023-04-27 17:45:09,565 - DEBUG - Answer received: !yro37
+2023-04-27 17:45:09,565 - DEBUG - Command to send: c
+o37
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:45:09,566 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:45:09,811 - DEBUG - Command to send: m
+d
+o26
+e
+
+2023-04-27 17:45:09,812 - DEBUG - Answer received: !yv
+2023-04-27 17:45:09,812 - DEBUG - Command to send: m
+d
+o27
+e
+
+2023-04-27 17:45:09,813 - DEBUG - Answer received: !yv
+2023-04-27 17:45:09,813 - DEBUG - Command to send: m
+d
+o28
+e
+
+2023-04-27 17:45:09,813 - DEBUG - Answer received: !yv
+2023-04-27 17:45:09,814 - DEBUG - Command to send: m
+d
+o30
+e
+
+2023-04-27 17:45:09,814 - DEBUG - Answer received: !yv
+2023-04-27 17:45:09,814 - DEBUG - Command to send: m
+d
+o31
+e
+
+2023-04-27 17:45:09,815 - DEBUG - Answer received: !yv
+2023-04-27 17:45:15,998 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:45:15,999 - DEBUG - Answer received: !yro38
+2023-04-27 17:45:15,999 - DEBUG - Command to send: c
+o38
+conf
+e
+
+2023-04-27 17:45:15,999 - DEBUG - Answer received: !yro39
+2023-04-27 17:45:15,999 - DEBUG - Command to send: c
+o39
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:45:16,000 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:45:16,000 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:45:16,001 - DEBUG - Answer received: !yro40
+2023-04-27 17:45:16,001 - DEBUG - Command to send: c
+o40
+conf
+e
+
+2023-04-27 17:45:16,001 - DEBUG - Answer received: !yro41
+2023-04-27 17:45:16,002 - DEBUG - Command to send: c
+o41
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:45:16,002 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:45:16,883 - DEBUG - Command to send: m
+d
+o33
+e
+
+2023-04-27 17:45:16,884 - DEBUG - Answer received: !yv
+2023-04-27 17:45:16,884 - DEBUG - Command to send: m
+d
+o34
+e
+
+2023-04-27 17:45:16,884 - DEBUG - Answer received: !yv
+2023-04-27 17:45:16,885 - DEBUG - Command to send: m
+d
+o35
+e
+
+2023-04-27 17:45:16,885 - DEBUG - Answer received: !yv
+2023-04-27 17:45:16,885 - DEBUG - Command to send: m
+d
+o36
+e
+
+2023-04-27 17:45:16,886 - DEBUG - Answer received: !yv
+2023-04-27 17:45:16,886 - DEBUG - Command to send: m
+d
+o37
+e
+
+2023-04-27 17:45:16,886 - DEBUG - Answer received: !yv
+2023-04-27 17:45:16,886 - DEBUG - Command to send: m
+d
+o38
+e
+
+2023-04-27 17:45:16,887 - DEBUG - Answer received: !yv
+2023-04-27 17:45:16,887 - DEBUG - Command to send: m
+d
+o39
+e
+
+2023-04-27 17:45:16,887 - DEBUG - Answer received: !yv
+2023-04-27 17:45:16,888 - DEBUG - Command to send: m
+d
+o40
+e
+
+2023-04-27 17:45:16,888 - DEBUG - Answer received: !yv
+2023-04-27 17:45:16,888 - DEBUG - Command to send: m
+d
+o41
+e
+
+2023-04-27 17:45:16,888 - DEBUG - Answer received: !yv
+2023-04-27 17:45:20,050 - DEBUG - Command to send: c
+o32
+withColumnRenamed
+s_c0
+sCNPJ_BASE
+e
+
+2023-04-27 17:45:20,068 - DEBUG - Answer received: !yro42
+2023-04-27 17:45:20,068 - DEBUG - Command to send: c
+o42
+withColumnRenamed
+s_c1
+sCNPJ_ORDEM
+e
+
+2023-04-27 17:45:20,087 - DEBUG - Answer received: !yro43
+2023-04-27 17:45:20,087 - DEBUG - Command to send: c
+o43
+withColumnRenamed
+s_c2
+sCNPJ_DV
+e
+
+2023-04-27 17:45:20,099 - DEBUG - Answer received: !yro44
+2023-04-27 17:45:20,099 - DEBUG - Command to send: c
+o44
+withColumnRenamed
+s_c3
+sMATRIZ_FILIAL
+e
+
+2023-04-27 17:45:20,113 - DEBUG - Answer received: !yro45
+2023-04-27 17:45:20,113 - DEBUG - Command to send: c
+o45
+withColumnRenamed
+s_c4
+sNOME_FANTASIA
+e
+
+2023-04-27 17:45:20,126 - DEBUG - Answer received: !yro46
+2023-04-27 17:45:20,127 - DEBUG - Command to send: c
+o46
+withColumnRenamed
+s_c5
+sSITUACAO_CADASTRAL
+e
+
+2023-04-27 17:45:20,138 - DEBUG - Answer received: !yro47
+2023-04-27 17:45:20,139 - DEBUG - Command to send: c
+o47
+withColumnRenamed
+s_c6
+sDATA_SITUACAO_CADASTRAL
+e
+
+2023-04-27 17:45:20,153 - DEBUG - Answer received: !yro48
+2023-04-27 17:45:20,153 - DEBUG - Command to send: c
+o48
+withColumnRenamed
+s_c7
+sMOTIVO_SITUACAO_CADASTRAL
+e
+
+2023-04-27 17:45:20,165 - DEBUG - Answer received: !yro49
+2023-04-27 17:45:20,166 - DEBUG - Command to send: c
+o49
+withColumnRenamed
+s_c8
+sCIDADE_EXTERIOR
+e
+
+2023-04-27 17:45:20,176 - DEBUG - Answer received: !yro50
+2023-04-27 17:45:20,177 - DEBUG - Command to send: c
+o50
+withColumnRenamed
+s_c9
+sPAIS
+e
+
+2023-04-27 17:45:20,187 - DEBUG - Answer received: !yro51
+2023-04-27 17:45:20,187 - DEBUG - Command to send: c
+o51
+withColumnRenamed
+s_c10
+sDATA_INICIO_ATIVIDADE
+e
+
+2023-04-27 17:45:20,197 - DEBUG - Answer received: !yro52
+2023-04-27 17:45:20,198 - DEBUG - Command to send: c
+o52
+withColumnRenamed
+s_c11
+sCNAE_PRINCIPAL
+e
+
+2023-04-27 17:45:20,208 - DEBUG - Answer received: !yro53
+2023-04-27 17:45:20,208 - DEBUG - Command to send: c
+o53
+withColumnRenamed
+s_c12
+sCNAE_SECUNDARIO
+e
+
+2023-04-27 17:45:20,218 - DEBUG - Answer received: !yro54
+2023-04-27 17:45:20,219 - DEBUG - Command to send: c
+o54
+withColumnRenamed
+s_c13
+sTIPO_LOGRADOURO
+e
+
+2023-04-27 17:45:20,229 - DEBUG - Answer received: !yro55
+2023-04-27 17:45:20,229 - DEBUG - Command to send: c
+o55
+withColumnRenamed
+s_c14
+sLOGRADOURO
+e
+
+2023-04-27 17:45:20,240 - DEBUG - Answer received: !yro56
+2023-04-27 17:45:20,240 - DEBUG - Command to send: c
+o56
+withColumnRenamed
+s_c15
+sNUMERO
+e
+
+2023-04-27 17:45:20,249 - DEBUG - Answer received: !yro57
+2023-04-27 17:45:20,250 - DEBUG - Command to send: c
+o57
+withColumnRenamed
+s_c16
+sCOMPLEMENTO
+e
+
+2023-04-27 17:45:20,275 - DEBUG - Answer received: !yro58
+2023-04-27 17:45:20,275 - DEBUG - Command to send: c
+o58
+withColumnRenamed
+s_c17
+sBAIRRO
+e
+
+2023-04-27 17:45:20,284 - DEBUG - Answer received: !yro59
+2023-04-27 17:45:20,285 - DEBUG - Command to send: c
+o59
+withColumnRenamed
+s_c18
+sCEP
+e
+
+2023-04-27 17:45:20,295 - DEBUG - Answer received: !yro60
+2023-04-27 17:45:20,295 - DEBUG - Command to send: c
+o60
+withColumnRenamed
+s_c19
+sUF
+e
+
+2023-04-27 17:45:20,306 - DEBUG - Answer received: !yro61
+2023-04-27 17:45:20,306 - DEBUG - Command to send: c
+o61
+withColumnRenamed
+s_c20
+sMUNICIPIO
+e
+
+2023-04-27 17:45:20,315 - DEBUG - Answer received: !yro62
+2023-04-27 17:45:20,316 - DEBUG - Command to send: c
+o62
+withColumnRenamed
+s_c21
+sDDD1
+e
+
+2023-04-27 17:45:20,326 - DEBUG - Answer received: !yro63
+2023-04-27 17:45:20,327 - DEBUG - Command to send: c
+o63
+withColumnRenamed
+s_c22
+sTELEFONE1
+e
+
+2023-04-27 17:45:20,338 - DEBUG - Answer received: !yro64
+2023-04-27 17:45:20,338 - DEBUG - Command to send: c
+o64
+withColumnRenamed
+s_c23
+sDDD2
+e
+
+2023-04-27 17:45:20,348 - DEBUG - Answer received: !yro65
+2023-04-27 17:45:20,348 - DEBUG - Command to send: c
+o65
+withColumnRenamed
+s_c24
+sTELEFONE2
+e
+
+2023-04-27 17:45:20,362 - DEBUG - Answer received: !yro66
+2023-04-27 17:45:20,362 - DEBUG - Command to send: c
+o66
+withColumnRenamed
+s_c25
+sDDD_FAX
+e
+
+2023-04-27 17:45:20,373 - DEBUG - Answer received: !yro67
+2023-04-27 17:45:20,373 - DEBUG - Command to send: c
+o67
+withColumnRenamed
+s_c26
+sFAX
+e
+
+2023-04-27 17:45:20,384 - DEBUG - Answer received: !yro68
+2023-04-27 17:45:20,385 - DEBUG - Command to send: c
+o68
+withColumnRenamed
+s_c27
+sEMAIL
+e
+
+2023-04-27 17:45:20,398 - DEBUG - Answer received: !yro69
+2023-04-27 17:45:20,398 - DEBUG - Command to send: c
+o69
+withColumnRenamed
+s_c28
+sSITUACAO_ESPECIAL
+e
+
+2023-04-27 17:45:20,423 - DEBUG - Answer received: !yro70
+2023-04-27 17:45:20,423 - DEBUG - Command to send: c
+o70
+withColumnRenamed
+s_c29
+sDATA_SITUACAO_ESPECIAL
+e
+
+2023-04-27 17:45:20,434 - DEBUG - Answer received: !yro71
+2023-04-27 17:45:20,434 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,443 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,443 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,447 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,447 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNPJ_BASE
+e
+
+2023-04-27 17:45:20,449 - DEBUG - Answer received: !yro72
+2023-04-27 17:45:20,449 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,450 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,450 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,451 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,451 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNPJ_ORDEM
+e
+
+2023-04-27 17:45:20,453 - DEBUG - Answer received: !yro73
+2023-04-27 17:45:20,453 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,454 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,455 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,455 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,455 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNPJ_DV
+e
+
+2023-04-27 17:45:20,455 - DEBUG - Answer received: !yro74
+2023-04-27 17:45:20,456 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,457 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,457 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,457 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,457 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sMATRIZ_FILIAL
+e
+
+2023-04-27 17:45:20,458 - DEBUG - Answer received: !yro75
+2023-04-27 17:45:20,458 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,460 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,460 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,460 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,460 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sNOME_FANTASIA
+e
+
+2023-04-27 17:45:20,460 - DEBUG - Answer received: !yro76
+2023-04-27 17:45:20,460 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,462 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,462 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,462 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,462 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sSITUACAO_CADASTRAL
+e
+
+2023-04-27 17:45:20,463 - DEBUG - Answer received: !yro77
+2023-04-27 17:45:20,463 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,466 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,467 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,468 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,468 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDATA_SITUACAO_CADASTRAL
+e
+
+2023-04-27 17:45:20,470 - DEBUG - Answer received: !yro78
+2023-04-27 17:45:20,470 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,472 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,472 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,473 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,473 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sMOTIVO_SITUACAO_CADASTRAL
+e
+
+2023-04-27 17:45:20,473 - DEBUG - Answer received: !yro79
+2023-04-27 17:45:20,473 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,475 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,475 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,475 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,475 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDATA_INICIO_ATIVIDADE
+e
+
+2023-04-27 17:45:20,475 - DEBUG - Answer received: !yro80
+2023-04-27 17:45:20,475 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,476 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,476 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,476 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,476 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNAE_PRINCIPAL
+e
+
+2023-04-27 17:45:20,477 - DEBUG - Answer received: !yro81
+2023-04-27 17:45:20,477 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,477 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,478 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,478 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,478 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNAE_SECUNDARIO
+e
+
+2023-04-27 17:45:20,478 - DEBUG - Answer received: !yro82
+2023-04-27 17:45:20,478 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,480 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,480 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,480 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,480 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sTIPO_LOGRADOURO
+e
+
+2023-04-27 17:45:20,480 - DEBUG - Answer received: !yro83
+2023-04-27 17:45:20,480 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,482 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,482 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,482 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,482 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sLOGRADOURO
+e
+
+2023-04-27 17:45:20,482 - DEBUG - Answer received: !yro84
+2023-04-27 17:45:20,482 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,483 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,484 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,484 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,484 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sNUMERO
+e
+
+2023-04-27 17:45:20,485 - DEBUG - Answer received: !yro85
+2023-04-27 17:45:20,485 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,487 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,488 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,488 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,488 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCOMPLEMENTO
+e
+
+2023-04-27 17:45:20,488 - DEBUG - Answer received: !yro86
+2023-04-27 17:45:20,488 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,490 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,490 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,491 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,491 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sBAIRRO
+e
+
+2023-04-27 17:45:20,491 - DEBUG - Answer received: !yro87
+2023-04-27 17:45:20,491 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,492 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,493 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,493 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,493 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCEP
+e
+
+2023-04-27 17:45:20,493 - DEBUG - Answer received: !yro88
+2023-04-27 17:45:20,493 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,494 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,494 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,494 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,494 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sUF
+e
+
+2023-04-27 17:45:20,494 - DEBUG - Answer received: !yro89
+2023-04-27 17:45:20,494 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,495 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,495 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,495 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,496 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sMUNICIPIO
+e
+
+2023-04-27 17:45:20,496 - DEBUG - Answer received: !yro90
+2023-04-27 17:45:20,496 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,497 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,497 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,497 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,497 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDDD1
+e
+
+2023-04-27 17:45:20,497 - DEBUG - Answer received: !yro91
+2023-04-27 17:45:20,497 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,498 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,498 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,498 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,498 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sTELEFONE1
+e
+
+2023-04-27 17:45:20,498 - DEBUG - Answer received: !yro92
+2023-04-27 17:45:20,500 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,501 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,501 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,502 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,502 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDDD2
+e
+
+2023-04-27 17:45:20,503 - DEBUG - Answer received: !yro93
+2023-04-27 17:45:20,503 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,504 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,504 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,505 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,505 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sTELEFONE2
+e
+
+2023-04-27 17:45:20,505 - DEBUG - Answer received: !yro94
+2023-04-27 17:45:20,505 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,506 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,506 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,507 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,507 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDDD_FAX
+e
+
+2023-04-27 17:45:20,507 - DEBUG - Answer received: !yro95
+2023-04-27 17:45:20,507 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,508 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,508 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,508 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,508 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sFAX
+e
+
+2023-04-27 17:45:20,508 - DEBUG - Answer received: !yro96
+2023-04-27 17:45:20,508 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-27 17:45:20,516 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-27 17:45:20,516 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-27 17:45:20,517 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,517 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sEMAIL
+e
+
+2023-04-27 17:45:20,517 - DEBUG - Answer received: !yro97
+2023-04-27 17:45:20,518 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 17:45:20,520 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 17:45:20,520 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 17:45:20,520 - DEBUG - Answer received: !ym
+2023-04-27 17:45:20,520 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 17:45:20,521 - DEBUG - Answer received: !ylo98
+2023-04-27 17:45:20,521 - DEBUG - Command to send: c
+o98
+add
+ro72
+e
+
+2023-04-27 17:45:20,521 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,521 - DEBUG - Command to send: c
+o98
+add
+ro73
+e
+
+2023-04-27 17:45:20,522 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,522 - DEBUG - Command to send: c
+o98
+add
+ro74
+e
+
+2023-04-27 17:45:20,522 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,522 - DEBUG - Command to send: c
+o98
+add
+ro75
+e
+
+2023-04-27 17:45:20,522 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,522 - DEBUG - Command to send: c
+o98
+add
+ro76
+e
+
+2023-04-27 17:45:20,523 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,523 - DEBUG - Command to send: c
+o98
+add
+ro77
+e
+
+2023-04-27 17:45:20,523 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,523 - DEBUG - Command to send: c
+o98
+add
+ro78
+e
+
+2023-04-27 17:45:20,523 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,523 - DEBUG - Command to send: c
+o98
+add
+ro79
+e
+
+2023-04-27 17:45:20,523 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,524 - DEBUG - Command to send: c
+o98
+add
+ro80
+e
+
+2023-04-27 17:45:20,524 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,524 - DEBUG - Command to send: c
+o98
+add
+ro81
+e
+
+2023-04-27 17:45:20,524 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,524 - DEBUG - Command to send: c
+o98
+add
+ro82
+e
+
+2023-04-27 17:45:20,524 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,524 - DEBUG - Command to send: c
+o98
+add
+ro83
+e
+
+2023-04-27 17:45:20,525 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,525 - DEBUG - Command to send: c
+o98
+add
+ro84
+e
+
+2023-04-27 17:45:20,525 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,525 - DEBUG - Command to send: c
+o98
+add
+ro85
+e
+
+2023-04-27 17:45:20,525 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,525 - DEBUG - Command to send: c
+o98
+add
+ro86
+e
+
+2023-04-27 17:45:20,526 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,526 - DEBUG - Command to send: c
+o98
+add
+ro87
+e
+
+2023-04-27 17:45:20,526 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,526 - DEBUG - Command to send: c
+o98
+add
+ro88
+e
+
+2023-04-27 17:45:20,527 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,527 - DEBUG - Command to send: c
+o98
+add
+ro89
+e
+
+2023-04-27 17:45:20,527 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,527 - DEBUG - Command to send: c
+o98
+add
+ro90
+e
+
+2023-04-27 17:45:20,527 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,527 - DEBUG - Command to send: c
+o98
+add
+ro91
+e
+
+2023-04-27 17:45:20,527 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,527 - DEBUG - Command to send: c
+o98
+add
+ro92
+e
+
+2023-04-27 17:45:20,527 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,527 - DEBUG - Command to send: c
+o98
+add
+ro93
+e
+
+2023-04-27 17:45:20,527 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,527 - DEBUG - Command to send: c
+o98
+add
+ro94
+e
+
+2023-04-27 17:45:20,528 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,528 - DEBUG - Command to send: c
+o98
+add
+ro95
+e
+
+2023-04-27 17:45:20,528 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,528 - DEBUG - Command to send: c
+o98
+add
+ro96
+e
+
+2023-04-27 17:45:20,528 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,528 - DEBUG - Command to send: c
+o98
+add
+ro97
+e
+
+2023-04-27 17:45:20,528 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:45:20,528 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro98
+e
+
+2023-04-27 17:45:20,528 - DEBUG - Answer received: !yro99
+2023-04-27 17:45:20,528 - DEBUG - Command to send: c
+o71
+select
+ro99
+e
+
+2023-04-27 17:45:20,546 - DEBUG - Answer received: !yro100
+2023-04-27 17:45:20,546 - DEBUG - Command to send: c
+o100
+showString
+i1
+i20
+bTrue
+e
+
+2023-04-27 17:45:20,896 - DEBUG - Answer received: !ys-RECORD 0------------------------------\n CNPJ_BASE                 | 07396865  \n CNPJ_ORDEM                | 0001      \n CNPJ_DV                   | 68        \n MATRIZ_FILIAL             | 1         \n NOME_FANTASIA             | null      \n SITUACAO_CADASTRAL        | 08        \n DATA_SITUACAO_CADASTRAL   | 20170210  \n MOTIVO_SITUACAO_CADASTRAL | 01        \n DATA_INICIO_ATIVIDADE     | 20050518  \n CNAE_PRINCIPAL            | 1412602   \n CNAE_SECUNDARIO           | 1411801   \n TIPO_LOGRADOURO           | RUA       \n LOGRADOURO                | TUCANEIRA \n NUMERO                    | 30        \n COMPLEMENTO               | null      \n BAIRRO                    | DOS LAGOS \n CEP                       | 89136000  \n UF                        | SC        \n MUNICIPIO                 | 8297      \n DDD1                      | 47        \n TELEFONE1                 | 33851125  \n DDD2                      | 47        \n TELEFONE2                 | 33851125  \n DDD_FAX                   | 47        \n FAX                       | 33851125  \n EMAIL                     | null      \nonly showing top 1 row\n
+2023-04-27 17:45:20,921 - DEBUG - Command to send: m
+d
+o98
+e
+
+2023-04-27 17:45:20,928 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,005 - DEBUG - Command to send: c
+o100
+schema
+e
+
+2023-04-27 17:45:21,005 - DEBUG - Answer received: !yro101
+2023-04-27 17:45:21,005 - DEBUG - Command to send: c
+o101
+json
+e
+
+2023-04-27 17:45:21,006 - DEBUG - Answer received: !ys{"type":"struct","fields":[{"name":"CNPJ_BASE","type":"string","nullable":true,"metadata":{}},{"name":"CNPJ_ORDEM","type":"string","nullable":true,"metadata":{}},{"name":"CNPJ_DV","type":"string","nullable":true,"metadata":{}},{"name":"MATRIZ_FILIAL","type":"string","nullable":true,"metadata":{}},{"name":"NOME_FANTASIA","type":"string","nullable":true,"metadata":{}},{"name":"SITUACAO_CADASTRAL","type":"string","nullable":true,"metadata":{}},{"name":"DATA_SITUACAO_CADASTRAL","type":"string","nullable":true,"metadata":{}},{"name":"MOTIVO_SITUACAO_CADASTRAL","type":"string","nullable":true,"metadata":{}},{"name":"DATA_INICIO_ATIVIDADE","type":"string","nullable":true,"metadata":{}},{"name":"CNAE_PRINCIPAL","type":"string","nullable":true,"metadata":{}},{"name":"CNAE_SECUNDARIO","type":"string","nullable":true,"metadata":{}},{"name":"TIPO_LOGRADOURO","type":"string","nullable":true,"metadata":{}},{"name":"LOGRADOURO","type":"string","nullable":true,"metadata":{}},{"name":"NUMERO","type":"string","nullable":true,"metadata":{}},{"name":"COMPLEMENTO","type":"string","nullable":true,"metadata":{}},{"name":"BAIRRO","type":"string","nullable":true,"metadata":{}},{"name":"CEP","type":"string","nullable":true,"metadata":{}},{"name":"UF","type":"string","nullable":true,"metadata":{}},{"name":"MUNICIPIO","type":"string","nullable":true,"metadata":{}},{"name":"DDD1","type":"string","nullable":true,"metadata":{}},{"name":"TELEFONE1","type":"string","nullable":true,"metadata":{}},{"name":"DDD2","type":"string","nullable":true,"metadata":{}},{"name":"TELEFONE2","type":"string","nullable":true,"metadata":{}},{"name":"DDD_FAX","type":"string","nullable":true,"metadata":{}},{"name":"FAX","type":"string","nullable":true,"metadata":{}},{"name":"EMAIL","type":"string","nullable":true,"metadata":{}}]}
+2023-04-27 17:45:21,007 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:45:21,007 - DEBUG - Answer received: !yro102
+2023-04-27 17:45:21,007 - DEBUG - Command to send: c
+o102
+conf
+e
+
+2023-04-27 17:45:21,007 - DEBUG - Answer received: !yro103
+2023-04-27 17:45:21,007 - DEBUG - Command to send: c
+o103
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:45:21,008 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:45:21,008 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:45:21,008 - DEBUG - Answer received: !yro104
+2023-04-27 17:45:21,008 - DEBUG - Command to send: c
+o104
+conf
+e
+
+2023-04-27 17:45:21,008 - DEBUG - Answer received: !yro105
+2023-04-27 17:45:21,008 - DEBUG - Command to send: c
+o105
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:45:21,008 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:45:21,930 - DEBUG - Command to send: m
+d
+o42
+e
+
+2023-04-27 17:45:21,930 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,931 - DEBUG - Command to send: m
+d
+o43
+e
+
+2023-04-27 17:45:21,931 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,931 - DEBUG - Command to send: m
+d
+o44
+e
+
+2023-04-27 17:45:21,931 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,931 - DEBUG - Command to send: m
+d
+o45
+e
+
+2023-04-27 17:45:21,931 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,932 - DEBUG - Command to send: m
+d
+o46
+e
+
+2023-04-27 17:45:21,932 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,932 - DEBUG - Command to send: m
+d
+o47
+e
+
+2023-04-27 17:45:21,932 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,932 - DEBUG - Command to send: m
+d
+o48
+e
+
+2023-04-27 17:45:21,933 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,933 - DEBUG - Command to send: m
+d
+o49
+e
+
+2023-04-27 17:45:21,933 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,933 - DEBUG - Command to send: m
+d
+o50
+e
+
+2023-04-27 17:45:21,933 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,933 - DEBUG - Command to send: m
+d
+o51
+e
+
+2023-04-27 17:45:21,933 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,934 - DEBUG - Command to send: m
+d
+o52
+e
+
+2023-04-27 17:45:21,934 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,934 - DEBUG - Command to send: m
+d
+o53
+e
+
+2023-04-27 17:45:21,934 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,934 - DEBUG - Command to send: m
+d
+o54
+e
+
+2023-04-27 17:45:21,934 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,934 - DEBUG - Command to send: m
+d
+o55
+e
+
+2023-04-27 17:45:21,935 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,935 - DEBUG - Command to send: m
+d
+o56
+e
+
+2023-04-27 17:45:21,935 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,935 - DEBUG - Command to send: m
+d
+o57
+e
+
+2023-04-27 17:45:21,935 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,935 - DEBUG - Command to send: m
+d
+o58
+e
+
+2023-04-27 17:45:21,935 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o59
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o60
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o61
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o62
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o63
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o64
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o65
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o66
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o67
+e
+
+2023-04-27 17:45:21,936 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,936 - DEBUG - Command to send: m
+d
+o68
+e
+
+2023-04-27 17:45:21,937 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,937 - DEBUG - Command to send: m
+d
+o69
+e
+
+2023-04-27 17:45:21,937 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,937 - DEBUG - Command to send: m
+d
+o70
+e
+
+2023-04-27 17:45:21,937 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,937 - DEBUG - Command to send: m
+d
+o71
+e
+
+2023-04-27 17:45:21,937 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,937 - DEBUG - Command to send: m
+d
+o72
+e
+
+2023-04-27 17:45:21,937 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,937 - DEBUG - Command to send: m
+d
+o73
+e
+
+2023-04-27 17:45:21,937 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,937 - DEBUG - Command to send: m
+d
+o74
+e
+
+2023-04-27 17:45:21,937 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,937 - DEBUG - Command to send: m
+d
+o75
+e
+
+2023-04-27 17:45:21,937 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,938 - DEBUG - Command to send: m
+d
+o76
+e
+
+2023-04-27 17:45:21,938 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,938 - DEBUG - Command to send: m
+d
+o77
+e
+
+2023-04-27 17:45:21,938 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,938 - DEBUG - Command to send: m
+d
+o78
+e
+
+2023-04-27 17:45:21,938 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,938 - DEBUG - Command to send: m
+d
+o79
+e
+
+2023-04-27 17:45:21,938 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o80
+e
+
+2023-04-27 17:45:21,939 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o81
+e
+
+2023-04-27 17:45:21,939 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o82
+e
+
+2023-04-27 17:45:21,939 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o83
+e
+
+2023-04-27 17:45:21,939 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o84
+e
+
+2023-04-27 17:45:21,939 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o85
+e
+
+2023-04-27 17:45:21,939 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o86
+e
+
+2023-04-27 17:45:21,939 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o87
+e
+
+2023-04-27 17:45:21,939 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,939 - DEBUG - Command to send: m
+d
+o88
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,940 - DEBUG - Command to send: m
+d
+o89
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,940 - DEBUG - Command to send: m
+d
+o90
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,940 - DEBUG - Command to send: m
+d
+o91
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,940 - DEBUG - Command to send: m
+d
+o92
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,940 - DEBUG - Command to send: m
+d
+o93
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,940 - DEBUG - Command to send: m
+d
+o94
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,940 - DEBUG - Command to send: m
+d
+o95
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,940 - DEBUG - Command to send: m
+d
+o96
+e
+
+2023-04-27 17:45:21,940 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,941 - DEBUG - Command to send: m
+d
+o97
+e
+
+2023-04-27 17:45:21,941 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,941 - DEBUG - Command to send: m
+d
+o99
+e
+
+2023-04-27 17:45:21,941 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,941 - DEBUG - Command to send: m
+d
+o101
+e
+
+2023-04-27 17:45:21,941 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,941 - DEBUG - Command to send: m
+d
+o102
+e
+
+2023-04-27 17:45:21,941 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,941 - DEBUG - Command to send: m
+d
+o103
+e
+
+2023-04-27 17:45:21,941 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,941 - DEBUG - Command to send: m
+d
+o104
+e
+
+2023-04-27 17:45:21,941 - DEBUG - Answer received: !yv
+2023-04-27 17:45:21,941 - DEBUG - Command to send: m
+d
+o105
+e
+
+2023-04-27 17:45:21,941 - DEBUG - Answer received: !yv
+2023-04-27 17:47:51,938 - DEBUG - Command to send: c
+o100
+showString
+i20
+i20
+bFalse
+e
+
+2023-04-27 17:47:52,113 - DEBUG - Answer received: !ys+---------+----------+-------+-------------+--------------------+------------------+-----------------------+-------------------------+---------------------+--------------+--------------------+---------------+--------------------+------+--------------------+------------------+--------+---+---------+----+---------+----+---------+-------+--------+--------------------+\n|CNPJ_BASE|CNPJ_ORDEM|CNPJ_DV|MATRIZ_FILIAL|       NOME_FANTASIA|SITUACAO_CADASTRAL|DATA_SITUACAO_CADASTRAL|MOTIVO_SITUACAO_CADASTRAL|DATA_INICIO_ATIVIDADE|CNAE_PRINCIPAL|     CNAE_SECUNDARIO|TIPO_LOGRADOURO|          LOGRADOURO|NUMERO|         COMPLEMENTO|            BAIRRO|     CEP| UF|MUNICIPIO|DDD1|TELEFONE1|DDD2|TELEFONE2|DDD_FAX|     FAX|               EMAIL|\n+---------+----------+-------+-------------+--------------------+------------------+-----------------------+-------------------------+---------------------+--------------+--------------------+---------------+--------------------+------+--------------------+------------------+--------+---+---------+----+---------+----+---------+-------+--------+--------------------+\n| 07396865|      0001|     68|            1|                null|                08|               20170210|                       01|             20050518|       1412602|             1411801|            RUA|           TUCANEIRA|    30|                null|         DOS LAGOS|89136000| SC|     8297|  47| 33851125|  47| 33851125|     47|33851125|                null|\n| 64904295|      0018|     51|            2|                null|                08|               20161110|                       01|             20050429|       4639701|             4637199|        AVENIDA|      MENINO MARCELO| 8551B|LOTE  2          ...|          SERRARIA|57046000| AL|     2785|  11| 36491000|  31| 33880436|     82|33118379|CLAUDIO.GIGLIO@CA...|\n| 76016369|      0003|     16|            2|                null|                03|               20060203|                       21|             19851212|       4632001|                null|            RUA|         DO COMERCIO|    55|      SALA 7 GALERIA|            CENTRO|11010141| SP|     7071|null|     null|null|     null|   null|    null|                null|\n| 52302726|      0001|     82|            1|                null|                04|               20210406|                       63|             19830223|       4712100|                null|            RUA|   GREGORIO LUCHIARI|   496|                null|          SAO VITO|13472080| SP|     6131|null|     null|null|     null|   null|    null|                null|\n| 07396923|      0001|     53|            1|                null|                08|               20140115|                       01|             20050516|       4721102|                null|            RUA|            DA MOOCA|  3336|                null|             MOOCA|03165000| SP|     7107| 011| 69658088|null|     null|   null|    null|                null|\n| 03650261|      0001|     45|            1|     OTICA PERFEICAO|                04|               20190322|                       63|             19991217|       4783101|             4783102|            RUA|PREFEITO JOAO ORE...|   541|             LOJA 03|            CENTRO|88495000| SC|     8113| 048|  2423953|null|     null|    048| 2423953|                null|\n| 07396929|      0001|     20|            1|                null|                03|               20111107|                       21|             20050504|       6201501|             6204000|            RUA|   FLORIANO PEIXOTO,|    85|                null|       SANTA PAULA|09541350| SP|     7077|  11| 32281722|null|     null|     11|32281722|                null|\n| 25040718|      0001|     32|            1|     COOCULTURA LTDA|                08|               20050523|                       01|             19910823|       6424701|                null|            RUA|ROSULINO FERREIRA...|   767|                null|            CENTRO|75902261| GO|     9571|null|     null|null|     null|   null|    null|                null|\n| 07396936|      0001|     22|            1|                null|                08|               20051219|                       01|             20050525|       4511102|                null|        AVENIDA|        DOM PEDRO II|  1748|                null|     CARLOS PRATES|30710010| MG|     4123|null|     null|null|     null|   null|    null|                null|\n| 07396943|      0001|     24|            1|        MEGA TELECOM|                08|               20170217|                       01|             20050524|       4752100|             9512600|        AVENIDA|              PARANA|   465|                null|            CENTRO|83800000| PR|     7679|null|     null|null|     null|   null|    null|                null|\n| 05916377|      0001|     09|            1|ROCHA PECAS & SER...|                04|               20181121|                       63|             20030930|       4530704|     4930202,4520001|        AVENIDA|SENADOR RUI PALMEIRA|    26|                null|            LEVADA|57017175| AL|     2785|  82| 32232804|null|     null|   null|    null|contador_waldomir...|\n| 04138487|      0002|     05|            2|            BRENNY'S|                04|               20181025|                       63|             20020415|       4781400|                null|        RODOVIA|              BR-104|    SN|      KM 32, LOJA 76| PARQUE DAS FEIRAS|55125000| PE|     2607|null|     null|null|     null|   null|    null|                null|\n| 04208132|      0002|     45|            2|                null|                04|               20181010|                       63|             20040331|       9491000|                null|        AVENIDA|      GETULIO VARGAS|   283|  S, SL 11, ED Q.AVE|            CENTRO|89801001| SC|     8081|null|     null|null|     null|   null|    null|                null|\n| 05111469|      0001|     11|            1|                null|                02|               20051103|                       00|             20020614|       8299706|                null|        AVENIDA|         AFONSO PENA|   270|          QUIOSQUE 1|            MACUCO|11020001| SP|     7071|null|     null|null|     null|   null|    null|                null|\n| 05304262|      0001|     63|            1|                null|                08|               20070503|                       01|             20020919|       3102100|                null|            RUA|COMENDADOR JOSE A...|  1633|                null|         TAMANDARE|95720000| RS|     8669|null|     null|null|     null|   null|    null|                null|\n| 02418055|      0001|     41|            1| AUTO ELETRICA TITON|                08|               20160302|                       01|             19980311|       4520001|4520002,4520003,4...|            RUA|          JOAO ZARDO|   385|                null|          ALVORADA|89560000| SC|     8379|null|  5332758|null|     null|   null|    null|                null|\n| 04265986|      0001|     82|            1|                null|                02|               20001110|                       00|             20001110|       8112500|                null|            RUA|       GOES MONTEIRO|   500|                null|     SAO FRANCISCO|95700010| RS|     8541|null|     null|null|     null|   null|    null|                null|\n| 80636061|      0001|     89|            1|                null|                08|               20140929|                       01|             19920717|       9430800|     9493600,9499500|           VILA|         SANTA LUCIA|    SN|                null|       SANTA LUCIA|89887000| SC|     8237|null|     null|null|     null|   null|    null|                null|\n| 41409616|      0001|     06|            1| CONDOMINIO ANA MELO|                02|               19990904|                       00|             19920609|       8112500|                null|            RUA|           JOAO MELO|   729|                null|             DAMAS|60426055| CE|     1389|null|     null|null|     null|   null|    null|                null|\n| 07396996|      0001|     45|            1|SERRARIA SANTA JULIA|                08|               20150209|                       73|             20050525|       4671100|                null|           null|     IGARAPE GONZAGA|   S/N|                null|RETIRO SANTA JULIA|68976000| AP|     0669|  96|  2229139|null|     null|     96| 2239808|ad.controle@tvsom...|\n+---------+----------+-------+-------------+--------------------+------------------+-----------------------+-------------------------+---------------------+--------------+--------------------+---------------+--------------------+------+--------------------+------------------+--------+---+---------+----+---------+----+---------+-------+--------+--------------------+\n
+2023-04-27 17:47:52,188 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:47:52,190 - DEBUG - Answer received: !yro106
+2023-04-27 17:47:52,190 - DEBUG - Command to send: c
+o106
+conf
+e
+
+2023-04-27 17:47:52,190 - DEBUG - Answer received: !yro107
+2023-04-27 17:47:52,190 - DEBUG - Command to send: c
+o107
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:47:52,190 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:47:52,191 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:47:52,191 - DEBUG - Answer received: !yro108
+2023-04-27 17:47:52,191 - DEBUG - Command to send: c
+o108
+conf
+e
+
+2023-04-27 17:47:52,191 - DEBUG - Answer received: !yro109
+2023-04-27 17:47:52,191 - DEBUG - Command to send: c
+o109
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:47:52,192 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:47:52,480 - DEBUG - Command to send: m
+d
+o32
+e
+
+2023-04-27 17:47:52,480 - DEBUG - Answer received: !yv
+2023-04-27 17:47:52,480 - DEBUG - Command to send: m
+d
+o106
+e
+
+2023-04-27 17:47:52,481 - DEBUG - Answer received: !yv
+2023-04-27 17:47:52,481 - DEBUG - Command to send: m
+d
+o107
+e
+
+2023-04-27 17:47:52,481 - DEBUG - Answer received: !yv
+2023-04-27 17:47:52,481 - DEBUG - Command to send: m
+d
+o108
+e
+
+2023-04-27 17:47:52,482 - DEBUG - Answer received: !yv
+2023-04-27 17:47:52,482 - DEBUG - Command to send: m
+d
+o109
+e
+
+2023-04-27 17:47:52,482 - DEBUG - Answer received: !yv
+2023-04-27 17:50:18,603 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:50:18,604 - DEBUG - Answer received: !yro110
+2023-04-27 17:50:18,604 - DEBUG - Command to send: c
+o110
+conf
+e
+
+2023-04-27 17:50:18,604 - DEBUG - Answer received: !yro111
+2023-04-27 17:50:18,604 - DEBUG - Command to send: c
+o111
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:50:18,605 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:50:18,605 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:50:18,605 - DEBUG - Answer received: !yro112
+2023-04-27 17:50:18,605 - DEBUG - Command to send: c
+o112
+conf
+e
+
+2023-04-27 17:50:18,605 - DEBUG - Answer received: !yro113
+2023-04-27 17:50:18,605 - DEBUG - Command to send: c
+o113
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:50:18,606 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:50:19,007 - DEBUG - Command to send: m
+d
+o110
+e
+
+2023-04-27 17:50:19,007 - DEBUG - Answer received: !yv
+2023-04-27 17:50:19,008 - DEBUG - Command to send: m
+d
+o111
+e
+
+2023-04-27 17:50:19,008 - DEBUG - Answer received: !yv
+2023-04-27 17:50:19,008 - DEBUG - Command to send: m
+d
+o112
+e
+
+2023-04-27 17:50:19,009 - DEBUG - Answer received: !yv
+2023-04-27 17:50:19,009 - DEBUG - Command to send: m
+d
+o113
+e
+
+2023-04-27 17:50:19,010 - DEBUG - Answer received: !yv
+2023-04-27 17:50:24,078 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:50:24,078 - DEBUG - Answer received: !yro114
+2023-04-27 17:50:24,079 - DEBUG - Command to send: c
+o114
+conf
+e
+
+2023-04-27 17:50:24,079 - DEBUG - Answer received: !yro115
+2023-04-27 17:50:24,079 - DEBUG - Command to send: c
+o115
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:50:24,079 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:50:24,079 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:50:24,080 - DEBUG - Answer received: !yro116
+2023-04-27 17:50:24,080 - DEBUG - Command to send: c
+o116
+conf
+e
+
+2023-04-27 17:50:24,080 - DEBUG - Answer received: !yro117
+2023-04-27 17:50:24,080 - DEBUG - Command to send: c
+o117
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:50:24,080 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:50:25,071 - DEBUG - Command to send: m
+d
+o114
+e
+
+2023-04-27 17:50:25,071 - DEBUG - Answer received: !yv
+2023-04-27 17:50:25,071 - DEBUG - Command to send: m
+d
+o115
+e
+
+2023-04-27 17:50:25,071 - DEBUG - Answer received: !yv
+2023-04-27 17:50:25,071 - DEBUG - Command to send: m
+d
+o116
+e
+
+2023-04-27 17:50:25,071 - DEBUG - Answer received: !yv
+2023-04-27 17:50:25,071 - DEBUG - Command to send: m
+d
+o117
+e
+
+2023-04-27 17:50:25,072 - DEBUG - Answer received: !yv
+2023-04-27 17:51:45,822 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:51:45,823 - DEBUG - Answer received: !yro118
+2023-04-27 17:51:45,824 - DEBUG - Command to send: c
+o118
+conf
+e
+
+2023-04-27 17:51:45,825 - DEBUG - Answer received: !yro119
+2023-04-27 17:51:45,825 - DEBUG - Command to send: c
+o119
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:51:45,825 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:51:45,825 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:51:45,826 - DEBUG - Answer received: !yro120
+2023-04-27 17:51:45,826 - DEBUG - Command to send: c
+o120
+conf
+e
+
+2023-04-27 17:51:45,826 - DEBUG - Answer received: !yro121
+2023-04-27 17:51:45,826 - DEBUG - Command to send: c
+o121
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:51:45,827 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:51:45,830 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:51:45,831 - DEBUG - Answer received: !yro122
+2023-04-27 17:51:45,831 - DEBUG - Command to send: c
+o122
+conf
+e
+
+2023-04-27 17:51:45,831 - DEBUG - Answer received: !yro123
+2023-04-27 17:51:45,831 - DEBUG - Command to send: c
+o123
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:51:45,831 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:51:45,832 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:51:45,832 - DEBUG - Answer received: !yro124
+2023-04-27 17:51:45,833 - DEBUG - Command to send: c
+o124
+conf
+e
+
+2023-04-27 17:51:45,833 - DEBUG - Answer received: !yro125
+2023-04-27 17:51:45,833 - DEBUG - Command to send: c
+o125
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:51:45,834 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:51:45,922 - DEBUG - Command to send: m
+d
+o118
+e
+
+2023-04-27 17:51:45,924 - DEBUG - Answer received: !yv
+2023-04-27 17:51:45,924 - DEBUG - Command to send: m
+d
+o119
+e
+
+2023-04-27 17:51:45,925 - DEBUG - Answer received: !yv
+2023-04-27 17:51:45,925 - DEBUG - Command to send: m
+d
+o120
+e
+
+2023-04-27 17:51:45,926 - DEBUG - Answer received: !yv
+2023-04-27 17:51:45,926 - DEBUG - Command to send: m
+d
+o121
+e
+
+2023-04-27 17:51:45,926 - DEBUG - Answer received: !yv
+2023-04-27 17:51:45,926 - DEBUG - Command to send: m
+d
+o122
+e
+
+2023-04-27 17:51:45,926 - DEBUG - Answer received: !yv
+2023-04-27 17:51:45,926 - DEBUG - Command to send: m
+d
+o123
+e
+
+2023-04-27 17:51:45,927 - DEBUG - Answer received: !yv
+2023-04-27 17:51:45,927 - DEBUG - Command to send: m
+d
+o124
+e
+
+2023-04-27 17:51:45,927 - DEBUG - Answer received: !yv
+2023-04-27 17:51:45,927 - DEBUG - Command to send: m
+d
+o125
+e
+
+2023-04-27 17:51:45,927 - DEBUG - Answer received: !yv
+2023-04-27 17:52:10,676 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:52:10,677 - DEBUG - Answer received: !yro126
+2023-04-27 17:52:10,677 - DEBUG - Command to send: c
+o126
+conf
+e
+
+2023-04-27 17:52:10,677 - DEBUG - Answer received: !yro127
+2023-04-27 17:52:10,677 - DEBUG - Command to send: c
+o127
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:52:10,678 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:52:10,678 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 17:52:10,678 - DEBUG - Answer received: !yro128
+2023-04-27 17:52:10,678 - DEBUG - Command to send: c
+o128
+conf
+e
+
+2023-04-27 17:52:10,678 - DEBUG - Answer received: !yro129
+2023-04-27 17:52:10,678 - DEBUG - Command to send: c
+o129
+isReplEagerEvalEnabled
+e
+
+2023-04-27 17:52:10,680 - DEBUG - Answer received: !ybfalse
+2023-04-27 17:52:11,201 - DEBUG - Command to send: m
+d
+o126
+e
+
+2023-04-27 17:52:11,201 - DEBUG - Answer received: !yv
+2023-04-27 17:52:11,201 - DEBUG - Command to send: m
+d
+o127
+e
+
+2023-04-27 17:52:11,202 - DEBUG - Answer received: !yv
+2023-04-27 17:52:11,202 - DEBUG - Command to send: m
+d
+o128
+e
+
+2023-04-27 17:52:11,202 - DEBUG - Answer received: !yv
+2023-04-27 17:52:11,202 - DEBUG - Command to send: m
+d
+o129
+e
+
+2023-04-27 17:52:11,202 - DEBUG - Answer received: !yv
