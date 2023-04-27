@@ -3,7 +3,6 @@
 import numpy as np
 import time
 import pandas as pd
-import polars as pl
 import csv
 import os
 import logging

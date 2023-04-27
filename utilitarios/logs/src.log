@@ -4850,3 +4850,1758 @@
 2023-04-25 12:46:27,580 - INFO - Operando arquivo K3241.K03200Y0.D30408.csv
 2023-04-25 12:46:27,580 - INFO - Operando arquivo K3241.K03200Y1.D30408.csv
 2023-04-25 12:46:27,580 - INFO - Operando arquivo K3241.K03200Y2.D30408.csv
+2023-04-27 16:07:20,388 - DEBUG - Command to send: r
+u
+SparkSession$
+rj
+e
+
+2023-04-27 16:07:20,392 - DEBUG - Answer received: !ycorg.apache.spark.sql.SparkSession$
+2023-04-27 16:07:20,393 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.SparkSession$
+MODULE$
+e
+
+2023-04-27 16:07:20,394 - DEBUG - Answer received: !yro28
+2023-04-27 16:07:20,394 - DEBUG - Command to send: i
+java.util.HashMap
+e
+
+2023-04-27 16:07:20,395 - DEBUG - Answer received: !yao29
+2023-04-27 16:07:20,395 - DEBUG - Command to send: c
+o29
+put
+sspark.master
+slocal[4]
+e
+
+2023-04-27 16:07:20,395 - DEBUG - Answer received: !yn
+2023-04-27 16:07:20,395 - DEBUG - Command to send: c
+o29
+put
+sspark.app.name
+sETL_CNPJ
+e
+
+2023-04-27 16:07:20,396 - DEBUG - Answer received: !yn
+2023-04-27 16:07:20,396 - DEBUG - Command to send: c
+o28
+applyModifiableSettings
+ro25
+ro29
+e
+
+2023-04-27 16:07:20,396 - DEBUG - Answer received: !yv
+2023-04-27 16:07:20,915 - DEBUG - Command to send: m
+d
+o29
+e
+
+2023-04-27 16:07:20,915 - DEBUG - Answer received: !yv
+2023-04-27 16:38:45,319 - DEBUG - Command to send: m
+d
+o28
+e
+
+2023-04-27 16:38:45,325 - DEBUG - Answer received: !yv
+2023-04-27 16:41:39,552 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:41:39,588 - DEBUG - Answer received: !yro30
+2023-04-27 16:41:39,665 - DEBUG - Command to send: m
+d
+o30
+e
+
+2023-04-27 16:41:39,665 - DEBUG - Answer received: !yv
+2023-04-27 16:41:40,270 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:41:40,271 - DEBUG - Answer received: !yro31
+2023-04-27 16:41:40,668 - DEBUG - Command to send: m
+d
+o31
+e
+
+2023-04-27 16:41:40,669 - DEBUG - Answer received: !yv
+2023-04-27 16:41:45,080 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:41:45,080 - DEBUG - Answer received: !yro32
+2023-04-27 16:41:45,719 - DEBUG - Command to send: m
+d
+o32
+e
+
+2023-04-27 16:41:45,720 - DEBUG - Answer received: !yv
+2023-04-27 16:41:47,421 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:41:47,421 - DEBUG - Answer received: !yro33
+2023-04-27 16:41:47,681 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:41:47,682 - DEBUG - Answer received: !yro34
+2023-04-27 16:41:47,734 - DEBUG - Command to send: m
+d
+o33
+e
+
+2023-04-27 16:41:47,734 - DEBUG - Answer received: !yv
+2023-04-27 16:41:47,734 - DEBUG - Command to send: m
+d
+o34
+e
+
+2023-04-27 16:41:47,735 - DEBUG - Answer received: !yv
+2023-04-27 16:41:47,874 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:41:47,874 - DEBUG - Answer received: !yro35
+2023-04-27 16:41:48,750 - DEBUG - Command to send: m
+d
+o35
+e
+
+2023-04-27 16:41:48,750 - DEBUG - Answer received: !yv
+2023-04-27 16:42:06,620 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:42:06,620 - DEBUG - Answer received: !yro36
+2023-04-27 16:42:06,854 - DEBUG - Command to send: m
+d
+o36
+e
+
+2023-04-27 16:42:06,854 - DEBUG - Answer received: !yv
+2023-04-27 16:42:28,729 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:42:28,730 - DEBUG - Answer received: !yro37
+2023-04-27 16:42:29,005 - DEBUG - Command to send: m
+d
+o37
+e
+
+2023-04-27 16:42:29,005 - DEBUG - Answer received: !yv
+2023-04-27 16:42:31,925 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:42:31,925 - DEBUG - Answer received: !yro38
+2023-04-27 16:42:32,020 - DEBUG - Command to send: m
+d
+o38
+e
+
+2023-04-27 16:42:32,021 - DEBUG - Answer received: !yv
+2023-04-27 16:48:04,880 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:04,882 - DEBUG - Answer received: !yro39
+2023-04-27 16:48:05,448 - DEBUG - Command to send: m
+d
+o39
+e
+
+2023-04-27 16:48:05,448 - DEBUG - Answer received: !yv
+2023-04-27 16:48:06,114 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:06,114 - DEBUG - Answer received: !yro40
+2023-04-27 16:48:06,254 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:06,254 - DEBUG - Answer received: !yro41
+2023-04-27 16:48:06,403 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:06,403 - DEBUG - Answer received: !yro42
+2023-04-27 16:48:06,472 - DEBUG - Command to send: m
+d
+o40
+e
+
+2023-04-27 16:48:06,472 - DEBUG - Answer received: !yv
+2023-04-27 16:48:06,472 - DEBUG - Command to send: m
+d
+o41
+e
+
+2023-04-27 16:48:06,472 - DEBUG - Answer received: !yv
+2023-04-27 16:48:06,472 - DEBUG - Command to send: m
+d
+o42
+e
+
+2023-04-27 16:48:06,472 - DEBUG - Answer received: !yv
+2023-04-27 16:48:06,565 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:06,566 - DEBUG - Answer received: !yro43
+2023-04-27 16:48:07,488 - DEBUG - Command to send: m
+d
+o43
+e
+
+2023-04-27 16:48:07,488 - DEBUG - Answer received: !yv
+2023-04-27 16:48:07,608 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:07,609 - DEBUG - Answer received: !yro44
+2023-04-27 16:48:07,757 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:07,757 - DEBUG - Answer received: !yro45
+2023-04-27 16:48:08,496 - DEBUG - Command to send: m
+d
+o44
+e
+
+2023-04-27 16:48:08,496 - DEBUG - Answer received: !yv
+2023-04-27 16:48:08,496 - DEBUG - Command to send: m
+d
+o45
+e
+
+2023-04-27 16:48:08,496 - DEBUG - Answer received: !yv
+2023-04-27 16:48:13,757 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:13,758 - DEBUG - Answer received: !yro46
+2023-04-27 16:48:14,564 - DEBUG - Command to send: m
+d
+o46
+e
+
+2023-04-27 16:48:14,565 - DEBUG - Answer received: !yv
+2023-04-27 16:48:18,097 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:18,098 - DEBUG - Answer received: !yro47
+2023-04-27 16:48:18,498 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:18,498 - DEBUG - Answer received: !yro48
+2023-04-27 16:48:18,620 - DEBUG - Command to send: m
+d
+o47
+e
+
+2023-04-27 16:48:18,620 - DEBUG - Answer received: !yv
+2023-04-27 16:48:18,620 - DEBUG - Command to send: m
+d
+o48
+e
+
+2023-04-27 16:48:18,620 - DEBUG - Answer received: !yv
+2023-04-27 16:48:19,535 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:19,536 - DEBUG - Answer received: !yro49
+2023-04-27 16:48:19,639 - DEBUG - Command to send: m
+d
+o49
+e
+
+2023-04-27 16:48:19,639 - DEBUG - Answer received: !yv
+2023-04-27 16:48:19,714 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:19,715 - DEBUG - Answer received: !yro50
+2023-04-27 16:48:20,653 - DEBUG - Command to send: m
+d
+o50
+e
+
+2023-04-27 16:48:20,653 - DEBUG - Answer received: !yv
+2023-04-27 16:48:21,409 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:48:21,409 - DEBUG - Answer received: !yro51
+2023-04-27 16:48:21,669 - DEBUG - Command to send: m
+d
+o51
+e
+
+2023-04-27 16:48:21,669 - DEBUG - Answer received: !yv
+2023-04-27 16:49:29,867 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:49:29,868 - DEBUG - Answer received: !yro52
+2023-04-27 16:49:29,875 - DEBUG - Command to send: c
+o52
+option
+sdelimiter
+s;
+e
+
+2023-04-27 16:49:29,902 - DEBUG - Answer received: !yro53
+2023-04-27 16:49:29,902 - DEBUG - Command to send: c
+o53
+option
+sheader
+strue
+e
+
+2023-04-27 16:49:29,903 - DEBUG - Answer received: !yro54
+2023-04-27 16:49:29,903 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 16:49:29,907 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 16:49:29,907 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 16:49:29,908 - DEBUG - Answer received: !ym
+2023-04-27 16:49:29,909 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 16:49:29,910 - DEBUG - Answer received: !ylo55
+2023-04-27 16:49:29,911 - DEBUG - Command to send: c
+o55
+add
+sc:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-27 16:49:29,913 - DEBUG - Answer received: !ybtrue
+2023-04-27 16:49:29,913 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro55
+e
+
+2023-04-27 16:49:29,914 - DEBUG - Answer received: !yro56
+2023-04-27 16:49:29,914 - DEBUG - Command to send: c
+o54
+csv
+ro56
+e
+
+2023-04-27 16:49:30,156 - DEBUG - Command to send: m
+d
+o55
+e
+
+2023-04-27 16:49:30,156 - DEBUG - Answer received: !yv
+2023-04-27 16:49:34,508 - DEBUG - Answer received: !yro57
+2023-04-27 16:49:34,511 - DEBUG - Command to send: c
+o57
+limit
+i20
+e
+
+2023-04-27 16:49:34,519 - DEBUG - Answer received: !yro58
+2023-04-27 16:49:34,520 - DEBUG - Command to send: c
+o58
+schema
+e
+
+2023-04-27 16:49:34,521 - DEBUG - Answer received: !yro59
+2023-04-27 16:49:34,521 - DEBUG - Command to send: c
+o59
+json
+e
+
+2023-04-27 16:49:34,549 - DEBUG - Answer received: !ys{"type":"struct","fields":[{"name":"07396865","type":"string","nullable":true,"metadata":{}},{"name":"0001","type":"string","nullable":true,"metadata":{}},{"name":"68","type":"string","nullable":true,"metadata":{}},{"name":"1","type":"string","nullable":true,"metadata":{}},{"name":"_c4","type":"string","nullable":true,"metadata":{}},{"name":"08","type":"string","nullable":true,"metadata":{}},{"name":"20170210","type":"string","nullable":true,"metadata":{}},{"name":"01","type":"string","nullable":true,"metadata":{}},{"name":"_c8","type":"string","nullable":true,"metadata":{}},{"name":"_c9","type":"string","nullable":true,"metadata":{}},{"name":"20050518","type":"string","nullable":true,"metadata":{}},{"name":"1412602","type":"string","nullable":true,"metadata":{}},{"name":"1411801","type":"string","nullable":true,"metadata":{}},{"name":"RUA","type":"string","nullable":true,"metadata":{}},{"name":"TUCANEIRA","type":"string","nullable":true,"metadata":{}},{"name":"30","type":"string","nullable":true,"metadata":{}},{"name":"_c16","type":"string","nullable":true,"metadata":{}},{"name":"DOS LAGOS","type":"string","nullable":true,"metadata":{}},{"name":"89136000","type":"string","nullable":true,"metadata":{}},{"name":"SC","type":"string","nullable":true,"metadata":{}},{"name":"8297","type":"string","nullable":true,"metadata":{}},{"name":"4721","type":"string","nullable":true,"metadata":{}},{"name":"3385112522","type":"string","nullable":true,"metadata":{}},{"name":"4723","type":"string","nullable":true,"metadata":{}},{"name":"3385112524","type":"string","nullable":true,"metadata":{}},{"name":"4725","type":"string","nullable":true,"metadata":{}},{"name":"3385112526","type":"string","nullable":true,"metadata":{}},{"name":"_c27","type":"string","nullable":true,"metadata":{}},{"name":"_c28","type":"string","nullable":true,"metadata":{}},{"name":"_c29","type":"string","nullable":true,"metadata":{}}]}
+2023-04-27 16:49:34,553 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:49:34,554 - DEBUG - Answer received: !yro60
+2023-04-27 16:49:34,555 - DEBUG - Command to send: c
+o60
+conf
+e
+
+2023-04-27 16:49:34,555 - DEBUG - Answer received: !yro61
+2023-04-27 16:49:34,555 - DEBUG - Command to send: c
+o61
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:49:34,557 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:49:34,557 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:49:34,558 - DEBUG - Answer received: !yro62
+2023-04-27 16:49:34,558 - DEBUG - Command to send: c
+o62
+conf
+e
+
+2023-04-27 16:49:34,558 - DEBUG - Answer received: !yro63
+2023-04-27 16:49:34,558 - DEBUG - Command to send: c
+o63
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:49:34,558 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:49:35,223 - DEBUG - Command to send: m
+d
+o52
+e
+
+2023-04-27 16:49:35,224 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,224 - DEBUG - Command to send: m
+d
+o53
+e
+
+2023-04-27 16:49:35,224 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,224 - DEBUG - Command to send: m
+d
+o54
+e
+
+2023-04-27 16:49:35,224 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,224 - DEBUG - Command to send: m
+d
+o56
+e
+
+2023-04-27 16:49:35,224 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,225 - DEBUG - Command to send: m
+d
+o57
+e
+
+2023-04-27 16:49:35,225 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,225 - DEBUG - Command to send: m
+d
+o59
+e
+
+2023-04-27 16:49:35,225 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,225 - DEBUG - Command to send: m
+d
+o60
+e
+
+2023-04-27 16:49:35,225 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,225 - DEBUG - Command to send: m
+d
+o61
+e
+
+2023-04-27 16:49:35,226 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,226 - DEBUG - Command to send: m
+d
+o62
+e
+
+2023-04-27 16:49:35,226 - DEBUG - Answer received: !yv
+2023-04-27 16:49:35,226 - DEBUG - Command to send: m
+d
+o63
+e
+
+2023-04-27 16:49:35,226 - DEBUG - Answer received: !yv
+2023-04-27 16:51:15,393 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:51:15,394 - DEBUG - Answer received: !yro64
+2023-04-27 16:51:15,966 - DEBUG - Command to send: m
+d
+o64
+e
+
+2023-04-27 16:51:15,966 - DEBUG - Answer received: !yv
+2023-04-27 16:51:17,050 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:51:17,051 - DEBUG - Answer received: !yro65
+2023-04-27 16:51:17,237 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:51:17,237 - DEBUG - Answer received: !yro66
+2023-04-27 16:51:17,990 - DEBUG - Command to send: m
+d
+o65
+e
+
+2023-04-27 16:51:17,990 - DEBUG - Answer received: !yv
+2023-04-27 16:51:17,990 - DEBUG - Command to send: m
+d
+o66
+e
+
+2023-04-27 16:51:17,990 - DEBUG - Answer received: !yv
+2023-04-27 16:51:34,377 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:51:34,377 - DEBUG - Answer received: !yro67
+2023-04-27 16:51:35,084 - DEBUG - Command to send: m
+d
+o67
+e
+
+2023-04-27 16:51:35,085 - DEBUG - Answer received: !yv
+2023-04-27 16:51:39,247 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:51:39,247 - DEBUG - Answer received: !yro68
+2023-04-27 16:51:40,129 - DEBUG - Command to send: m
+d
+o68
+e
+
+2023-04-27 16:51:40,129 - DEBUG - Answer received: !yv
+2023-04-27 16:51:40,560 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:51:40,560 - DEBUG - Answer received: !yro69
+2023-04-27 16:51:40,561 - DEBUG - Command to send: c
+o69
+option
+sdelimiter
+s;
+e
+
+2023-04-27 16:51:40,561 - DEBUG - Answer received: !yro70
+2023-04-27 16:51:40,561 - DEBUG - Command to send: c
+o70
+option
+sheader
+sfalse
+e
+
+2023-04-27 16:51:40,562 - DEBUG - Answer received: !yro71
+2023-04-27 16:51:40,562 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 16:51:40,563 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 16:51:40,563 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 16:51:40,564 - DEBUG - Answer received: !ym
+2023-04-27 16:51:40,564 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 16:51:40,564 - DEBUG - Answer received: !ylo72
+2023-04-27 16:51:40,564 - DEBUG - Command to send: c
+o72
+add
+sc:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-27 16:51:40,564 - DEBUG - Answer received: !ybtrue
+2023-04-27 16:51:40,565 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro72
+e
+
+2023-04-27 16:51:40,565 - DEBUG - Answer received: !yro73
+2023-04-27 16:51:40,565 - DEBUG - Command to send: c
+o71
+csv
+ro73
+e
+
+2023-04-27 16:51:40,796 - DEBUG - Answer received: !yro74
+2023-04-27 16:51:40,797 - DEBUG - Command to send: c
+o74
+limit
+i20
+e
+
+2023-04-27 16:51:40,800 - DEBUG - Answer received: !yro75
+2023-04-27 16:51:40,801 - DEBUG - Command to send: c
+o75
+schema
+e
+
+2023-04-27 16:51:40,802 - DEBUG - Answer received: !yro76
+2023-04-27 16:51:40,802 - DEBUG - Command to send: c
+o76
+json
+e
+
+2023-04-27 16:51:40,805 - DEBUG - Answer received: !ys{"type":"struct","fields":[{"name":"_c0","type":"string","nullable":true,"metadata":{}},{"name":"_c1","type":"string","nullable":true,"metadata":{}},{"name":"_c2","type":"string","nullable":true,"metadata":{}},{"name":"_c3","type":"string","nullable":true,"metadata":{}},{"name":"_c4","type":"string","nullable":true,"metadata":{}},{"name":"_c5","type":"string","nullable":true,"metadata":{}},{"name":"_c6","type":"string","nullable":true,"metadata":{}},{"name":"_c7","type":"string","nullable":true,"metadata":{}},{"name":"_c8","type":"string","nullable":true,"metadata":{}},{"name":"_c9","type":"string","nullable":true,"metadata":{}},{"name":"_c10","type":"string","nullable":true,"metadata":{}},{"name":"_c11","type":"string","nullable":true,"metadata":{}},{"name":"_c12","type":"string","nullable":true,"metadata":{}},{"name":"_c13","type":"string","nullable":true,"metadata":{}},{"name":"_c14","type":"string","nullable":true,"metadata":{}},{"name":"_c15","type":"string","nullable":true,"metadata":{}},{"name":"_c16","type":"string","nullable":true,"metadata":{}},{"name":"_c17","type":"string","nullable":true,"metadata":{}},{"name":"_c18","type":"string","nullable":true,"metadata":{}},{"name":"_c19","type":"string","nullable":true,"metadata":{}},{"name":"_c20","type":"string","nullable":true,"metadata":{}},{"name":"_c21","type":"string","nullable":true,"metadata":{}},{"name":"_c22","type":"string","nullable":true,"metadata":{}},{"name":"_c23","type":"string","nullable":true,"metadata":{}},{"name":"_c24","type":"string","nullable":true,"metadata":{}},{"name":"_c25","type":"string","nullable":true,"metadata":{}},{"name":"_c26","type":"string","nullable":true,"metadata":{}},{"name":"_c27","type":"string","nullable":true,"metadata":{}},{"name":"_c28","type":"string","nullable":true,"metadata":{}},{"name":"_c29","type":"string","nullable":true,"metadata":{}}]}
+2023-04-27 16:51:40,805 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:51:40,805 - DEBUG - Answer received: !yro77
+2023-04-27 16:51:40,806 - DEBUG - Command to send: c
+o77
+conf
+e
+
+2023-04-27 16:51:40,806 - DEBUG - Answer received: !yro78
+2023-04-27 16:51:40,806 - DEBUG - Command to send: c
+o78
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:51:40,806 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:51:40,807 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:51:40,807 - DEBUG - Answer received: !yro79
+2023-04-27 16:51:40,807 - DEBUG - Command to send: c
+o79
+conf
+e
+
+2023-04-27 16:51:40,807 - DEBUG - Answer received: !yro80
+2023-04-27 16:51:40,807 - DEBUG - Command to send: c
+o80
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:51:40,807 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:51:41,135 - DEBUG - Command to send: m
+d
+o72
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o69
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o70
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o71
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o73
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o74
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o76
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o77
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o78
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o79
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:41,136 - DEBUG - Command to send: m
+d
+o80
+e
+
+2023-04-27 16:51:41,136 - DEBUG - Answer received: !yv
+2023-04-27 16:51:52,437 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:51:52,438 - DEBUG - Answer received: !yro81
+2023-04-27 16:51:52,439 - DEBUG - Command to send: c
+o81
+option
+sdelimiter
+s;
+e
+
+2023-04-27 16:51:52,439 - DEBUG - Answer received: !yro82
+2023-04-27 16:51:52,439 - DEBUG - Command to send: c
+o82
+option
+sheader
+sfalse
+e
+
+2023-04-27 16:51:52,440 - DEBUG - Answer received: !yro83
+2023-04-27 16:51:52,440 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 16:51:52,446 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 16:51:52,446 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 16:51:52,446 - DEBUG - Answer received: !ym
+2023-04-27 16:51:52,446 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 16:51:52,447 - DEBUG - Answer received: !ylo84
+2023-04-27 16:51:52,447 - DEBUG - Command to send: c
+o84
+add
+sc:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-27 16:51:52,447 - DEBUG - Answer received: !ybtrue
+2023-04-27 16:51:52,447 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro84
+e
+
+2023-04-27 16:51:52,447 - DEBUG - Answer received: !yro85
+2023-04-27 16:51:52,447 - DEBUG - Command to send: c
+o83
+csv
+ro85
+e
+
+2023-04-27 16:51:52,634 - DEBUG - Answer received: !yro86
+2023-04-27 16:51:52,635 - DEBUG - Command to send: c
+o86
+schema
+e
+
+2023-04-27 16:51:52,635 - DEBUG - Answer received: !yro87
+2023-04-27 16:51:52,635 - DEBUG - Command to send: c
+o87
+json
+e
+
+2023-04-27 16:51:52,637 - DEBUG - Answer received: !ys{"type":"struct","fields":[{"name":"_c0","type":"string","nullable":true,"metadata":{}},{"name":"_c1","type":"string","nullable":true,"metadata":{}},{"name":"_c2","type":"string","nullable":true,"metadata":{}},{"name":"_c3","type":"string","nullable":true,"metadata":{}},{"name":"_c4","type":"string","nullable":true,"metadata":{}},{"name":"_c5","type":"string","nullable":true,"metadata":{}},{"name":"_c6","type":"string","nullable":true,"metadata":{}},{"name":"_c7","type":"string","nullable":true,"metadata":{}},{"name":"_c8","type":"string","nullable":true,"metadata":{}},{"name":"_c9","type":"string","nullable":true,"metadata":{}},{"name":"_c10","type":"string","nullable":true,"metadata":{}},{"name":"_c11","type":"string","nullable":true,"metadata":{}},{"name":"_c12","type":"string","nullable":true,"metadata":{}},{"name":"_c13","type":"string","nullable":true,"metadata":{}},{"name":"_c14","type":"string","nullable":true,"metadata":{}},{"name":"_c15","type":"string","nullable":true,"metadata":{}},{"name":"_c16","type":"string","nullable":true,"metadata":{}},{"name":"_c17","type":"string","nullable":true,"metadata":{}},{"name":"_c18","type":"string","nullable":true,"metadata":{}},{"name":"_c19","type":"string","nullable":true,"metadata":{}},{"name":"_c20","type":"string","nullable":true,"metadata":{}},{"name":"_c21","type":"string","nullable":true,"metadata":{}},{"name":"_c22","type":"string","nullable":true,"metadata":{}},{"name":"_c23","type":"string","nullable":true,"metadata":{}},{"name":"_c24","type":"string","nullable":true,"metadata":{}},{"name":"_c25","type":"string","nullable":true,"metadata":{}},{"name":"_c26","type":"string","nullable":true,"metadata":{}},{"name":"_c27","type":"string","nullable":true,"metadata":{}},{"name":"_c28","type":"string","nullable":true,"metadata":{}},{"name":"_c29","type":"string","nullable":true,"metadata":{}}]}
+2023-04-27 16:51:52,637 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:51:52,638 - DEBUG - Answer received: !yro88
+2023-04-27 16:51:52,638 - DEBUG - Command to send: c
+o88
+conf
+e
+
+2023-04-27 16:51:52,638 - DEBUG - Answer received: !yro89
+2023-04-27 16:51:52,638 - DEBUG - Command to send: c
+o89
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:51:52,639 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:51:52,639 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:51:52,639 - DEBUG - Answer received: !yro90
+2023-04-27 16:51:52,639 - DEBUG - Command to send: c
+o90
+conf
+e
+
+2023-04-27 16:51:52,639 - DEBUG - Answer received: !yro91
+2023-04-27 16:51:52,639 - DEBUG - Command to send: c
+o91
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:51:52,639 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:51:53,235 - DEBUG - Command to send: m
+d
+o84
+e
+
+2023-04-27 16:51:53,235 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o81
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o82
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o83
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o85
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o87
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o88
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o89
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o90
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:51:53,237 - DEBUG - Command to send: m
+d
+o91
+e
+
+2023-04-27 16:51:53,237 - DEBUG - Answer received: !yv
+2023-04-27 16:52:02,007 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:52:02,007 - DEBUG - Answer received: !yro92
+2023-04-27 16:52:02,007 - DEBUG - Command to send: c
+o92
+option
+sdelimiter
+s;
+e
+
+2023-04-27 16:52:02,008 - DEBUG - Answer received: !yro93
+2023-04-27 16:52:02,008 - DEBUG - Command to send: c
+o93
+option
+sheader
+sfalse
+e
+
+2023-04-27 16:52:02,008 - DEBUG - Answer received: !yro94
+2023-04-27 16:52:02,008 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 16:52:02,009 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 16:52:02,009 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 16:52:02,010 - DEBUG - Answer received: !ym
+2023-04-27 16:52:02,010 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 16:52:02,010 - DEBUG - Answer received: !ylo95
+2023-04-27 16:52:02,010 - DEBUG - Command to send: c
+o95
+add
+sc:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-27 16:52:02,011 - DEBUG - Answer received: !ybtrue
+2023-04-27 16:52:02,011 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro95
+e
+
+2023-04-27 16:52:02,011 - DEBUG - Answer received: !yro96
+2023-04-27 16:52:02,011 - DEBUG - Command to send: c
+o94
+csv
+ro96
+e
+
+2023-04-27 16:52:02,278 - DEBUG - Answer received: !yro97
+2023-04-27 16:52:02,279 - DEBUG - Command to send: c
+o97
+limit
+i20
+e
+
+2023-04-27 16:52:02,281 - DEBUG - Answer received: !yro98
+2023-04-27 16:52:02,282 - DEBUG - Command to send: c
+o98
+showString
+i2
+i20
+bFalse
+e
+
+2023-04-27 16:52:02,302 - DEBUG - Command to send: m
+d
+o95
+e
+
+2023-04-27 16:52:02,303 - DEBUG - Answer received: !yv
+2023-04-27 16:52:02,527 - DEBUG - Answer received: !ys+--------+----+---+---+----+---+--------+---+----+----+--------+-------+-------+-------+--------------+-----+--------------------+---------+--------+----+----+----+--------+----+--------+----+--------+--------------------+----+----+\n|     _c0| _c1|_c2|_c3| _c4|_c5|     _c6|_c7| _c8| _c9|    _c10|   _c11|   _c12|   _c13|          _c14| _c15|                _c16|     _c17|    _c18|_c19|_c20|_c21|    _c22|_c23|    _c24|_c25|    _c26|                _c27|_c28|_c29|\n+--------+----+---+---+----+---+--------+---+----+----+--------+-------+-------+-------+--------------+-----+--------------------+---------+--------+----+----+----+--------+----+--------+----+--------+--------------------+----+----+\n|07396865|0001| 68|  1|null| 08|20170210| 01|null|null|20050518|1412602|1411801|    RUA|     TUCANEIRA|   30|                null|DOS LAGOS|89136000|  SC|8297|  47|33851125|  47|33851125|  47|33851125|                null|null|null|\n|64904295|0018| 51|  2|null| 08|20161110| 01|null|null|20050429|4639701|4637199|AVENIDA|MENINO MARCELO|8551B|LOTE  2          ...| SERRARIA|57046000|  AL|2785|  11|36491000|  31|33880436|  82|33118379|CLAUDIO.GIGLIO@CA...|null|null|\n+--------+----+---+---+----+---+--------+---+----+----+--------+-------+-------+-------+--------------+-----+--------------------+---------+--------+----+----+----+--------+----+--------+----+--------+--------------------+----+----+\nonly showing top 2 rows\n
+2023-04-27 16:52:02,618 - DEBUG - Command to send: c
+o98
+schema
+e
+
+2023-04-27 16:52:02,620 - DEBUG - Answer received: !yro99
+2023-04-27 16:52:02,621 - DEBUG - Command to send: c
+o99
+json
+e
+
+2023-04-27 16:52:02,622 - DEBUG - Answer received: !ys{"type":"struct","fields":[{"name":"_c0","type":"string","nullable":true,"metadata":{}},{"name":"_c1","type":"string","nullable":true,"metadata":{}},{"name":"_c2","type":"string","nullable":true,"metadata":{}},{"name":"_c3","type":"string","nullable":true,"metadata":{}},{"name":"_c4","type":"string","nullable":true,"metadata":{}},{"name":"_c5","type":"string","nullable":true,"metadata":{}},{"name":"_c6","type":"string","nullable":true,"metadata":{}},{"name":"_c7","type":"string","nullable":true,"metadata":{}},{"name":"_c8","type":"string","nullable":true,"metadata":{}},{"name":"_c9","type":"string","nullable":true,"metadata":{}},{"name":"_c10","type":"string","nullable":true,"metadata":{}},{"name":"_c11","type":"string","nullable":true,"metadata":{}},{"name":"_c12","type":"string","nullable":true,"metadata":{}},{"name":"_c13","type":"string","nullable":true,"metadata":{}},{"name":"_c14","type":"string","nullable":true,"metadata":{}},{"name":"_c15","type":"string","nullable":true,"metadata":{}},{"name":"_c16","type":"string","nullable":true,"metadata":{}},{"name":"_c17","type":"string","nullable":true,"metadata":{}},{"name":"_c18","type":"string","nullable":true,"metadata":{}},{"name":"_c19","type":"string","nullable":true,"metadata":{}},{"name":"_c20","type":"string","nullable":true,"metadata":{}},{"name":"_c21","type":"string","nullable":true,"metadata":{}},{"name":"_c22","type":"string","nullable":true,"metadata":{}},{"name":"_c23","type":"string","nullable":true,"metadata":{}},{"name":"_c24","type":"string","nullable":true,"metadata":{}},{"name":"_c25","type":"string","nullable":true,"metadata":{}},{"name":"_c26","type":"string","nullable":true,"metadata":{}},{"name":"_c27","type":"string","nullable":true,"metadata":{}},{"name":"_c28","type":"string","nullable":true,"metadata":{}},{"name":"_c29","type":"string","nullable":true,"metadata":{}}]}
+2023-04-27 16:52:02,623 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:52:02,623 - DEBUG - Answer received: !yro100
+2023-04-27 16:52:02,623 - DEBUG - Command to send: c
+o100
+conf
+e
+
+2023-04-27 16:52:02,623 - DEBUG - Answer received: !yro101
+2023-04-27 16:52:02,623 - DEBUG - Command to send: c
+o101
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:52:02,624 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:52:02,624 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:52:02,624 - DEBUG - Answer received: !yro102
+2023-04-27 16:52:02,624 - DEBUG - Command to send: c
+o102
+conf
+e
+
+2023-04-27 16:52:02,625 - DEBUG - Answer received: !yro103
+2023-04-27 16:52:02,625 - DEBUG - Command to send: c
+o103
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:52:02,625 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:52:03,317 - DEBUG - Command to send: m
+d
+o92
+e
+
+2023-04-27 16:52:03,317 - DEBUG - Answer received: !yv
+2023-04-27 16:52:03,318 - DEBUG - Command to send: m
+d
+o93
+e
+
+2023-04-27 16:52:03,318 - DEBUG - Answer received: !yv
+2023-04-27 16:52:03,318 - DEBUG - Command to send: m
+d
+o94
+e
+
+2023-04-27 16:52:03,319 - DEBUG - Answer received: !yv
+2023-04-27 16:52:03,319 - DEBUG - Command to send: m
+d
+o96
+e
+
+2023-04-27 16:52:03,319 - DEBUG - Answer received: !yv
+2023-04-27 16:52:03,319 - DEBUG - Command to send: m
+d
+o97
+e
+
+2023-04-27 16:52:03,320 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,040 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:52:17,041 - DEBUG - Answer received: !yro104
+2023-04-27 16:52:17,041 - DEBUG - Command to send: c
+o104
+option
+sdelimiter
+s;
+e
+
+2023-04-27 16:52:17,041 - DEBUG - Answer received: !yro105
+2023-04-27 16:52:17,041 - DEBUG - Command to send: c
+o105
+option
+sheader
+sfalse
+e
+
+2023-04-27 16:52:17,043 - DEBUG - Answer received: !yro106
+2023-04-27 16:52:17,043 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 16:52:17,043 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 16:52:17,043 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 16:52:17,043 - DEBUG - Answer received: !ym
+2023-04-27 16:52:17,044 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 16:52:17,044 - DEBUG - Answer received: !ylo107
+2023-04-27 16:52:17,044 - DEBUG - Command to send: c
+o107
+add
+sc:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-27 16:52:17,044 - DEBUG - Answer received: !ybtrue
+2023-04-27 16:52:17,044 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro107
+e
+
+2023-04-27 16:52:17,045 - DEBUG - Answer received: !yro108
+2023-04-27 16:52:17,045 - DEBUG - Command to send: c
+o106
+csv
+ro108
+e
+
+2023-04-27 16:52:17,200 - DEBUG - Answer received: !yro109
+2023-04-27 16:52:17,200 - DEBUG - Command to send: c
+o109
+limit
+i20
+e
+
+2023-04-27 16:52:17,203 - DEBUG - Answer received: !yro110
+2023-04-27 16:52:17,203 - DEBUG - Command to send: c
+o110
+showString
+i2
+i20
+bTrue
+e
+
+2023-04-27 16:52:17,316 - DEBUG - Answer received: !ys-RECORD 0--------------------\n _c0  | 07396865             \n _c1  | 0001                 \n _c2  | 68                   \n _c3  | 1                    \n _c4  | null                 \n _c5  | 08                   \n _c6  | 20170210             \n _c7  | 01                   \n _c8  | null                 \n _c9  | null                 \n _c10 | 20050518             \n _c11 | 1412602              \n _c12 | 1411801              \n _c13 | RUA                  \n _c14 | TUCANEIRA            \n _c15 | 30                   \n _c16 | null                 \n _c17 | DOS LAGOS            \n _c18 | 89136000             \n _c19 | SC                   \n _c20 | 8297                 \n _c21 | 47                   \n _c22 | 33851125             \n _c23 | 47                   \n _c24 | 33851125             \n _c25 | 47                   \n _c26 | 33851125             \n _c27 | null                 \n _c28 | null                 \n _c29 | null                 \n-RECORD 1--------------------\n _c0  | 64904295             \n _c1  | 0018                 \n _c2  | 51                   \n _c3  | 2                    \n _c4  | null                 \n _c5  | 08                   \n _c6  | 20161110             \n _c7  | 01                   \n _c8  | null                 \n _c9  | null                 \n _c10 | 20050429             \n _c11 | 4639701              \n _c12 | 4637199              \n _c13 | AVENIDA              \n _c14 | MENINO MARCELO       \n _c15 | 8551B                \n _c16 | LOTE  2          ... \n _c17 | SERRARIA             \n _c18 | 57046000             \n _c19 | AL                   \n _c20 | 2785                 \n _c21 | 11                   \n _c22 | 36491000             \n _c23 | 31                   \n _c24 | 33880436             \n _c25 | 82                   \n _c26 | 33118379             \n _c27 | CLAUDIO.GIGLIO@CA... \n _c28 | null                 \n _c29 | null                 \nonly showing top 2 rows\n
+2023-04-27 16:52:17,382 - DEBUG - Command to send: c
+o110
+schema
+e
+
+2023-04-27 16:52:17,383 - DEBUG - Answer received: !yro111
+2023-04-27 16:52:17,383 - DEBUG - Command to send: c
+o111
+json
+e
+
+2023-04-27 16:52:17,384 - DEBUG - Answer received: !ys{"type":"struct","fields":[{"name":"_c0","type":"string","nullable":true,"metadata":{}},{"name":"_c1","type":"string","nullable":true,"metadata":{}},{"name":"_c2","type":"string","nullable":true,"metadata":{}},{"name":"_c3","type":"string","nullable":true,"metadata":{}},{"name":"_c4","type":"string","nullable":true,"metadata":{}},{"name":"_c5","type":"string","nullable":true,"metadata":{}},{"name":"_c6","type":"string","nullable":true,"metadata":{}},{"name":"_c7","type":"string","nullable":true,"metadata":{}},{"name":"_c8","type":"string","nullable":true,"metadata":{}},{"name":"_c9","type":"string","nullable":true,"metadata":{}},{"name":"_c10","type":"string","nullable":true,"metadata":{}},{"name":"_c11","type":"string","nullable":true,"metadata":{}},{"name":"_c12","type":"string","nullable":true,"metadata":{}},{"name":"_c13","type":"string","nullable":true,"metadata":{}},{"name":"_c14","type":"string","nullable":true,"metadata":{}},{"name":"_c15","type":"string","nullable":true,"metadata":{}},{"name":"_c16","type":"string","nullable":true,"metadata":{}},{"name":"_c17","type":"string","nullable":true,"metadata":{}},{"name":"_c18","type":"string","nullable":true,"metadata":{}},{"name":"_c19","type":"string","nullable":true,"metadata":{}},{"name":"_c20","type":"string","nullable":true,"metadata":{}},{"name":"_c21","type":"string","nullable":true,"metadata":{}},{"name":"_c22","type":"string","nullable":true,"metadata":{}},{"name":"_c23","type":"string","nullable":true,"metadata":{}},{"name":"_c24","type":"string","nullable":true,"metadata":{}},{"name":"_c25","type":"string","nullable":true,"metadata":{}},{"name":"_c26","type":"string","nullable":true,"metadata":{}},{"name":"_c27","type":"string","nullable":true,"metadata":{}},{"name":"_c28","type":"string","nullable":true,"metadata":{}},{"name":"_c29","type":"string","nullable":true,"metadata":{}}]}
+2023-04-27 16:52:17,384 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:52:17,385 - DEBUG - Answer received: !yro112
+2023-04-27 16:52:17,385 - DEBUG - Command to send: c
+o112
+conf
+e
+
+2023-04-27 16:52:17,385 - DEBUG - Answer received: !yro113
+2023-04-27 16:52:17,385 - DEBUG - Command to send: c
+o113
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:52:17,385 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:52:17,385 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:52:17,385 - DEBUG - Answer received: !yro114
+2023-04-27 16:52:17,386 - DEBUG - Command to send: c
+o114
+conf
+e
+
+2023-04-27 16:52:17,386 - DEBUG - Answer received: !yro115
+2023-04-27 16:52:17,386 - DEBUG - Command to send: c
+o115
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:52:17,386 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:52:17,427 - DEBUG - Command to send: m
+d
+o107
+e
+
+2023-04-27 16:52:17,427 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,427 - DEBUG - Command to send: m
+d
+o98
+e
+
+2023-04-27 16:52:17,427 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,428 - DEBUG - Command to send: m
+d
+o99
+e
+
+2023-04-27 16:52:17,428 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,428 - DEBUG - Command to send: m
+d
+o100
+e
+
+2023-04-27 16:52:17,428 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,428 - DEBUG - Command to send: m
+d
+o101
+e
+
+2023-04-27 16:52:17,428 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,428 - DEBUG - Command to send: m
+d
+o102
+e
+
+2023-04-27 16:52:17,429 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,429 - DEBUG - Command to send: m
+d
+o103
+e
+
+2023-04-27 16:52:17,429 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,429 - DEBUG - Command to send: m
+d
+o104
+e
+
+2023-04-27 16:52:17,429 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,429 - DEBUG - Command to send: m
+d
+o105
+e
+
+2023-04-27 16:52:17,429 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,430 - DEBUG - Command to send: m
+d
+o106
+e
+
+2023-04-27 16:52:17,430 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,430 - DEBUG - Command to send: m
+d
+o108
+e
+
+2023-04-27 16:52:17,430 - DEBUG - Answer received: !yv
+2023-04-27 16:52:17,430 - DEBUG - Command to send: m
+d
+o109
+e
+
+2023-04-27 16:52:17,431 - DEBUG - Answer received: !yv
+2023-04-27 16:52:23,435 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 16:52:23,435 - DEBUG - Answer received: !yro116
+2023-04-27 16:52:23,436 - DEBUG - Command to send: c
+o116
+option
+sdelimiter
+s;
+e
+
+2023-04-27 16:52:23,436 - DEBUG - Answer received: !yro117
+2023-04-27 16:52:23,436 - DEBUG - Command to send: c
+o117
+option
+sheader
+sfalse
+e
+
+2023-04-27 16:52:23,437 - DEBUG - Answer received: !yro118
+2023-04-27 16:52:23,437 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 16:52:23,438 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 16:52:23,439 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 16:52:23,439 - DEBUG - Answer received: !ym
+2023-04-27 16:52:23,440 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 16:52:23,440 - DEBUG - Answer received: !ylo119
+2023-04-27 16:52:23,441 - DEBUG - Command to send: c
+o119
+add
+sc:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-27 16:52:23,441 - DEBUG - Answer received: !ybtrue
+2023-04-27 16:52:23,441 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro119
+e
+
+2023-04-27 16:52:23,441 - DEBUG - Answer received: !yro120
+2023-04-27 16:52:23,442 - DEBUG - Command to send: c
+o118
+csv
+ro120
+e
+
+2023-04-27 16:52:23,451 - DEBUG - Command to send: m
+d
+o119
+e
+
+2023-04-27 16:52:23,451 - DEBUG - Answer received: !yv
+2023-04-27 16:52:23,623 - DEBUG - Answer received: !yro121
+2023-04-27 16:52:23,624 - DEBUG - Command to send: c
+o121
+limit
+i20
+e
+
+2023-04-27 16:52:23,626 - DEBUG - Answer received: !yro122
+2023-04-27 16:52:23,627 - DEBUG - Command to send: c
+o122
+showString
+i1
+i20
+bTrue
+e
+
+2023-04-27 16:52:23,722 - DEBUG - Answer received: !ys-RECORD 0---------\n _c0  | 07396865  \n _c1  | 0001      \n _c2  | 68        \n _c3  | 1         \n _c4  | null      \n _c5  | 08        \n _c6  | 20170210  \n _c7  | 01        \n _c8  | null      \n _c9  | null      \n _c10 | 20050518  \n _c11 | 1412602   \n _c12 | 1411801   \n _c13 | RUA       \n _c14 | TUCANEIRA \n _c15 | 30        \n _c16 | null      \n _c17 | DOS LAGOS \n _c18 | 89136000  \n _c19 | SC        \n _c20 | 8297      \n _c21 | 47        \n _c22 | 33851125  \n _c23 | 47        \n _c24 | 33851125  \n _c25 | 47        \n _c26 | 33851125  \n _c27 | null      \n _c28 | null      \n _c29 | null      \nonly showing top 1 row\n
+2023-04-27 16:52:23,815 - DEBUG - Command to send: c
+o122
+schema
+e
+
+2023-04-27 16:52:23,815 - DEBUG - Answer received: !yro123
+2023-04-27 16:52:23,815 - DEBUG - Command to send: c
+o123
+json
+e
+
+2023-04-27 16:52:23,816 - DEBUG - Answer received: !ys{"type":"struct","fields":[{"name":"_c0","type":"string","nullable":true,"metadata":{}},{"name":"_c1","type":"string","nullable":true,"metadata":{}},{"name":"_c2","type":"string","nullable":true,"metadata":{}},{"name":"_c3","type":"string","nullable":true,"metadata":{}},{"name":"_c4","type":"string","nullable":true,"metadata":{}},{"name":"_c5","type":"string","nullable":true,"metadata":{}},{"name":"_c6","type":"string","nullable":true,"metadata":{}},{"name":"_c7","type":"string","nullable":true,"metadata":{}},{"name":"_c8","type":"string","nullable":true,"metadata":{}},{"name":"_c9","type":"string","nullable":true,"metadata":{}},{"name":"_c10","type":"string","nullable":true,"metadata":{}},{"name":"_c11","type":"string","nullable":true,"metadata":{}},{"name":"_c12","type":"string","nullable":true,"metadata":{}},{"name":"_c13","type":"string","nullable":true,"metadata":{}},{"name":"_c14","type":"string","nullable":true,"metadata":{}},{"name":"_c15","type":"string","nullable":true,"metadata":{}},{"name":"_c16","type":"string","nullable":true,"metadata":{}},{"name":"_c17","type":"string","nullable":true,"metadata":{}},{"name":"_c18","type":"string","nullable":true,"metadata":{}},{"name":"_c19","type":"string","nullable":true,"metadata":{}},{"name":"_c20","type":"string","nullable":true,"metadata":{}},{"name":"_c21","type":"string","nullable":true,"metadata":{}},{"name":"_c22","type":"string","nullable":true,"metadata":{}},{"name":"_c23","type":"string","nullable":true,"metadata":{}},{"name":"_c24","type":"string","nullable":true,"metadata":{}},{"name":"_c25","type":"string","nullable":true,"metadata":{}},{"name":"_c26","type":"string","nullable":true,"metadata":{}},{"name":"_c27","type":"string","nullable":true,"metadata":{}},{"name":"_c28","type":"string","nullable":true,"metadata":{}},{"name":"_c29","type":"string","nullable":true,"metadata":{}}]}
+2023-04-27 16:52:23,816 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:52:23,817 - DEBUG - Answer received: !yro124
+2023-04-27 16:52:23,817 - DEBUG - Command to send: c
+o124
+conf
+e
+
+2023-04-27 16:52:23,817 - DEBUG - Answer received: !yro125
+2023-04-27 16:52:23,817 - DEBUG - Command to send: c
+o125
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:52:23,817 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:52:23,818 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:52:23,818 - DEBUG - Answer received: !yro126
+2023-04-27 16:52:23,818 - DEBUG - Command to send: c
+o126
+conf
+e
+
+2023-04-27 16:52:23,818 - DEBUG - Answer received: !yro127
+2023-04-27 16:52:23,818 - DEBUG - Command to send: c
+o127
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:52:23,818 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:52:24,454 - DEBUG - Command to send: m
+d
+o111
+e
+
+2023-04-27 16:52:24,454 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,454 - DEBUG - Command to send: m
+d
+o112
+e
+
+2023-04-27 16:52:24,454 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,454 - DEBUG - Command to send: m
+d
+o113
+e
+
+2023-04-27 16:52:24,455 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,455 - DEBUG - Command to send: m
+d
+o114
+e
+
+2023-04-27 16:52:24,455 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,455 - DEBUG - Command to send: m
+d
+o115
+e
+
+2023-04-27 16:52:24,455 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,455 - DEBUG - Command to send: m
+d
+o116
+e
+
+2023-04-27 16:52:24,455 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,455 - DEBUG - Command to send: m
+d
+o117
+e
+
+2023-04-27 16:52:24,455 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,455 - DEBUG - Command to send: m
+d
+o118
+e
+
+2023-04-27 16:52:24,455 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,455 - DEBUG - Command to send: m
+d
+o120
+e
+
+2023-04-27 16:52:24,455 - DEBUG - Answer received: !yv
+2023-04-27 16:52:24,455 - DEBUG - Command to send: m
+d
+o121
+e
+
+2023-04-27 16:52:24,456 - DEBUG - Answer received: !yv
+2023-04-27 16:53:05,834 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:53:05,834 - DEBUG - Answer received: !yro128
+2023-04-27 16:53:05,834 - DEBUG - Command to send: c
+o128
+conf
+e
+
+2023-04-27 16:53:05,835 - DEBUG - Answer received: !yro129
+2023-04-27 16:53:05,835 - DEBUG - Command to send: c
+o129
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:53:05,835 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:53:05,835 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:53:05,835 - DEBUG - Answer received: !yro130
+2023-04-27 16:53:05,835 - DEBUG - Command to send: c
+o130
+conf
+e
+
+2023-04-27 16:53:05,836 - DEBUG - Answer received: !yro131
+2023-04-27 16:53:05,836 - DEBUG - Command to send: c
+o131
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:53:05,836 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:53:05,838 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:53:05,839 - DEBUG - Answer received: !yro132
+2023-04-27 16:53:05,839 - DEBUG - Command to send: c
+o132
+conf
+e
+
+2023-04-27 16:53:05,839 - DEBUG - Answer received: !yro133
+2023-04-27 16:53:05,839 - DEBUG - Command to send: c
+o133
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:53:05,840 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:53:05,840 - DEBUG - Command to send: c
+o25
+sessionState
+e
+
+2023-04-27 16:53:05,840 - DEBUG - Answer received: !yro134
+2023-04-27 16:53:05,841 - DEBUG - Command to send: c
+o134
+conf
+e
+
+2023-04-27 16:53:05,841 - DEBUG - Answer received: !yro135
+2023-04-27 16:53:05,841 - DEBUG - Command to send: c
+o135
+isReplEagerEvalEnabled
+e
+
+2023-04-27 16:53:05,842 - DEBUG - Answer received: !ybfalse
+2023-04-27 16:53:06,750 - DEBUG - Command to send: m
+d
+o123
+e
+
+2023-04-27 16:53:06,750 - DEBUG - Answer received: !yv
+2023-04-27 16:53:06,750 - DEBUG - Command to send: m
+d
+o124
+e
+
+2023-04-27 16:53:06,751 - DEBUG - Answer received: !yv
+2023-04-27 16:53:06,751 - DEBUG - Command to send: m
+d
+o125
+e
+
+2023-04-27 16:53:06,751 - DEBUG - Answer received: !yv
+2023-04-27 16:53:06,751 - DEBUG - Command to send: m
+d
+o126
+e
+
+2023-04-27 16:53:06,751 - DEBUG - Answer received: !yv
+2023-04-27 16:53:06,751 - DEBUG - Command to send: m
+d
+o127
+e
+
+2023-04-27 16:53:06,751 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,420 - DEBUG - Command to send: m
+d
+o24
+e
+
+2023-04-27 17:33:27,420 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,421 - DEBUG - Command to send: m
+d
+o0
+e
+
+2023-04-27 17:33:27,421 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,421 - DEBUG - Command to send: m
+d
+o6
+e
+
+2023-04-27 17:33:27,421 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,421 - DEBUG - Command to send: m
+d
+o7
+e
+
+2023-04-27 17:33:27,421 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,421 - DEBUG - Command to send: m
+d
+o8
+e
+
+2023-04-27 17:33:27,421 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,422 - DEBUG - Command to send: m
+d
+o9
+e
+
+2023-04-27 17:33:27,422 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,422 - DEBUG - Command to send: m
+d
+o10
+e
+
+2023-04-27 17:33:27,422 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,422 - DEBUG - Command to send: m
+d
+o11
+e
+
+2023-04-27 17:33:27,422 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,423 - DEBUG - Command to send: m
+d
+o12
+e
+
+2023-04-27 17:33:27,423 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,423 - DEBUG - Command to send: m
+d
+o13
+e
+
+2023-04-27 17:33:27,423 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,423 - DEBUG - Command to send: m
+d
+o15
+e
+
+2023-04-27 17:33:27,423 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,423 - DEBUG - Command to send: m
+d
+o18
+e
+
+2023-04-27 17:33:27,423 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,423 - DEBUG - Command to send: m
+d
+o19
+e
+
+2023-04-27 17:33:27,424 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,424 - DEBUG - Command to send: m
+d
+o20
+e
+
+2023-04-27 17:33:27,424 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,424 - DEBUG - Command to send: m
+d
+o21
+e
+
+2023-04-27 17:33:27,424 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,424 - DEBUG - Command to send: m
+d
+o22
+e
+
+2023-04-27 17:33:27,424 - DEBUG - Answer received: !yv
+2023-04-27 17:33:27,424 - DEBUG - Command to send: m
+d
+o23
+e
+
+2023-04-27 17:33:27,424 - DEBUG - Answer received: !yv
+2023-04-27 17:33:28,691 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-27 17:33:29,912 - DEBUG - Answer received: !yro26
+2023-04-27 17:33:29,912 - DEBUG - Command to send: c
+o26
+option
+sdelimiter
+s;
+e
+
+2023-04-27 17:33:29,925 - DEBUG - Answer received: !yro27
+2023-04-27 17:33:29,925 - DEBUG - Command to send: c
+o27
+option
+sheader
+sfalse
+e
+
+2023-04-27 17:33:29,925 - DEBUG - Answer received: !yro28
+2023-04-27 17:33:29,926 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-27 17:33:29,926 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-27 17:33:29,926 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-27 17:33:29,927 - DEBUG - Answer received: !ym
+2023-04-27 17:33:29,927 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-27 17:33:29,927 - DEBUG - Answer received: !ylo29
+2023-04-27 17:33:29,927 - DEBUG - Command to send: c
+o29
+add
+sc:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-27 17:33:29,928 - DEBUG - Answer received: !ybtrue
+2023-04-27 17:33:29,928 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro29
+e
+
+2023-04-27 17:33:29,930 - DEBUG - Answer received: !yro30
+2023-04-27 17:33:29,930 - DEBUG - Command to send: c
+o28
+csv
+ro30
+e
+
+2023-04-27 17:33:30,456 - DEBUG - Command to send: m
+d
+o29
+e
+
+2023-04-27 17:33:30,456 - DEBUG - Answer received: !yv
+2023-04-27 17:33:34,514 - DEBUG - Answer received: !yro31
+2023-04-27 17:33:34,514 - DEBUG - Command to send: c
+o31
+limit
+i20
+e
+
+2023-04-27 17:33:34,519 - DEBUG - Answer received: !yro32
+2023-04-27 17:33:34,519 - DEBUG - Command to send: c
+o32
+showString
+i1
+i20
+bTrue
+e
+
+2023-04-27 17:33:34,819 - DEBUG - Answer received: !ys-RECORD 0---------\n _c0  | 07396865  \n _c1  | 0001      \n _c2  | 68        \n _c3  | 1         \n _c4  | null      \n _c5  | 08        \n _c6  | 20170210  \n _c7  | 01        \n _c8  | null      \n _c9  | null      \n _c10 | 20050518  \n _c11 | 1412602   \n _c12 | 1411801   \n _c13 | RUA       \n _c14 | TUCANEIRA \n _c15 | 30        \n _c16 | null      \n _c17 | DOS LAGOS \n _c18 | 89136000  \n _c19 | SC        \n _c20 | 8297      \n _c21 | 47        \n _c22 | 33851125  \n _c23 | 47        \n _c24 | 33851125  \n _c25 | 47        \n _c26 | 33851125  \n _c27 | null      \n _c28 | null      \n _c29 | null      \nonly showing top 1 row\n

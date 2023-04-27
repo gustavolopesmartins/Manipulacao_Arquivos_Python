@@ -1,0 +1,12 @@
+{
+    "CodeGPT.model": "gpt-3.5-turbo",
+    "CodeGPT.query.language": "Portuguese",
+    "editor.wordWrapColumn": 80,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+        }
+}
