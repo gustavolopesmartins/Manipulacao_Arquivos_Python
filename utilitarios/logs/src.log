@@ -8770,3 +8770,3838 @@ o129
 e
 
 2023-04-27 17:52:11,202 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,102 - DEBUG - Command to send: m
+d
+o0
+e
+
+2023-04-28 17:31:40,115 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,115 - DEBUG - Command to send: m
+d
+o6
+e
+
+2023-04-28 17:31:40,116 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,116 - DEBUG - Command to send: m
+d
+o7
+e
+
+2023-04-28 17:31:40,117 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,118 - DEBUG - Command to send: m
+d
+o8
+e
+
+2023-04-28 17:31:40,118 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,118 - DEBUG - Command to send: m
+d
+o9
+e
+
+2023-04-28 17:31:40,118 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,118 - DEBUG - Command to send: m
+d
+o10
+e
+
+2023-04-28 17:31:40,118 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,118 - DEBUG - Command to send: m
+d
+o11
+e
+
+2023-04-28 17:31:40,118 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,118 - DEBUG - Command to send: m
+d
+o12
+e
+
+2023-04-28 17:31:40,119 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,119 - DEBUG - Command to send: m
+d
+o13
+e
+
+2023-04-28 17:31:40,119 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,119 - DEBUG - Command to send: m
+d
+o15
+e
+
+2023-04-28 17:31:40,119 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,119 - DEBUG - Command to send: m
+d
+o18
+e
+
+2023-04-28 17:31:40,120 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,120 - DEBUG - Command to send: m
+d
+o24
+e
+
+2023-04-28 17:31:40,120 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,120 - DEBUG - Command to send: m
+d
+o21
+e
+
+2023-04-28 17:31:40,121 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,121 - DEBUG - Command to send: m
+d
+o22
+e
+
+2023-04-28 17:31:40,121 - DEBUG - Answer received: !yv
+2023-04-28 17:31:40,121 - DEBUG - Command to send: m
+d
+o23
+e
+
+2023-04-28 17:31:40,121 - DEBUG - Answer received: !yv
+2023-04-28 17:35:43,280 - DEBUG - Command to send: c
+o25
+read
+e
+
+2023-04-28 17:35:44,813 - DEBUG - Answer received: !yro26
+2023-04-28 17:35:44,813 - DEBUG - Command to send: c
+o26
+option
+sdelimiter
+s;
+e
+
+2023-04-28 17:35:44,831 - DEBUG - Answer received: !yro27
+2023-04-28 17:35:44,831 - DEBUG - Command to send: c
+o27
+option
+sheader
+sfalse
+e
+
+2023-04-28 17:35:44,832 - DEBUG - Answer received: !yro28
+2023-04-28 17:35:44,832 - DEBUG - Command to send: c
+o28
+option
+sinferSchema
+strue
+e
+
+2023-04-28 17:35:44,832 - DEBUG - Answer received: !yro29
+2023-04-28 17:35:44,832 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-28 17:35:44,833 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-28 17:35:44,833 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-28 17:35:44,833 - DEBUG - Answer received: !ym
+2023-04-28 17:35:44,833 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-28 17:35:44,834 - DEBUG - Answer received: !ylo30
+2023-04-28 17:35:44,834 - DEBUG - Command to send: c
+o30
+add
+sC:\\Users\\ABRASEL NACIONAL\\Documents\\\\CNPJ_PROGRAMATICA\\ESTABELECIMENTOSCSV/K3241.K03200Y1.D30408.csv
+e
+
+2023-04-28 17:35:44,834 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:44,835 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro30
+e
+
+2023-04-28 17:35:44,835 - DEBUG - Answer received: !yro31
+2023-04-28 17:35:44,835 - DEBUG - Command to send: c
+o29
+csv
+ro31
+e
+
+2023-04-28 17:35:45,638 - DEBUG - Command to send: m
+d
+o30
+e
+
+2023-04-28 17:35:45,638 - DEBUG - Answer received: !yv
+2023-04-28 17:35:57,913 - DEBUG - Answer received: !yro32
+2023-04-28 17:35:57,913 - DEBUG - Command to send: c
+o32
+withColumnRenamed
+s_c0
+sCNPJ_BASE
+e
+
+2023-04-28 17:35:57,943 - DEBUG - Answer received: !yro33
+2023-04-28 17:35:57,943 - DEBUG - Command to send: c
+o33
+withColumnRenamed
+s_c1
+sCNPJ_ORDEM
+e
+
+2023-04-28 17:35:57,957 - DEBUG - Answer received: !yro34
+2023-04-28 17:35:57,957 - DEBUG - Command to send: c
+o34
+withColumnRenamed
+s_c2
+sCNPJ_DV
+e
+
+2023-04-28 17:35:57,977 - DEBUG - Answer received: !yro35
+2023-04-28 17:35:57,977 - DEBUG - Command to send: c
+o35
+withColumnRenamed
+s_c3
+sMATRIZ_FILIAL
+e
+
+2023-04-28 17:35:57,992 - DEBUG - Answer received: !yro36
+2023-04-28 17:35:57,992 - DEBUG - Command to send: c
+o36
+withColumnRenamed
+s_c4
+sNOME_FANTASIA
+e
+
+2023-04-28 17:35:58,005 - DEBUG - Answer received: !yro37
+2023-04-28 17:35:58,005 - DEBUG - Command to send: c
+o37
+withColumnRenamed
+s_c5
+sSITUACAO_CADASTRAL
+e
+
+2023-04-28 17:35:58,013 - DEBUG - Answer received: !yro38
+2023-04-28 17:35:58,013 - DEBUG - Command to send: c
+o38
+withColumnRenamed
+s_c6
+sDATA_SITUACAO_CADASTRAL
+e
+
+2023-04-28 17:35:58,033 - DEBUG - Answer received: !yro39
+2023-04-28 17:35:58,033 - DEBUG - Command to send: c
+o39
+withColumnRenamed
+s_c7
+sMOTIVO_SITUACAO_CADASTRAL
+e
+
+2023-04-28 17:35:58,043 - DEBUG - Answer received: !yro40
+2023-04-28 17:35:58,043 - DEBUG - Command to send: c
+o40
+withColumnRenamed
+s_c8
+sCIDADE_EXTERIOR
+e
+
+2023-04-28 17:35:58,063 - DEBUG - Answer received: !yro41
+2023-04-28 17:35:58,063 - DEBUG - Command to send: c
+o41
+withColumnRenamed
+s_c9
+sPAIS
+e
+
+2023-04-28 17:35:58,083 - DEBUG - Answer received: !yro42
+2023-04-28 17:35:58,083 - DEBUG - Command to send: c
+o42
+withColumnRenamed
+s_c10
+sDATA_INICIO_ATIVIDADE
+e
+
+2023-04-28 17:35:58,108 - DEBUG - Answer received: !yro43
+2023-04-28 17:35:58,109 - DEBUG - Command to send: c
+o43
+withColumnRenamed
+s_c11
+sCNAE_PRINCIPAL
+e
+
+2023-04-28 17:35:58,125 - DEBUG - Answer received: !yro44
+2023-04-28 17:35:58,125 - DEBUG - Command to send: c
+o44
+withColumnRenamed
+s_c12
+sCNAE_SECUNDARIO
+e
+
+2023-04-28 17:35:58,148 - DEBUG - Answer received: !yro45
+2023-04-28 17:35:58,148 - DEBUG - Command to send: c
+o45
+withColumnRenamed
+s_c13
+sTIPO_LOGRADOURO
+e
+
+2023-04-28 17:35:58,161 - DEBUG - Answer received: !yro46
+2023-04-28 17:35:58,161 - DEBUG - Command to send: c
+o46
+withColumnRenamed
+s_c14
+sLOGRADOURO
+e
+
+2023-04-28 17:35:58,176 - DEBUG - Answer received: !yro47
+2023-04-28 17:35:58,177 - DEBUG - Command to send: c
+o47
+withColumnRenamed
+s_c15
+sNUMERO
+e
+
+2023-04-28 17:35:58,193 - DEBUG - Answer received: !yro48
+2023-04-28 17:35:58,193 - DEBUG - Command to send: c
+o48
+withColumnRenamed
+s_c16
+sCOMPLEMENTO
+e
+
+2023-04-28 17:35:58,201 - DEBUG - Answer received: !yro49
+2023-04-28 17:35:58,201 - DEBUG - Command to send: c
+o49
+withColumnRenamed
+s_c17
+sBAIRRO
+e
+
+2023-04-28 17:35:58,208 - DEBUG - Answer received: !yro50
+2023-04-28 17:35:58,209 - DEBUG - Command to send: c
+o50
+withColumnRenamed
+s_c18
+sCEP
+e
+
+2023-04-28 17:35:58,218 - DEBUG - Answer received: !yro51
+2023-04-28 17:35:58,218 - DEBUG - Command to send: c
+o51
+withColumnRenamed
+s_c19
+sUF
+e
+
+2023-04-28 17:35:58,227 - DEBUG - Answer received: !yro52
+2023-04-28 17:35:58,227 - DEBUG - Command to send: c
+o52
+withColumnRenamed
+s_c20
+sMUNICIPIO
+e
+
+2023-04-28 17:35:58,237 - DEBUG - Answer received: !yro53
+2023-04-28 17:35:58,237 - DEBUG - Command to send: c
+o53
+withColumnRenamed
+s_c21
+sDDD1
+e
+
+2023-04-28 17:35:58,246 - DEBUG - Answer received: !yro54
+2023-04-28 17:35:58,246 - DEBUG - Command to send: c
+o54
+withColumnRenamed
+s_c22
+sTELEFONE1
+e
+
+2023-04-28 17:35:58,255 - DEBUG - Answer received: !yro55
+2023-04-28 17:35:58,255 - DEBUG - Command to send: c
+o55
+withColumnRenamed
+s_c23
+sDDD2
+e
+
+2023-04-28 17:35:58,265 - DEBUG - Answer received: !yro56
+2023-04-28 17:35:58,265 - DEBUG - Command to send: c
+o56
+withColumnRenamed
+s_c24
+sTELEFONE2
+e
+
+2023-04-28 17:35:58,275 - DEBUG - Answer received: !yro57
+2023-04-28 17:35:58,275 - DEBUG - Command to send: c
+o57
+withColumnRenamed
+s_c25
+sDDD_FAX
+e
+
+2023-04-28 17:35:58,279 - DEBUG - Answer received: !yro58
+2023-04-28 17:35:58,279 - DEBUG - Command to send: c
+o58
+withColumnRenamed
+s_c26
+sFAX
+e
+
+2023-04-28 17:35:58,289 - DEBUG - Answer received: !yro59
+2023-04-28 17:35:58,290 - DEBUG - Command to send: c
+o59
+withColumnRenamed
+s_c27
+sEMAIL
+e
+
+2023-04-28 17:35:58,296 - DEBUG - Answer received: !yro60
+2023-04-28 17:35:58,296 - DEBUG - Command to send: c
+o60
+withColumnRenamed
+s_c28
+sSITUACAO_ESPECIAL
+e
+
+2023-04-28 17:35:58,305 - DEBUG - Answer received: !yro61
+2023-04-28 17:35:58,305 - DEBUG - Command to send: c
+o61
+withColumnRenamed
+s_c29
+sDATA_SITUACAO_ESPECIAL
+e
+
+2023-04-28 17:35:58,313 - DEBUG - Answer received: !yro62
+2023-04-28 17:35:58,313 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,324 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,324 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,329 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,329 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNPJ_BASE
+e
+
+2023-04-28 17:35:58,330 - DEBUG - Answer received: !yro63
+2023-04-28 17:35:58,330 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,332 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,332 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,332 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,332 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNPJ_ORDEM
+e
+
+2023-04-28 17:35:58,332 - DEBUG - Answer received: !yro64
+2023-04-28 17:35:58,332 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,333 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,333 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,333 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,333 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNPJ_DV
+e
+
+2023-04-28 17:35:58,333 - DEBUG - Answer received: !yro65
+2023-04-28 17:35:58,333 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,334 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,334 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,334 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,335 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sMATRIZ_FILIAL
+e
+
+2023-04-28 17:35:58,335 - DEBUG - Answer received: !yro66
+2023-04-28 17:35:58,335 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,336 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,336 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,336 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,336 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sNOME_FANTASIA
+e
+
+2023-04-28 17:35:58,336 - DEBUG - Answer received: !yro67
+2023-04-28 17:35:58,336 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,337 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,337 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,337 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,337 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sSITUACAO_CADASTRAL
+e
+
+2023-04-28 17:35:58,338 - DEBUG - Answer received: !yro68
+2023-04-28 17:35:58,338 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,338 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,339 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,339 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,339 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDATA_SITUACAO_CADASTRAL
+e
+
+2023-04-28 17:35:58,339 - DEBUG - Answer received: !yro69
+2023-04-28 17:35:58,339 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,340 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,340 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,341 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,341 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sMOTIVO_SITUACAO_CADASTRAL
+e
+
+2023-04-28 17:35:58,341 - DEBUG - Answer received: !yro70
+2023-04-28 17:35:58,341 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,343 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,343 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,343 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,343 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDATA_INICIO_ATIVIDADE
+e
+
+2023-04-28 17:35:58,344 - DEBUG - Answer received: !yro71
+2023-04-28 17:35:58,344 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,346 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,346 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,346 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,346 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNAE_PRINCIPAL
+e
+
+2023-04-28 17:35:58,346 - DEBUG - Answer received: !yro72
+2023-04-28 17:35:58,346 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,347 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,347 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,347 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,348 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCNAE_SECUNDARIO
+e
+
+2023-04-28 17:35:58,348 - DEBUG - Answer received: !yro73
+2023-04-28 17:35:58,348 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,349 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,350 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,350 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,350 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sTIPO_LOGRADOURO
+e
+
+2023-04-28 17:35:58,351 - DEBUG - Answer received: !yro74
+2023-04-28 17:35:58,351 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,353 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,353 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,354 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,354 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sLOGRADOURO
+e
+
+2023-04-28 17:35:58,355 - DEBUG - Answer received: !yro75
+2023-04-28 17:35:58,355 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,357 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,357 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,358 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,358 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sNUMERO
+e
+
+2023-04-28 17:35:58,358 - DEBUG - Answer received: !yro76
+2023-04-28 17:35:58,359 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,360 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,361 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,361 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,361 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCOMPLEMENTO
+e
+
+2023-04-28 17:35:58,362 - DEBUG - Answer received: !yro77
+2023-04-28 17:35:58,362 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,364 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,364 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,364 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,365 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sBAIRRO
+e
+
+2023-04-28 17:35:58,365 - DEBUG - Answer received: !yro78
+2023-04-28 17:35:58,366 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,367 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,367 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,367 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,368 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sCEP
+e
+
+2023-04-28 17:35:58,368 - DEBUG - Answer received: !yro79
+2023-04-28 17:35:58,368 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,369 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,369 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,370 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,370 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sUF
+e
+
+2023-04-28 17:35:58,370 - DEBUG - Answer received: !yro80
+2023-04-28 17:35:58,370 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,371 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,371 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,371 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,371 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sMUNICIPIO
+e
+
+2023-04-28 17:35:58,372 - DEBUG - Answer received: !yro81
+2023-04-28 17:35:58,372 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,372 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,372 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,372 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,373 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDDD1
+e
+
+2023-04-28 17:35:58,373 - DEBUG - Answer received: !yro82
+2023-04-28 17:35:58,373 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,374 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,374 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,375 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,375 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sTELEFONE1
+e
+
+2023-04-28 17:35:58,375 - DEBUG - Answer received: !yro83
+2023-04-28 17:35:58,375 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,377 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,377 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,377 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,377 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDDD2
+e
+
+2023-04-28 17:35:58,377 - DEBUG - Answer received: !yro84
+2023-04-28 17:35:58,377 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,379 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,379 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,379 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,379 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sTELEFONE2
+e
+
+2023-04-28 17:35:58,379 - DEBUG - Answer received: !yro85
+2023-04-28 17:35:58,379 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,379 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,379 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,383 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDDD_FAX
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !yro86
+2023-04-28 17:35:58,383 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,383 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,383 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sFAX
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !yro87
+2023-04-28 17:35:58,383 - DEBUG - Command to send: r
+u
+functions
+rj
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2023-04-28 17:35:58,383 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,383 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+sEMAIL
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !yro88
+2023-04-28 17:35:58,383 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-28 17:35:58,383 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2023-04-28 17:35:58,383 - DEBUG - Answer received: !ym
+2023-04-28 17:35:58,392 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ylo89
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro63
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro64
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro65
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro66
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro67
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro68
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro69
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro70
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro71
+e
+
+2023-04-28 17:35:58,393 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,393 - DEBUG - Command to send: c
+o89
+add
+ro72
+e
+
+2023-04-28 17:35:58,399 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,399 - DEBUG - Command to send: c
+o89
+add
+ro73
+e
+
+2023-04-28 17:35:58,399 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,400 - DEBUG - Command to send: c
+o89
+add
+ro74
+e
+
+2023-04-28 17:35:58,400 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,400 - DEBUG - Command to send: c
+o89
+add
+ro75
+e
+
+2023-04-28 17:35:58,401 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,401 - DEBUG - Command to send: c
+o89
+add
+ro76
+e
+
+2023-04-28 17:35:58,401 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,402 - DEBUG - Command to send: c
+o89
+add
+ro77
+e
+
+2023-04-28 17:35:58,402 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,402 - DEBUG - Command to send: c
+o89
+add
+ro78
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro79
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro80
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro81
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro82
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro83
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro84
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro85
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro86
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro87
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o89
+add
+ro88
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !ybtrue
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro89
+e
+
+2023-04-28 17:35:58,403 - DEBUG - Answer received: !yro90
+2023-04-28 17:35:58,403 - DEBUG - Command to send: c
+o62
+select
+ro90
+e
+
+2023-04-28 17:35:58,435 - DEBUG - Answer received: !yro91
+2023-04-28 17:35:58,437 - DEBUG - Command to send: c
+o91
+showString
+i1
+i20
+bTrue
+e
+
+2023-04-28 17:35:58,738 - DEBUG - Command to send: m
+d
+o89
+e
+
+2023-04-28 17:35:58,738 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,738 - DEBUG - Command to send: m
+d
+o26
+e
+
+2023-04-28 17:35:58,739 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,739 - DEBUG - Command to send: m
+d
+o27
+e
+
+2023-04-28 17:35:58,739 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,739 - DEBUG - Command to send: m
+d
+o28
+e
+
+2023-04-28 17:35:58,739 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,739 - DEBUG - Command to send: m
+d
+o29
+e
+
+2023-04-28 17:35:58,740 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,740 - DEBUG - Command to send: m
+d
+o31
+e
+
+2023-04-28 17:35:58,740 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,740 - DEBUG - Command to send: m
+d
+o32
+e
+
+2023-04-28 17:35:58,740 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,741 - DEBUG - Command to send: m
+d
+o33
+e
+
+2023-04-28 17:35:58,741 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,741 - DEBUG - Command to send: m
+d
+o34
+e
+
+2023-04-28 17:35:58,741 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,741 - DEBUG - Command to send: m
+d
+o35
+e
+
+2023-04-28 17:35:58,742 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,742 - DEBUG - Command to send: m
+d
+o36
+e
+
+2023-04-28 17:35:58,742 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,742 - DEBUG - Command to send: m
+d
+o37
+e
+
+2023-04-28 17:35:58,742 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,742 - DEBUG - Command to send: m
+d
+o38
+e
+
+2023-04-28 17:35:58,742 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,742 - DEBUG - Command to send: m
+d
+o39
+e
+
+2023-04-28 17:35:58,743 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,743 - DEBUG - Command to send: m
+d
+o40
+e
+
+2023-04-28 17:35:58,743 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o41
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o42
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o43
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o44
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o45
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o46
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o47
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o48
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o49
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o50
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o51
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o52
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o53
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o54
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o55
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o56
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o57
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o58
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o59
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,744 - DEBUG - Command to send: m
+d
+o60
+e
+
+2023-04-28 17:35:58,744 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,753 - DEBUG - Command to send: m
+d
+o61
+e
+
+2023-04-28 17:35:58,753 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,753 - DEBUG - Command to send: m
+d
+o62
+e
+
+2023-04-28 17:35:58,753 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,755 - DEBUG - Command to send: m
+d
+o63
+e
+
+2023-04-28 17:35:58,755 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,755 - DEBUG - Command to send: m
+d
+o64
+e
+
+2023-04-28 17:35:58,755 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,755 - DEBUG - Command to send: m
+d
+o65
+e
+
+2023-04-28 17:35:58,755 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,755 - DEBUG - Command to send: m
+d
+o66
+e
+
+2023-04-28 17:35:58,755 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,755 - DEBUG - Command to send: m
+d
+o67
+e
+
+2023-04-28 17:35:58,755 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,755 - DEBUG - Command to send: m
+d
+o68
+e
+
+2023-04-28 17:35:58,757 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,757 - DEBUG - Command to send: m
+d
+o69
+e
+
+2023-04-28 17:35:58,757 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,757 - DEBUG - Command to send: m
+d
+o70
+e
+
+2023-04-28 17:35:58,757 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,758 - DEBUG - Command to send: m
+d
+o71
+e
+
+2023-04-28 17:35:58,758 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,758 - DEBUG - Command to send: m
+d
+o72
+e
+
+2023-04-28 17:35:58,758 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,758 - DEBUG - Command to send: m
+d
+o73
+e
+
+2023-04-28 17:35:58,758 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,758 - DEBUG - Command to send: m
+d
+o74
+e
+
+2023-04-28 17:35:58,758 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,758 - DEBUG - Command to send: m
+d
+o75
+e
+
+2023-04-28 17:35:58,758 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,758 - DEBUG - Command to send: m
+d
+o76
+e
+
+2023-04-28 17:35:58,760 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,760 - DEBUG - Command to send: m
+d
+o77
+e
+
+2023-04-28 17:35:58,760 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,760 - DEBUG - Command to send: m
+d
+o78
+e
+
+2023-04-28 17:35:58,761 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,761 - DEBUG - Command to send: m
+d
+o79
+e
+
+2023-04-28 17:35:58,761 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,761 - DEBUG - Command to send: m
+d
+o80
+e
+
+2023-04-28 17:35:58,761 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,761 - DEBUG - Command to send: m
+d
+o81
+e
+
+2023-04-28 17:35:58,761 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,761 - DEBUG - Command to send: m
+d
+o82
+e
+
+2023-04-28 17:35:58,761 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,763 - DEBUG - Command to send: m
+d
+o83
+e
+
+2023-04-28 17:35:58,763 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,763 - DEBUG - Command to send: m
+d
+o84
+e
+
+2023-04-28 17:35:58,763 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,763 - DEBUG - Command to send: m
+d
+o85
+e
+
+2023-04-28 17:35:58,763 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,764 - DEBUG - Command to send: m
+d
+o86
+e
+
+2023-04-28 17:35:58,764 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,764 - DEBUG - Command to send: m
+d
+o87
+e
+
+2023-04-28 17:35:58,764 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,764 - DEBUG - Command to send: m
+d
+o88
+e
+
+2023-04-28 17:35:58,765 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,765 - DEBUG - Command to send: m
+d
+o90
+e
+
+2023-04-28 17:35:58,765 - DEBUG - Answer received: !yv
+2023-04-28 17:35:58,911 - DEBUG - Answer received: !ys-RECORD 0------------------------------\n CNPJ_BASE                 | 7396865   \n CNPJ_ORDEM                | 1         \n CNPJ_DV                   | 68        \n MATRIZ_FILIAL             | 1         \n NOME_FANTASIA             | null      \n SITUACAO_CADASTRAL        | 8         \n DATA_SITUACAO_CADASTRAL   | 20170210  \n MOTIVO_SITUACAO_CADASTRAL | 1         \n DATA_INICIO_ATIVIDADE     | 20050518  \n CNAE_PRINCIPAL            | 1412602   \n CNAE_SECUNDARIO           | 1411801   \n TIPO_LOGRADOURO           | RUA       \n LOGRADOURO                | TUCANEIRA \n NUMERO                    | 30        \n COMPLEMENTO               | null      \n BAIRRO                    | DOS LAGOS \n CEP                       | 89136000  \n UF                        | SC        \n MUNICIPIO                 | 8297      \n DDD1                      | 47        \n TELEFONE1                 | 33851125  \n DDD2                      | 47        \n TELEFONE2                 | 33851125  \n DDD_FAX                   | 47.0      \n FAX                       | 33851125  \n EMAIL                     | null      \nonly showing top 1 row\n
+2023-04-28 17:36:51,397 - DEBUG - Command to send: c
+o91
+repartition
+i1
+e
+
+2023-04-28 17:36:51,407 - DEBUG - Answer received: !yro92
+2023-04-28 17:36:51,407 - DEBUG - Command to send: c
+o92
+javaToPython
+e
+
+2023-04-28 17:37:14,504 - DEBUG - Answer received: !yro93
+2023-04-28 17:37:14,504 - DEBUG - Command to send: c
+o93
+id
+e
+
+2023-04-28 17:37:14,513 - DEBUG - Answer received: !yi21
+2023-04-28 17:37:14,520 - DEBUG - Command to send: c
+o93
+rdd
+e
+
+2023-04-28 17:37:14,520 - DEBUG - Answer received: !yro94
+2023-04-28 17:37:14,520 - DEBUG - Command to send: c
+o94
+isBarrier
+e
+
+2023-04-28 17:37:14,523 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,608 - DEBUG - Command to send: c
+o14
+setCallSite
+sforeachPartition at C:\\Users\\ABRASEL NACIONAL\\AppData\\Local\\Temp\\ipykernel_12984\\3588726049.py:50
+e
+
+2023-04-28 17:37:14,608 - DEBUG - Answer received: !yv
+2023-04-28 17:37:14,608 - DEBUG - Command to send: r
+u
+PythonRDD
+rj
+e
+
+2023-04-28 17:37:14,608 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonRDD
+2023-04-28 17:37:14,608 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonRDD
+collectAndServe
+e
+
+2023-04-28 17:37:14,608 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,653 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-28 17:37:14,653 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-28 17:37:14,653 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+e
+
+2023-04-28 17:37:14,653 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,653 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+ro14
+e
+
+2023-04-28 17:37:14,653 - DEBUG - Answer received: !yL1048576
+2023-04-28 17:37:14,664 - DEBUG - Command to send: r
+u
+PythonFunction
+rj
+e
+
+2023-04-28 17:37:14,664 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonFunction
+2023-04-28 17:37:14,664 - DEBUG - Command to send: i
+java.util.HashMap
+e
+
+2023-04-28 17:37:14,664 - DEBUG - Answer received: !yao95
+2023-04-28 17:37:14,664 - DEBUG - Command to send: c
+o95
+put
+sPYTHONHASHSEED
+s0
+e
+
+2023-04-28 17:37:14,664 - DEBUG - Answer received: !yn
+2023-04-28 17:37:14,664 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-28 17:37:14,664 - DEBUG - Answer received: !ylo96
+2023-04-28 17:37:14,664 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-28 17:37:14,664 - DEBUG - Answer received: !ylo97
+2023-04-28 17:37:14,664 - DEBUG - Command to send: i
+org.apache.spark.api.python.PythonFunction
+jgAWVXhQAAAAAAAAojB9weXNwYXJrLmNsb3VkcGlja2xlLmNsb3VkcGlja2xllIwNX2J1aWx0aW5fdHlwZZSTlIwKTGFtYmRhVHlwZZSFlFKUKGgCjAhDb2RlVHlwZZSFlFKUKEsCSwBLAEsCSwVLE0MQiAB8AIgBfAB8AYMCgwJTAJROhZQpjAVzcGxpdJSMCGl0ZXJhdG9ylIaUjGFDOlxVc2Vyc1xBQlJBU0VMIE5BQ0lPTkFMXEFwcERhdGFcTG9jYWxcUHJvZ3JhbXNcUHl0aG9uXFB5dGhvbjM5XGxpYlxzaXRlLXBhY2thZ2VzXHB5c3BhcmtccmRkLnB5lIwNcGlwZWxpbmVfZnVuY5RNjw1DAgABlIwEZnVuY5SMCXByZXZfZnVuY5SGlCl0lFKUfZQojAtfX3BhY2thZ2VfX5SMB3B5c3BhcmuUjAhfX25hbWVfX5SMC3B5c3BhcmsucmRklIwIX19maWxlX1+UaA51Tk5oAIwQX21ha2VfZW1wdHlfY2VsbJSTlClSlGgdKVKUhpR0lFKUjCRweXNwYXJrLmNsb3VkcGlja2xlLmNsb3VkcGlja2xlX2Zhc3SUjBJfZnVuY3Rpb25fc2V0c3RhdGWUk5RoIn2UfZQoaBloD4wMX19xdWFsbmFtZV9flIwsUGlwZWxpbmVkUkRELl9faW5pdF9fLjxsb2NhbHM+LnBpcGVsaW5lX2Z1bmOUjA9fX2Fubm90YXRpb25zX1+UfZQoaAuMCGJ1aWx0aW5zlIwDaW50lJOUaAyMCV9vcGVyYXRvcpSMB2dldGl0ZW2Uk5SMBnR5cGluZ5SMCEl0ZXJhYmxllJOUjAhidWlsdGluc5SMB2dldGF0dHKUk5RoAIwJc3ViaW1wb3J0lJOUaBqFlFKUjAFWlIaUUpSGlFKUjAZyZXR1cm6UaDFoNGg3aDuMAVWUhpRSlIaUUpR1jA5fX2t3ZGVmYXVsdHNfX5ROjAxfX2RlZmF1bHRzX1+UTowKX19tb2R1bGVfX5RoGowHX19kb2NfX5ROjAtfX2Nsb3N1cmVfX5RoAIwKX21ha2VfY2VsbJSTlGgFKGgIKEsCSwBLAEsCSwJLE0MIiAB8AYMBUwCUaAopjAFflGgMhpRoDmgRTRsCQwIAAZSMAWaUhZQpdJRSlGgWTk5oHSlSlIWUdJRSlGglaFl9lH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JpbmeUjAlURUxFRk9ORTKUjAREREQylIwDRkFYlIwHREREX0ZBWJSIjAdpbnBsYWNllIWUjBFDb2x1bmFzIEdlcmFkYXM6IJSME0l0ZW5zIGNhcGl0dXJhZG9zOiCUjBYgQ2F0ZWdvcmlhIGRvcyBkYWRvczoglEpEolUASsGeVQBKw55VAErEnlUASsWeVQCMC3V0aWxpdGFyaW9zlIwKVEVTVEVfQkFTRZSMBnBhcnF1ZZSMBmFwcGVuZJSMC2NvbXByZXNzaW9ulIwGc25hcHB5lIwBL5SMCC5wYXJxdWV0lHSUKIwVcHlzcGFyay5zcWwuZnVuY3Rpb25zlGogAQAAaiEBAACMB2xvZ2dpbmeUjARpbmZvlIwFY291bnSUjAJuYZSMBGZpbGyUjAV3aGVyZZSMBUNOQUVTlIwFaXRlbXOUjAp3aXRoQ29sdW1ulIwEY2FzdJSMBGRyb3CUjAdjb2x1bW5zlIwLY3VycmVudF9kaXKUjAdyZXBsYWNllIwFd3JpdGWUjAZmb3JtYXSUjARtb2RllIwGb3B0aW9ulIwEc2F2ZZR0lChoDGogAQAAaiEBAACMBWRhZG9zlIwLY29kaWdvX2NuYWWUjA5kZXNjcmljYW9fY25hZZSMB2RmX2NuYWWUjBBjb250YWdlbV81NjEyMTAwlIwQY29udGFnZW1fNTYxMTIwMZSMEGNvbnRhZ2VtXzU2MTEyMDOUjBBjb250YWdlbV81NjExMjA0lIwQY29udGFnZW1fNTYxMTIwNZSMC09VVFBVVF9CQVNFlHSUjEpDOlxVc2Vyc1xBQlJBU0VMIE5BQ0lPTkFMXEFwcERhdGFcTG9jYWxcVGVtcFxpcHlrZXJuZWxfMTI5ODRcMzU4ODcyNjA0OS5weZSMEXByb2Nlc3NfcGFydGl0aW9ulEsDQz4AAhACCgEUAgwCKgEUAxICEgIEAR7/BAIe/gQDHv0EBAj8BgUSARoCCgEOAgoBDgIKAQ4CCgEOAgoBDgUMAZQpKXSUUpR9lChoF05oGYwIX19tYWluX1+UdU5OTnSUUpRoJWpmAQAAfZR9lChoGWpfAQAAaChqXwEAAGgqfZRoR05oSE5oSWpkAQAAaEpOaEtOaJhdlGiafZQoaj8BAABoOWo/AQAAhZRSlGpFAQAAfZQoSkSiVQCMJVNlcnZpw6dvcyBhbWJ1bGFudGVzIGRlIGFsaW1lbnRhw6fDo2+USsGeVQCMGFJlc3RhdXJhbnRlcyBlIHNpbWlsYXJlc5RKw55VAIwuTGFuY2hvbmV0ZXMgY2FzYXMgZGUgY2jDoSBkZSBzdWNvcyBlIHNpbWlsYXJlc5RKxJ5VAIxTQmFyZXMgZSBvdXRyb3MgZXN0YWJlbGVjaW1lbnRvcyBlc3BlY2lhbGl6YWRvcyBlbSBzZXJ2aXIgYmViaWRhcyBzZW0gZW50cmV0ZW5pbWVudG+USsWeVQCMU0JhcmVzIGUgb3V0cm9zIGVzdGFiZWxlY2ltZW50b3MgZXNwZWNpYWxpemFkb3MgZW0gc2VydmlyIGJlYmlkYXMgY29tIGVudHJldGVuaW1lbnRvlErOCUgAjDNQYWRhcmlhIGUgY29uZmVpdGFyaWEgY29tIHByZWRvbWluw6JuY2lhIGRlIHJldmVuZGGUdWpLAQAAjD9DOlxVc2Vyc1xBQlJBU0VMIE5BQ0lPTkFMXERvY3VtZW50c1xHaXRIdWJcRVRMX0NOUEpcdXRpbGl0YXJpb3OUdXWGlIZSMIWUUpSFlGiYXZRomn2UdYaUhlIwhZRSlIWUaJhdlGiafZR1hpSGUjCFlFKUhpRomF2UaJp9lHWGlIZSMIWUUpSGlGiYXZRomn2UdYaUhlIwhZRSlIaUaJhdlGiafZR1hpSGUjBOjBNweXNwYXJrLnNlcmlhbGl6ZXJzlIwRQmF0Y2hlZFNlcmlhbGl6ZXKUk5QpgZR9lCiMCnNlcmlhbGl6ZXKUapUBAACMFUNsb3VkUGlja2xlU2VyaWFsaXplcpSTlCmBlIwJYmF0Y2hTaXpllEr/////dWJqlQEAAIwVQXV0b0JhdGNoZWRTZXJpYWxpemVylJOUKYGUfZQoapoBAABqnAEAACmBlGqeAQAASwCMCGJlc3RTaXpllEoAAAEAdWJ0lC4=
+ro95
+ro96
+sC:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info
+s3.9
+ro97
+ro17
+e
+
+2023-04-28 17:37:14,673 - DEBUG - Answer received: !yro98
+2023-04-28 17:37:14,673 - DEBUG - Command to send: r
+u
+PythonRDD
+rj
+e
+
+2023-04-28 17:37:14,673 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonRDD
+2023-04-28 17:37:14,673 - DEBUG - Command to send: c
+o93
+rdd
+e
+
+2023-04-28 17:37:14,673 - DEBUG - Answer received: !yro99
+2023-04-28 17:37:14,673 - DEBUG - Command to send: i
+org.apache.spark.api.python.PythonRDD
+ro99
+ro98
+bFalse
+bFalse
+e
+
+2023-04-28 17:37:14,673 - DEBUG - Answer received: !yro100
+2023-04-28 17:37:14,673 - DEBUG - Command to send: c
+o100
+asJavaRDD
+e
+
+2023-04-28 17:37:14,673 - DEBUG - Answer received: !yro101
+2023-04-28 17:37:14,673 - DEBUG - Command to send: c
+o101
+rdd
+e
+
+2023-04-28 17:37:14,673 - DEBUG - Answer received: !yro102
+2023-04-28 17:37:14,673 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonRDD
+collectAndServe
+ro102
+e
+
+2023-04-28 17:37:14,873 - DEBUG - Answer received: !xro103
+2023-04-28 17:37:14,873 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,873 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,873 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,873 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,873 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,873 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,873 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,878 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,878 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro103
+e
+
+2023-04-28 17:37:14,878 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,878 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,878 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,878 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,885 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro103
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,885 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro103
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,885 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,885 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,885 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro103
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,893 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro103
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,893 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro103
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,893 - DEBUG - Command to send: c
+o103
+getCause
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !yro104
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,893 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-04-28 17:37:14,893 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,901 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-04-28 17:37:14,901 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,901 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-04-28 17:37:14,901 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-04-28 17:37:14,901 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+2023-04-28 17:37:14,901 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,903 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro103
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 5.0 failed 1 times, most recent failure: Lost task 0.0 in stage 5.0 (TID 20) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:\r\n	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2672)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2608)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2607)\r\n	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\r\n	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\r\n	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2607)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1182)\r\n	at scala.Option.foreach(Option.scala:407)\r\n	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2860)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2802)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2791)\r\n	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:952)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2238)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2259)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2278)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2303)\r\n	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1021)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)\r\n	at org.apache.spark.rdd.RDD.withScope(RDD.scala:406)\r\n	at org.apache.spark.rdd.RDD.collect(RDD.scala:1020)\r\n	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:180)\r\n	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	... 1 more\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,903 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.api.python.PythonException
+ro104
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,903 - DEBUG - Command to send: c
+o103
+toString
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 5.0 failed 1 times, most recent failure: Lost task 0.0 in stage 5.0 (TID 20) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,903 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro104
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,903 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro104
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,903 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,903 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,913 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,913 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,913 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro104
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,913 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,913 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,913 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,913 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,913 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro104
+e
+
+2023-04-28 17:37:14,913 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,913 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,917 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,917 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,917 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,917 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro104
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,917 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,917 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,917 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,917 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,917 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro104
+e
+
+2023-04-28 17:37:14,917 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,917 - DEBUG - Command to send: c
+o104
+getCause
+e
+
+2023-04-28 17:37:14,923 - DEBUG - Answer received: !yro105
+2023-04-28 17:37:14,923 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-04-28 17:37:14,923 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,923 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-04-28 17:37:14,923 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,923 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-04-28 17:37:14,923 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,923 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-04-28 17:37:14,923 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,923 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-04-28 17:37:14,923 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-04-28 17:37:14,923 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+2023-04-28 17:37:14,923 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,923 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro104
+e
+
+2023-04-28 17:37:14,923 - DEBUG - Answer received: !ysjava.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:37:14,923 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,928 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,928 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,928 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,928 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.api.python.PythonException
+ro105
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,928 - DEBUG - Command to send: c
+o104
+toString
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !ysjava.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado
+2023-04-28 17:37:14,928 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,928 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,928 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,928 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,928 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro105
+e
+
+2023-04-28 17:37:14,928 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,928 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,933 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,933 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,933 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,933 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro105
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,933 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,933 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,933 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,933 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,933 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro105
+e
+
+2023-04-28 17:37:14,933 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,933 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,938 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,938 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,938 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,938 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro105
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,938 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,938 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,938 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,938 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,938 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro105
+e
+
+2023-04-28 17:37:14,938 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,938 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,943 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro105
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:37:14,943 - DEBUG - Command to send: c
+o105
+getCause
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !yn
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !yp
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-04-28 17:37:14,943 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !ym
+2023-04-28 17:37:14,943 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro105
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !ysjava.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\n
+2023-04-28 17:37:14,943 - DEBUG - Command to send: c
+o105
+toString
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !ysjava.io.IOException: CreateProcess error=5, Acesso negado
+2023-04-28 17:37:14,943 - DEBUG - Command to send: c
+o14
+setCallSite
+n
+e
+
+2023-04-28 17:37:14,943 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,418 - DEBUG - Command to send: m
+d
+o95
+e
+
+2023-04-28 17:37:15,444 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,444 - DEBUG - Command to send: m
+d
+o96
+e
+
+2023-04-28 17:37:15,472 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,472 - DEBUG - Command to send: m
+d
+o97
+e
+
+2023-04-28 17:37:15,472 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,472 - DEBUG - Command to send: m
+d
+o94
+e
+
+2023-04-28 17:37:15,472 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,472 - DEBUG - Command to send: m
+d
+o98
+e
+
+2023-04-28 17:37:15,473 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,473 - DEBUG - Command to send: m
+d
+o99
+e
+
+2023-04-28 17:37:15,473 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,473 - DEBUG - Command to send: m
+d
+o100
+e
+
+2023-04-28 17:37:15,473 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,473 - DEBUG - Command to send: m
+d
+o104
+e
+
+2023-04-28 17:37:15,473 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,473 - DEBUG - Command to send: m
+d
+o105
+e
+
+2023-04-28 17:37:15,473 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,474 - DEBUG - Command to send: m
+d
+o20
+e
+
+2023-04-28 17:37:15,474 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,474 - DEBUG - Command to send: m
+d
+o19
+e
+
+2023-04-28 17:37:15,474 - DEBUG - Answer received: !yv
+2023-04-28 17:37:15,889 - DEBUG - Command to send: p
+ro103
+e
+
+2023-04-28 17:37:15,890 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 5.0 failed 1 times, most recent failure: Lost task 0.0 in stage 5.0 (TID 20) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:\r\n	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2672)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2608)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2607)\r\n	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\r\n	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\r\n	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2607)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1182)\r\n	at scala.Option.foreach(Option.scala:407)\r\n	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2860)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2802)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2791)\r\n	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:952)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2238)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2259)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2278)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2303)\r\n	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1021)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)\r\n	at org.apache.spark.rdd.RDD.withScope(RDD.scala:406)\r\n	at org.apache.spark.rdd.RDD.collect(RDD.scala:1020)\r\n	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:180)\r\n	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	... 1 more\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:37:15,891 - DEBUG - Command to send: p
+ro103
+e
+
+2023-04-28 17:37:15,892 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 5.0 failed 1 times, most recent failure: Lost task 0.0 in stage 5.0 (TID 20) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:\r\n	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2672)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2608)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2607)\r\n	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\r\n	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\r\n	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2607)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1182)\r\n	at scala.Option.foreach(Option.scala:407)\r\n	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2860)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2802)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2791)\r\n	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:952)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2238)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2259)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2278)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2303)\r\n	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1021)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)\r\n	at org.apache.spark.rdd.RDD.withScope(RDD.scala:406)\r\n	at org.apache.spark.rdd.RDD.collect(RDD.scala:1020)\r\n	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:180)\r\n	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	... 1 more\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:37:15,892 - DEBUG - Command to send: p
+ro103
+e
+
+2023-04-28 17:37:15,893 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 5.0 failed 1 times, most recent failure: Lost task 0.0 in stage 5.0 (TID 20) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:\r\n	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2672)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2608)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2607)\r\n	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\r\n	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\r\n	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2607)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1182)\r\n	at scala.Option.foreach(Option.scala:407)\r\n	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2860)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2802)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2791)\r\n	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:952)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2238)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2259)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2278)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2303)\r\n	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1021)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)\r\n	at org.apache.spark.rdd.RDD.withScope(RDD.scala:406)\r\n	at org.apache.spark.rdd.RDD.collect(RDD.scala:1020)\r\n	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:180)\r\n	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	... 1 more\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:40:29,339 - DEBUG - Command to send: c
+o91
+javaToPython
+e
+
+2023-04-28 17:40:29,429 - DEBUG - Answer received: !yro106
+2023-04-28 17:40:29,430 - DEBUG - Command to send: c
+o106
+id
+e
+
+2023-04-28 17:40:29,430 - DEBUG - Answer received: !yi28
+2023-04-28 17:40:29,430 - DEBUG - Command to send: c
+o106
+rdd
+e
+
+2023-04-28 17:40:29,431 - DEBUG - Answer received: !yro107
+2023-04-28 17:40:29,431 - DEBUG - Command to send: c
+o107
+isBarrier
+e
+
+2023-04-28 17:40:29,431 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,432 - DEBUG - Command to send: c
+o14
+setCallSite
+sforeachPartition at C:\\Users\\ABRASEL NACIONAL\\AppData\\Local\\Temp\\ipykernel_12984\\922905439.py:50
+e
+
+2023-04-28 17:40:29,432 - DEBUG - Answer received: !yv
+2023-04-28 17:40:29,433 - DEBUG - Command to send: r
+u
+PythonRDD
+rj
+e
+
+2023-04-28 17:40:29,434 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonRDD
+2023-04-28 17:40:29,434 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonRDD
+collectAndServe
+e
+
+2023-04-28 17:40:29,434 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,435 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-04-28 17:40:29,436 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-04-28 17:40:29,437 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+e
+
+2023-04-28 17:40:29,437 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,437 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+ro14
+e
+
+2023-04-28 17:40:29,437 - DEBUG - Answer received: !yL1048576
+2023-04-28 17:40:29,437 - DEBUG - Command to send: r
+u
+PythonFunction
+rj
+e
+
+2023-04-28 17:40:29,439 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonFunction
+2023-04-28 17:40:29,439 - DEBUG - Command to send: i
+java.util.HashMap
+e
+
+2023-04-28 17:40:29,439 - DEBUG - Answer received: !yao108
+2023-04-28 17:40:29,439 - DEBUG - Command to send: c
+o108
+put
+sPYTHONHASHSEED
+s0
+e
+
+2023-04-28 17:40:29,439 - DEBUG - Answer received: !yn
+2023-04-28 17:40:29,440 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-28 17:40:29,440 - DEBUG - Answer received: !ylo109
+2023-04-28 17:40:29,440 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2023-04-28 17:40:29,440 - DEBUG - Answer received: !ylo110
+2023-04-28 17:40:29,442 - DEBUG - Command to send: i
+org.apache.spark.api.python.PythonFunction
+jgAWVXRQAAAAAAAAojB9weXNwYXJrLmNsb3VkcGlja2xlLmNsb3VkcGlja2xllIwNX2J1aWx0aW5fdHlwZZSTlIwKTGFtYmRhVHlwZZSFlFKUKGgCjAhDb2RlVHlwZZSFlFKUKEsCSwBLAEsCSwVLE0MQiAB8AIgBfAB8AYMCgwJTAJROhZQpjAVzcGxpdJSMCGl0ZXJhdG9ylIaUjGFDOlxVc2Vyc1xBQlJBU0VMIE5BQ0lPTkFMXEFwcERhdGFcTG9jYWxcUHJvZ3JhbXNcUHl0aG9uXFB5dGhvbjM5XGxpYlxzaXRlLXBhY2thZ2VzXHB5c3BhcmtccmRkLnB5lIwNcGlwZWxpbmVfZnVuY5RNjw1DAgABlIwEZnVuY5SMCXByZXZfZnVuY5SGlCl0lFKUfZQojAtfX3BhY2thZ2VfX5SMB3B5c3BhcmuUjAhfX25hbWVfX5SMC3B5c3BhcmsucmRklIwIX19maWxlX1+UaA51Tk5oAIwQX21ha2VfZW1wdHlfY2VsbJSTlClSlGgdKVKUhpR0lFKUjCRweXNwYXJrLmNsb3VkcGlja2xlLmNsb3VkcGlja2xlX2Zhc3SUjBJfZnVuY3Rpb25fc2V0c3RhdGWUk5RoIn2UfZQoaBloD4wMX19xdWFsbmFtZV9flIwsUGlwZWxpbmVkUkRELl9faW5pdF9fLjxsb2NhbHM+LnBpcGVsaW5lX2Z1bmOUjA9fX2Fubm90YXRpb25zX1+UfZQoaAuMCGJ1aWx0aW5zlIwDaW50lJOUaAyMCV9vcGVyYXRvcpSMB2dldGl0ZW2Uk5SMBnR5cGluZ5SMCEl0ZXJhYmxllJOUjAhidWlsdGluc5SMB2dldGF0dHKUk5RoAIwJc3ViaW1wb3J0lJOUaBqFlFKUjAFWlIaUUpSGlFKUjAZyZXR1cm6UaDFoNGg3aDuMAVWUhpRSlIaUUpR1jA5fX2t3ZGVmYXVsdHNfX5ROjAxfX2RlZmF1bHRzX1+UTowKX19tb2R1bGVfX5RoGowHX19kb2NfX5ROjAtfX2Nsb3N1cmVfX5RoAIwKX21ha2VfY2VsbJSTlGgFKGgIKEsCSwBLAEsCSwJLE0MIiAB8AYMBUwCUaAopjAFflGgMhpRoDmgRTRsCQwIAAZSMAWaUhZQpdJRSlGgWTk5oHSlSlIWUdJRSlGglaFl9lH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JpbmeUjAlURUxFRk9ORTKUjAREREQylIwDRkFYlIwHREREX0ZBWJSIjAdpbnBsYWNllIWUjBFDb2x1bmFzIEdlcmFkYXM6IJSME0l0ZW5zIGNhcGl0dXJhZG9zOiCUjBYgQ2F0ZWdvcmlhIGRvcyBkYWRvczoglEpEolUASsGeVQBKw55VAErEnlUASsWeVQCMC3V0aWxpdGFyaW9zlIwKVEVTVEVfQkFTRZSMBnBhcnF1ZZSMBmFwcGVuZJSMC2NvbXByZXNzaW9ulIwGc25hcHB5lIwBL5SMCC5wYXJxdWV0lHSUKIwVcHlzcGFyay5zcWwuZnVuY3Rpb25zlGogAQAAaiEBAACMB2xvZ2dpbmeUjARpbmZvlIwFY291bnSUjAJuYZSMBGZpbGyUjAV3aGVyZZSMBUNOQUVTlIwFaXRlbXOUjAp3aXRoQ29sdW1ulIwEY2FzdJSMBGRyb3CUjAdjb2x1bW5zlIwLY3VycmVudF9kaXKUjAdyZXBsYWNllIwFd3JpdGWUjAZmb3JtYXSUjARtb2RllIwGb3B0aW9ulIwEc2F2ZZR0lChoDGogAQAAaiEBAACMBWRhZG9zlIwLY29kaWdvX2NuYWWUjA5kZXNjcmljYW9fY25hZZSMB2RmX2NuYWWUjBBjb250YWdlbV81NjEyMTAwlIwQY29udGFnZW1fNTYxMTIwMZSMEGNvbnRhZ2VtXzU2MTEyMDOUjBBjb250YWdlbV81NjExMjA0lIwQY29udGFnZW1fNTYxMTIwNZSMC09VVFBVVF9CQVNFlHSUjElDOlxVc2Vyc1xBQlJBU0VMIE5BQ0lPTkFMXEFwcERhdGFcTG9jYWxcVGVtcFxpcHlrZXJuZWxfMTI5ODRcOTIyOTA1NDM5LnB5lIwRcHJvY2Vzc19wYXJ0aXRpb26USwNDPgACEAIKARQCDAIqARQDEgISAgQBHv8EAh7+BAMe/QQECPwGBRIBGgIKAQ4CCgEOAgoBDgIKAQ4CCgEOBQwBlCkpdJRSlH2UKGgXTmgZjAhfX21haW5fX5R1Tk5OdJRSlGglamYBAAB9lH2UKGgZal8BAABoKGpfAQAAaCp9lGhHTmhITmhJamQBAABoSk5oS05omF2UaJp9lChqPwEAAGg5aj8BAACFlFKUakUBAAB9lChKRKJVAIwlU2VydmnDp29zIGFtYnVsYW50ZXMgZGUgYWxpbWVudGHDp8Ojb5RKwZ5VAIwYUmVzdGF1cmFudGVzIGUgc2ltaWxhcmVzlErDnlUAjC5MYW5jaG9uZXRlcyBjYXNhcyBkZSBjaMOhIGRlIHN1Y29zIGUgc2ltaWxhcmVzlErEnlUAjFNCYXJlcyBlIG91dHJvcyBlc3RhYmVsZWNpbWVudG9zIGVzcGVjaWFsaXphZG9zIGVtIHNlcnZpciBiZWJpZGFzIHNlbSBlbnRyZXRlbmltZW50b5RKxZ5VAIxTQmFyZXMgZSBvdXRyb3MgZXN0YWJlbGVjaW1lbnRvcyBlc3BlY2lhbGl6YWRvcyBlbSBzZXJ2aXIgYmViaWRhcyBjb20gZW50cmV0ZW5pbWVudG+USs4JSACMM1BhZGFyaWEgZSBjb25mZWl0YXJpYSBjb20gcHJlZG9taW7Dom5jaWEgZGUgcmV2ZW5kYZR1aksBAACMP0M6XFVzZXJzXEFCUkFTRUwgTkFDSU9OQUxcRG9jdW1lbnRzXEdpdEh1YlxFVExfQ05QSlx1dGlsaXRhcmlvc5R1dYaUhlIwhZRSlIWUaJhdlGiafZR1hpSGUjCFlFKUhZRomF2UaJp9lHWGlIZSMIWUUpSGlGiYXZRomn2UdYaUhlIwhZRSlIaUaJhdlGiafZR1hpSGUjCFlFKUhpRomF2UaJp9lHWGlIZSME6ME3B5c3Bhcmsuc2VyaWFsaXplcnOUjBFCYXRjaGVkU2VyaWFsaXplcpSTlCmBlH2UKIwKc2VyaWFsaXplcpRqlQEAAIwVQ2xvdWRQaWNrbGVTZXJpYWxpemVylJOUKYGUjAliYXRjaFNpemWUSv////91YmqVAQAAjBVBdXRvQmF0Y2hlZFNlcmlhbGl6ZXKUk5QpgZR9lChqmgEAAGqcAQAAKYGUap4BAABLAIwIYmVzdFNpemWUSgAAAQB1YnSULg==
+ro108
+ro109
+sC:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info
+s3.9
+ro110
+ro17
+e
+
+2023-04-28 17:40:29,443 - DEBUG - Answer received: !yro111
+2023-04-28 17:40:29,443 - DEBUG - Command to send: r
+u
+PythonRDD
+rj
+e
+
+2023-04-28 17:40:29,444 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonRDD
+2023-04-28 17:40:29,444 - DEBUG - Command to send: c
+o106
+rdd
+e
+
+2023-04-28 17:40:29,444 - DEBUG - Answer received: !yro112
+2023-04-28 17:40:29,444 - DEBUG - Command to send: i
+org.apache.spark.api.python.PythonRDD
+ro112
+ro111
+bFalse
+bFalse
+e
+
+2023-04-28 17:40:29,444 - DEBUG - Answer received: !yro113
+2023-04-28 17:40:29,444 - DEBUG - Command to send: c
+o113
+asJavaRDD
+e
+
+2023-04-28 17:40:29,444 - DEBUG - Answer received: !yro114
+2023-04-28 17:40:29,444 - DEBUG - Command to send: c
+o114
+rdd
+e
+
+2023-04-28 17:40:29,444 - DEBUG - Answer received: !yro115
+2023-04-28 17:40:29,444 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonRDD
+collectAndServe
+ro115
+e
+
+2023-04-28 17:40:29,537 - DEBUG - Answer received: !xro116
+2023-04-28 17:40:29,538 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,540 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,541 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,541 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,542 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,542 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,542 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,542 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,543 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro116
+e
+
+2023-04-28 17:40:29,543 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,543 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,547 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,548 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,548 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,549 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,549 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,549 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,549 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,549 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro116
+e
+
+2023-04-28 17:40:29,550 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,550 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,552 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,552 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,552 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,553 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,553 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,553 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,553 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,553 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro116
+e
+
+2023-04-28 17:40:29,553 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,554 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,556 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,556 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,557 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,557 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,557 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,557 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,557 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,557 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro116
+e
+
+2023-04-28 17:40:29,558 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,558 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,560 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,560 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,562 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,563 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,563 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,563 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,563 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,563 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro116
+e
+
+2023-04-28 17:40:29,563 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,563 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,566 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,566 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,567 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,567 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,567 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,567 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,568 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,568 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro116
+e
+
+2023-04-28 17:40:29,568 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,568 - DEBUG - Command to send: c
+o116
+getCause
+e
+
+2023-04-28 17:40:29,568 - DEBUG - Answer received: !yro117
+2023-04-28 17:40:29,569 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-04-28 17:40:29,571 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,571 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-04-28 17:40:29,571 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,571 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-04-28 17:40:29,572 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,572 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-04-28 17:40:29,572 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,572 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-04-28 17:40:29,572 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-04-28 17:40:29,572 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+2023-04-28 17:40:29,572 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,572 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro116
+e
+
+2023-04-28 17:40:29,572 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 6.0 failed 1 times, most recent failure: Lost task 2.0 in stage 6.0 (TID 23) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:\r\n	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2672)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2608)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2607)\r\n	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\r\n	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\r\n	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2607)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1182)\r\n	at scala.Option.foreach(Option.scala:407)\r\n	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2860)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2802)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2791)\r\n	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:952)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2238)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2259)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2278)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2303)\r\n	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1021)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)\r\n	at org.apache.spark.rdd.RDD.withScope(RDD.scala:406)\r\n	at org.apache.spark.rdd.RDD.collect(RDD.scala:1020)\r\n	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:180)\r\n	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	... 1 more\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:40:29,573 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,575 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,575 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,576 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,576 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,576 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,576 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,577 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,577 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.api.python.PythonException
+ro117
+e
+
+2023-04-28 17:40:29,578 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,579 - DEBUG - Command to send: c
+o116
+toString
+e
+
+2023-04-28 17:40:29,579 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 6.0 failed 1 times, most recent failure: Lost task 2.0 in stage 6.0 (TID 23) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:
+2023-04-28 17:40:29,579 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,582 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,583 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,583 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,584 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,584 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,584 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,584 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,584 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro117
+e
+
+2023-04-28 17:40:29,584 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,584 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,585 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,586 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,586 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,586 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,586 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,586 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,586 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,586 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro117
+e
+
+2023-04-28 17:40:29,587 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,587 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,588 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,588 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,588 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,588 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,588 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,588 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,589 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,589 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro117
+e
+
+2023-04-28 17:40:29,589 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,589 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,590 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,590 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,590 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,591 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,591 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,591 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,591 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,591 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro117
+e
+
+2023-04-28 17:40:29,591 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,591 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,594 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,594 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,595 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,596 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,597 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,597 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,597 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,597 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro117
+e
+
+2023-04-28 17:40:29,597 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,597 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,600 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,600 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,600 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,600 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,600 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,601 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,601 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,601 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro117
+e
+
+2023-04-28 17:40:29,601 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,601 - DEBUG - Command to send: c
+o117
+getCause
+e
+
+2023-04-28 17:40:29,601 - DEBUG - Answer received: !yro118
+2023-04-28 17:40:29,601 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-04-28 17:40:29,603 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,603 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-04-28 17:40:29,604 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,604 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-04-28 17:40:29,605 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,605 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-04-28 17:40:29,605 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,605 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-04-28 17:40:29,605 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-04-28 17:40:29,605 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+2023-04-28 17:40:29,606 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,606 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro117
+e
+
+2023-04-28 17:40:29,606 - DEBUG - Answer received: !ysjava.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:40:29,606 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,608 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,608 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,609 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,609 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,609 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,609 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,609 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,610 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.api.python.PythonException
+ro118
+e
+
+2023-04-28 17:40:29,610 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,610 - DEBUG - Command to send: c
+o117
+toString
+e
+
+2023-04-28 17:40:29,610 - DEBUG - Answer received: !ysjava.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado
+2023-04-28 17:40:29,610 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,614 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,614 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,615 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,615 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,615 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,615 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,615 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,615 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro118
+e
+
+2023-04-28 17:40:29,616 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,616 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,619 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,619 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,619 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,619 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,619 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,619 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,619 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,620 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro118
+e
+
+2023-04-28 17:40:29,620 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,620 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,622 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,622 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,622 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,623 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,623 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,623 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,623 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,623 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro118
+e
+
+2023-04-28 17:40:29,623 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,623 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,626 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,626 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,627 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,627 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,627 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,627 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,627 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,628 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro118
+e
+
+2023-04-28 17:40:29,628 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,628 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,629 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,629 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,630 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,630 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,630 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,630 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,630 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,630 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro118
+e
+
+2023-04-28 17:40:29,630 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,630 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-04-28 17:40:29,631 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,632 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-04-28 17:40:29,632 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,632 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-04-28 17:40:29,632 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-04-28 17:40:29,632 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-04-28 17:40:29,632 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,632 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro118
+e
+
+2023-04-28 17:40:29,632 - DEBUG - Answer received: !ybfalse
+2023-04-28 17:40:29,633 - DEBUG - Command to send: c
+o118
+getCause
+e
+
+2023-04-28 17:40:29,633 - DEBUG - Answer received: !yn
+2023-04-28 17:40:29,634 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-04-28 17:40:29,636 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,636 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-04-28 17:40:29,636 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,637 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-04-28 17:40:29,637 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,637 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-04-28 17:40:29,638 - DEBUG - Answer received: !yp
+2023-04-28 17:40:29,638 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-04-28 17:40:29,639 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-04-28 17:40:29,639 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+2023-04-28 17:40:29,639 - DEBUG - Answer received: !ym
+2023-04-28 17:40:29,639 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro118
+e
+
+2023-04-28 17:40:29,640 - DEBUG - Answer received: !ysjava.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\n
+2023-04-28 17:40:29,640 - DEBUG - Command to send: c
+o118
+toString
+e
+
+2023-04-28 17:40:29,641 - DEBUG - Answer received: !ysjava.io.IOException: CreateProcess error=5, Acesso negado
+2023-04-28 17:40:29,641 - DEBUG - Command to send: c
+o14
+setCallSite
+n
+e
+
+2023-04-28 17:40:29,641 - DEBUG - Answer received: !yv
+2023-04-28 17:40:29,783 - DEBUG - Command to send: p
+ro116
+e
+
+2023-04-28 17:40:29,783 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 6.0 failed 1 times, most recent failure: Lost task 2.0 in stage 6.0 (TID 23) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:\r\n	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2672)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2608)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2607)\r\n	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\r\n	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\r\n	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2607)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1182)\r\n	at scala.Option.foreach(Option.scala:407)\r\n	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2860)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2802)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2791)\r\n	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:952)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2238)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2259)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2278)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2303)\r\n	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1021)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)\r\n	at org.apache.spark.rdd.RDD.withScope(RDD.scala:406)\r\n	at org.apache.spark.rdd.RDD.collect(RDD.scala:1020)\r\n	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:180)\r\n	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	... 1 more\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:40:29,785 - DEBUG - Command to send: p
+ro116
+e
+
+2023-04-28 17:40:29,785 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 6.0 failed 1 times, most recent failure: Lost task 2.0 in stage 6.0 (TID 23) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:\r\n	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2672)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2608)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2607)\r\n	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\r\n	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\r\n	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2607)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1182)\r\n	at scala.Option.foreach(Option.scala:407)\r\n	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2860)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2802)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2791)\r\n	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:952)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2238)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2259)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2278)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2303)\r\n	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1021)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)\r\n	at org.apache.spark.rdd.RDD.withScope(RDD.scala:406)\r\n	at org.apache.spark.rdd.RDD.collect(RDD.scala:1020)\r\n	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:180)\r\n	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	... 1 more\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:40:29,786 - DEBUG - Command to send: p
+ro116
+e
+
+2023-04-28 17:40:29,787 - DEBUG - Answer received: !ysorg.apache.spark.SparkException: Job aborted due to stage failure: Task 2 in stage 6.0 failed 1 times, most recent failure: Lost task 2.0 in stage 6.0 (TID 23) (ntb-46 executor driver): java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n\nDriver stacktrace:\r\n	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2672)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2608)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2607)\r\n	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\r\n	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\r\n	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2607)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1182)\r\n	at scala.Option.foreach(Option.scala:407)\r\n	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1182)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2860)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2802)\r\n	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2791)\r\n	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)\r\n	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:952)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2238)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2259)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2278)\r\n	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2303)\r\n	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1021)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)\r\n	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)\r\n	at org.apache.spark.rdd.RDD.withScope(RDD.scala:406)\r\n	at org.apache.spark.rdd.RDD.collect(RDD.scala:1020)\r\n	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:180)\r\n	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.IOException: Cannot run program "C:\\Users\\ABRASEL NACIONAL\\Documents\\GitHub\\ETL_CNPJ\\.venv\\Lib\\site-packages\\pyspark-3.4.0-py3.9.egg-info": CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessBuilder.start(Unknown Source)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:167)\r\n	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:109)\r\n	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:124)\r\n	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:157)\r\n	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)\r\n	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:365)\r\n	at org.apache.spark.rdd.RDD.iterator(RDD.scala:329)\r\n	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)\r\n	at org.apache.spark.scheduler.Task.run(Task.scala:136)\r\n	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:548)\r\n	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1504)\r\n	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:551)\r\n	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n	... 1 more\r\nCaused by: java.io.IOException: CreateProcess error=5, Acesso negado\r\n	at java.lang.ProcessImpl.create(Native Method)\r\n	at java.lang.ProcessImpl.<init>(Unknown Source)\r\n	at java.lang.ProcessImpl.start(Unknown Source)\r\n	... 16 more\r\n
+2023-04-28 17:40:30,040 - DEBUG - Command to send: m
+d
+o107
+e
+
+2023-04-28 17:40:30,040 - DEBUG - Answer received: !yv
+2023-04-28 17:40:30,040 - DEBUG - Command to send: m
+d
+o108
+e
+
+2023-04-28 17:40:30,040 - DEBUG - Answer received: !yv
+2023-04-28 17:40:30,040 - DEBUG - Command to send: m
+d
+o109
+e
+
+2023-04-28 17:40:30,040 - DEBUG - Answer received: !yv
+2023-04-28 17:40:30,041 - DEBUG - Command to send: m
+d
+o110
+e
+
+2023-04-28 17:40:30,041 - DEBUG - Answer received: !yv
+2023-04-28 17:40:30,041 - DEBUG - Command to send: m
+d
+o111
+e
+
+2023-04-28 17:40:30,041 - DEBUG - Answer received: !yv
+2023-04-28 17:40:30,041 - DEBUG - Command to send: m
+d
+o112
+e
+
+2023-04-28 17:40:30,041 - DEBUG - Answer received: !yv
+2023-04-28 17:40:30,041 - DEBUG - Command to send: m
+d
+o113
+e
+
+2023-04-28 17:40:30,041 - DEBUG - Answer received: !yv
+2023-04-28 17:40:30,041 - DEBUG - Command to send: m
+d
+o117
+e
+
+2023-04-28 17:40:30,041 - DEBUG - Answer received: !yv
+2023-04-28 17:40:30,041 - DEBUG - Command to send: m
+d
+o118
+e
+
+2023-04-28 17:40:30,041 - DEBUG - Answer received: !yv
