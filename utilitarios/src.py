@@ -92,7 +92,8 @@ CNAES = {
         5611201:'Restaurantes e similares',
         5611203:'Lanchonetes casas de chá de sucos e similares',
         5611204:'Bares e outros estabelecimentos especializados em servir bebidas sem entretenimento',
-        5611205:'Bares e outros estabelecimentos especializados em servir bebidas com entretenimento'
+        5611205:'Bares e outros estabelecimentos especializados em servir bebidas com entretenimento',
+        4721102: 'Padaria e confeitaria com predominância de revenda'
         }
 
 lista_cnae = []
