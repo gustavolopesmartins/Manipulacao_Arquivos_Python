@@ -2,12 +2,13 @@ import os
 import logging
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-file_log = current_dir + r"/logs/src.log"
-
+file_log = current_dir + r"/logs/"
+if not os.path.exists(file_log):
+    os.makedirs(file_log)
 # gerando log
 logging.basicConfig(
     level=logging.DEBUG,
-    filename=file_log,
+    filename=f"{file_log}extract_transform_cnpj.log",
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
@@ -18,7 +19,12 @@ warnings.filterwarnings("ignore")
 
 
 class EXTRATOR_CNPJ:
-    def __init__(self, url: str = None, nome_arquivo: str = "", extensao: str = "zip"):
+    def __init__(
+        self,
+        url: str = "https://dadosabertos.rfb.gov.br/CNPJ/",
+        nome_arquivo: str = "",
+        extensao: str = "zip",
+    ):
         self.url = url
         self.nome_arquivo = nome_arquivo
         self.extensao = extensao
